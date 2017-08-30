@@ -117,57 +117,63 @@ msgstr "黄昏酒場"
 
 #: ../../index.rst:35
 msgid "Main features"
-msgstr ""
+msgstr "主な機能"
 
 #: ../../index.rst:37
 msgid ""
 "Rotate screen in left or right direction by pressing Alt+Left or "
 "Alt+Right key."
-msgstr ""
+msgstr "ゲーム起動中にAlt+左右キーで、画面をそれぞれ左回転、右回転することができます。"
 
 #: ../../index.rst:38
 msgid ""
 "Magnify screen to as large size as possible while THRotator detects that "
 "you are playing."
-msgstr ""
+msgstr "さらに、ゲームプレイ状態と判定されると、プレイ領域を画面に合わせて目一杯に拡大します。"
 
 #: ../../index.rst:39
 msgid "Vertically-long window in windowed mode."
-msgstr ""
+msgstr "ウィンドウモードでもウィンドウを縦長にすることができます。"
 
 #: ../../index.rst:40
 msgid ""
 "If you are not satisfied by the default HUD elements (such as lives, "
 "bombs, and score), you can customize them."
 msgstr ""
+"拡大時のスコアや残機、ボムなどの表示レイアウトは、"
+"デフォルトのものが気に入らなければ各自でカスタマイズ可能です。"
 
 #: ../../index.rst:41
 msgid "Save screen capture in BMP format on Th06 by Home key."
-msgstr ""
+msgstr "紅魔郷でもHomeキーで画面をbmpファイルに保存することができます。"
 
 #: ../../index.rst:42
 msgid ""
 "Fix jaggy pixels in Th11, 12, 12.5, 12.8, and 13 when screen resolution "
 "of 960x720 or 1280x960 is chosen."
 msgstr ""
+"地霊殿から神霊廟までのウィンドウモード(960x720か1280x960)時の"
+"ジャギー(ピクセルのカクカク)を修正します。"
 
 #: ../../index.rst:46
 msgid "Notes"
-msgstr ""
+msgstr "注意事項"
 
 #: ../../index.rst:48
 msgid "Use THRotator at your own risk."
-msgstr ""
+msgstr "本ツールの使用は自己責任でお願いします。"
 
 #: ../../index.rst:49
 msgid "Don't ask any question about THRotator to the game publishers."
-msgstr ""
+msgstr "本ツールについて、ゲームの配布元に問い合わせないでください。"
 
 #: ../../index.rst:51
 msgid ""
 "Before reporting an issue to the publisher, you must first verify that "
 "the issue is independent of THRotator."
 msgstr ""
+"ゲームの不具合を報告する際は、THRotatorをアンインストールしても再現するかどうかを確認してから、"
+"報告を行ってください。"
 
 #: ../../index.rst:53
 msgid ""
@@ -177,42 +183,50 @@ msgid ""
 "others know the replay or score is acquired with THRotator when you post "
 "them."
 msgstr ""
+"本ツールはソフトウェアに仕様外の動作を行わせるツールです。 "
+"したがって、本ツールを利用して達成したスコアやリプレイは正式なものとして認められない可能性があります。 "
+"もし気になるなら、スコアアタック大会の主催者に確認したり、"
+"リプレイをアップロードする際には本ツール使用の旨をコメントを加えたりすると良いと思います。"
 
 #: ../../index.rst:56
 msgid "Don't copy ``d3d8.dll`` and ``d3d9.dll`` to your system directory."
 msgstr ""
+"本ツールに含まれている ``d3d8.dll`` と ``d3d9.dll`` は、"
+"絶対にシステムディレクトリにコピーしないでください。"
 
 #: ../../index.rst:57
 msgid ""
 "THRotator's behavior is undefined on games not listed in supported "
 "products."
-msgstr ""
+msgstr "本ツールを対応作品以外に使った時の動作は未定義です。"
 
 #: ../../index.rst:61
 msgid "License"
-msgstr ""
+msgstr "ライセンス"
 
 #: ../../index.rst:63
 msgid "THRotator is under GPL v3."
-msgstr ""
+msgstr "本ツールはGPL v3にて公開しています。"
 
 #: ../../index.rst:65
 msgid "`Source code (GitHub) <https://github.com/massanoori/THRotator>`_"
-msgstr ""
+msgstr "`ソースコード (GitHub) <https://github.com/massanoori/THRotator>`_"
 
 #: ../../index.rst:67
 msgid "But configuration files are in the public domain."
-msgstr ""
+msgstr "ただし、同時に公開している設定ファイルについては、パブリックドメインです。"
 
 #: ../../index.rst:69
 msgid ""
 "If you would like to build THRotator from source code or to add your own "
 "mods, see :doc:`pages/development`."
 msgstr ""
+"ソースコードからビルドを行い、独自の改造を行いたい場合の方法については、"
+":doc:`pages/development` をご覧ください。"
 
 #: ../../index.rst:74
 msgid "Motivation"
-msgstr ""
+msgstr "開発の動機"
 
 #: ../../index.rst:76
 msgid ""
@@ -222,32 +236,40 @@ msgid ""
 "knowledge. In fact, THRotator and Vertical Play share the way how a user "
 "rotates a screen (alt+arrow keys)."
 msgstr ""
+"massanooriが知る限りでは、最初の東方Projectの縦画面化ツールは、"
+"`新坂氏 <http://bygzam.seesaa.net/>`_ が開発した「真・東方縦画面化ツール」です。"
+"THRotatorはこの影響を受けて開発された、もう1つの縦画面化ツールです。"
+"実際、THRotatorと真・東方縦画面化ツールでは、画面回転の方法が似通ったものになっています (Alt+方向キー)。"
 
 #: ../../index.rst:80
 msgid ""
 "But in terms of the following points, THRotator and Vertical Play are "
 "different."
-msgstr ""
+msgstr "しかしながら、THRotatorと真・東方縦画面化ツールでは、次のような違いがあります。"
 
 #: ../../index.rst:83
 msgid "Support on earlier works"
-msgstr ""
+msgstr "早期の作品のサポート"
 
 #: ../../index.rst:85
 msgid ""
 "Vertical Play provides screen rotation functionality only to works "
 "working on Direct3D 9 (Touhou 10 and later)."
 msgstr ""
+"真・東方縦画面化ツールは、Direct3D 9で動く作品のみに対応しており、"
+"東方風神録以降のみで動作します。"
 
 #: ../../index.rst:87
 msgid ""
 "In addition to supporting works on Direct3D 9, THRotator also supports "
 "works built upon Direct3D 8 (from Touhou 6 to 9.5)."
 msgstr ""
+"THRotatorではDirect3D 9を使った作品に加え、"
+"東方紅魔郷から東方文花帖までのDirect3D 8を使った作品にも対応しています。"
 
 #: ../../index.rst:91
 msgid "Future product support"
-msgstr ""
+msgstr "未来の作品のサポート"
 
 #: ../../index.rst:93
 msgid ""
@@ -255,6 +277,9 @@ msgid ""
 " rearrangements of HUD elements seem hard coded. When a new title is "
 "released, users must wait for implementation by the developer."
 msgstr ""
+"massanooriは真・東方縦画面化ツールの実装を拝見していませんが、"
+"HUDの再配置はハードコーディングされているように思えます。"
+"そのため、新しい作品で縦画面を楽しむためには、開発者の対応を待つ必要があります。"
 
 #: ../../index.rst:97
 msgid ""
@@ -262,22 +287,24 @@ msgid ""
 "can enjoy a new product immediately after its release with THRotator on "
 "vertically-long screen."
 msgstr ""
+"一方、THRotatorはHUDの再配置をカスタマイズすることができます。"
+"そのため、THRotatorの開発者の対応を待たずに縦画面で楽しめるようになります。"
 
 #: ../../index.rst:102
 msgid "How user's configuration is saved"
-msgstr ""
+msgstr "設定の保存方法"
 
 #: ../../index.rst:104
 msgid "Vertical Play saves user's configuration via registry keys on Windows."
-msgstr ""
+msgstr "真・東方縦画面化ツールは設定をレジストリに保存します。"
 
 #: ../../index.rst:106
 msgid "On the other hand, THRotator saves user's configuration through .ini file."
-msgstr ""
+msgstr "一方、THRotatorは設定ファイルに設定を保存します。"
 
 #: ../../index.rst:111
 msgid "Performance"
-msgstr ""
+msgstr "パフォーマンス"
 
 #: ../../index.rst:113
 msgid ""
@@ -285,22 +312,28 @@ msgid ""
 "But what Vertical Play does looks simply hacking transform matrix update "
 "from Touhou Project."
 msgstr ""
+"パフォーマンスを計測したり、実装を拝見したわけではありませんが、"
+"真・東方縦画面化ツールが行っているのは変換行列を上書きしているだけのように思われます。"
 
 #: ../../index.rst:116
 msgid ""
 "On the other hand, THRotator copies pixels from dummy back buffer, which "
 "is undoubtedly more costly than just overwriting transform matrices."
 msgstr ""
+"一方、THRotatorはダミーのバックバッファからピクセルをコピーするという処理を行っており、"
+"この処理は単に変換行列を単に上書きするだけよりも、高負荷であると思われます。"
 
 #: ../../index.rst:121
 msgid "Neatness of rendering"
-msgstr ""
+msgstr "レンダリングの小綺麗さ"
 
 #: ../../index.rst:123
 msgid ""
 "What THRotator does is just copying rects. Thus noticeable pixel "
 "discontinuity appears near boundary of rects."
 msgstr ""
+"THRotatorが行っていることは、単なる矩形のコピーです。"
+"そのため、矩形の境界付近が滑らかになりません。"
 
 #: ../../index.rst:126
 msgid ""
@@ -308,8 +341,10 @@ msgid ""
 "calls with transparency. HUD elements and background is well blended with"
 " Vertical Play."
 msgstr ""
+"真・東方縦画面化ツールは透明度を考慮してレンダリングを行えるため、"
+"HUDと背景が馴染み、THRotatorよりもきれいなレンダリングに仕上がります。"
 
 #: ../../index.rst:131
 msgid "Table of contents"
-msgstr ""
+msgstr "内容"
 

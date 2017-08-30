@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../pages/development.rst:3
 msgid "Development"
-msgstr ""
+msgstr "開発"
 
 #: ../../pages/development.rst:7
 msgid "Get the THRotator source code"
