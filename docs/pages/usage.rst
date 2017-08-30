@@ -41,7 +41,10 @@ Customization window
 Right click on the title bar, and click ``Show THRotator window`` or ``Open THRotator`` to show the customization window.
 The customization window looks like as follows:
 
-.. image:: ../images/custom_en.png
+.. |custom_win_screenshot_en| image:: ../images/custom_en.png
+.. |custom_win_screenshot_ja| image:: ../images/custom_ja.png
+
+|custom_win_screenshot_en|
 
 .. note::
 

@@ -1,0 +1,1318 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, massanoori
+# This file is distributed under the same license as the THRotator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: THRotator 1.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-31 00:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../pages/development.rst:3
+msgid "Development"
+msgstr ""
+
+#: ../../pages/development.rst:7
+msgid "Get the THRotator source code"
+msgstr ""
+
+#: ../../pages/development.rst:9
+msgid ""
+"Clone the THRotator repository by git from `GitHub "
+"<https://github.com/massanoori/THRotator>`_."
+msgstr ""
+
+#: ../../pages/development.rst:11
+msgid ""
+"Next, change directory to cloned directory and run ``git submodule update"
+" --init``. This command downloads the source code of external libraries, "
+"`fmt <https://github.com/fmtlib/fmt>`_ and `json.hpp "
+"<https://github.com/nlohmann/json>`_."
+msgstr ""
+
+#: ../../pages/development.rst:17
+msgid "Build THRotator"
+msgstr ""
+
+#: ../../pages/development.rst:19
+msgid "This section gives you an instruction to build THRotator from source code."
+msgstr ""
+
+#: ../../pages/development.rst:21
+msgid "The prerequisites are the following:"
+msgstr ""
+
+#: ../../pages/development.rst:23
+msgid "Microsoft Visual C++ (2012 or later)"
+msgstr ""
+
+#: ../../pages/development.rst:24
+msgid "Boost C++ Libraries"
+msgstr ""
+
+#: ../../pages/development.rst:25
+msgid "CMake"
+msgstr ""
+
+#: ../../pages/development.rst:28
+msgid "Install Microsoft Visual C++"
+msgstr ""
+
+#: ../../pages/development.rst:30
+msgid "If you have installed Visual C++, skip this step."
+msgstr ""
+
+#: ../../pages/development.rst:32
+msgid ""
+"Download Visual Studio from `Home page of Visual Studio "
+"<https://www.visualstudio.com/>`_. Community Edition is just enough."
+msgstr ""
+
+#: ../../pages/development.rst:35
+msgid ""
+"Since the installer of Visual Studio 2015, Visual C++ is not installed by"
+" default. Edit the installation option so that Visual C++ is installed."
+msgstr ""
+
+#: ../../pages/development.rst:39
+msgid "Install Boost C++ Libraries"
+msgstr ""
+
+#: ../../pages/development.rst:41
+msgid "If you have built ``filesystem`` modules, skip this step."
+msgstr ""
+
+#: ../../pages/development.rst:43
+msgid ""
+"Access to `Boost C++ Libraries <http://www.boost.org/>`_ and download the"
+" latest release from **Current Release**. Then extract ZIP archive to "
+"some location (for example ``C:\\boost\\``)."
+msgstr ""
+
+#: ../../pages/development.rst:46
+msgid "Next, build ``filesystem`` modules by following the steps given below."
+msgstr ""
+
+#: ../../pages/development.rst:48
+msgid ""
+"If your system is x64-based, ``Start Menu`` → ``Visual Studio 20XX`` → "
+"``VS20XX x64 Native Tools Command Prompts``. If your system is x86-based,"
+" launch ``VS20XX x86 Native Tools Command Prompts``."
+msgstr ""
+
+#: ../../pages/development.rst:50
+msgid ""
+"On the opened command prompt, change directory to the location where "
+"extracted ``bootstrap.bat`` exists."
+msgstr ""
+
+#: ../../pages/development.rst:51
+msgid "Run ``bootstrap.bat``."
+msgstr ""
+
+#: ../../pages/development.rst:52
+msgid ""
+"``b2.exe`` will be generated, then run ``b2 --with-filesystem runtime-"
+"link=shared,static``."
+msgstr ""
+
+#: ../../pages/development.rst:55
+msgid "Install CMake"
+msgstr ""
+
+#: ../../pages/development.rst:57
+msgid "If you have installed CMake 3.5 or later, skip this step."
+msgstr ""
+
+#: ../../pages/development.rst:59
+msgid ""
+"Access to `Home page of CMake <https://cmake.org/>`_. Then download one "
+"of the following from **Download** page."
+msgstr ""
+
+#: ../../pages/development.rst:61
+msgid "Windows win64-x64 Installer"
+msgstr ""
+
+#: ../../pages/development.rst:62
+msgid "Windows win64-x64 ZIP"
+msgstr ""
+
+#: ../../pages/development.rst:63
+msgid "Windows win32-x86 Installer"
+msgstr ""
+
+#: ../../pages/development.rst:64
+msgid "Windows win32-x86 ZIP"
+msgstr ""
+
+#: ../../pages/development.rst:66
+msgid ""
+"If you are using x64-based system, you can use both win64-x64 and "
+"win32-x86. If you are using x86-based system, you can use only win32-x86."
+msgstr ""
+
+#: ../../pages/development.rst:73
+msgid "Generate project files"
+msgstr ""
+
+#: ../../pages/development.rst:75
+msgid ""
+"If you have installed CMake from installer, ``Start Menu`` → ``CMake`` → "
+"``CMake (cmake-gui)``. If you have downloaded CMake directly, run ``bin"
+"\\cmake-gui.exe``."
+msgstr ""
+
+#: ../../pages/development.rst:77
+msgid ""
+"Fill ``Where is the source code:`` by the location of THRotator source "
+"code."
+msgstr ""
+
+#: ../../pages/development.rst:78
+msgid ""
+"Fill ``Where to build the binaries:`` by the location of project files "
+"you want to generate."
+msgstr ""
+
+#: ../../pages/development.rst:79
+msgid ""
+"Press ``Configure``. Then generator selection window appears. Choose "
+"``Visual Studio XX 20XX`` and press ``Finish``. Don't choose a generator "
+"name with Win64 or ARM."
+msgstr ""
+
+#: ../../pages/development.rst:81
+msgid ""
+"Set the boost installation directory (where bootstrap.bat exists) to "
+"``BOOST_INCLUDE_DIR``."
+msgstr ""
+
+#: ../../pages/development.rst:82
+msgid ""
+"Set the boost library directory (``<boost install "
+"directory>\\stage\\lib`` by default) to ``BOOST_LIB_DIR``."
+msgstr ""
+
+#: ../../pages/development.rst:83
+msgid ""
+"Press ``Configure`` again. If you don't see any errors, press "
+"``Generate``."
+msgstr ""
+
+#: ../../pages/development.rst:87 ../../pages/development.rst:118
+msgid "Build"
+msgstr ""
+
+#: ../../pages/development.rst:89
+msgid "Open generated ``THRotator.sln``."
+msgstr ""
+
+#: ../../pages/development.rst:90
+msgid "Five projects are loaded."
+msgstr ""
+
+#: ../../pages/development.rst:92
+msgid "ALL_BUILD (project to build all the other projects)"
+msgstr ""
+
+#: ../../pages/development.rst:93
+msgid "d3d8 (THRotator based on Direct3D 8)"
+msgstr ""
+
+#: ../../pages/development.rst:94
+msgid "d3d9 (THRotator based on Direct3D 9)"
+msgstr ""
+
+#: ../../pages/development.rst:95
+msgid "localization_en-US (English resource DLL of THRotator)"
+msgstr ""
+
+#: ../../pages/development.rst:96
+msgid "ZERO_CHECK (automatically generated by CMake)"
+msgstr ""
+
+#: ../../pages/development.rst:98
+msgid ""
+"Build ``d3d8`` for THRotator based on Direct3D 8, build ``d3d9`` for "
+"THRotator based on Direct3D 9."
+msgstr ""
+
+#: ../../pages/development.rst:102
+msgid "Build manual"
+msgstr ""
+
+#: ../../pages/development.rst:104
+msgid "Sphinx is used to build the manual of THRotator."
+msgstr ""
+
+#: ../../pages/development.rst:107
+msgid "Install Sphinx"
+msgstr ""
+
+#: ../../pages/development.rst:109
+msgid "See `<http://www.sphinx-doc.org/en/stable/install.html>`_."
+msgstr ""
+
+#: ../../pages/development.rst:112
+msgid "Install a theme of Sphinx"
+msgstr ""
+
+#: ../../pages/development.rst:114
+msgid ""
+"THRotator adopts a theme `sphinx_rtd_theme "
+"<https://github.com/rtfd/sphinx_rtd_theme>`_. To install it, run ``python"
+" -m pip install sphinx_rtd_theme``."
+msgstr ""
+
+#: ../../pages/development.rst:120
+msgid ""
+"By running ``docs-source/compile.bat``, html files are built for every "
+"languages to ``docs-source/<language>/_build``."
+msgstr ""
+
+#: ../../pages/development.rst:122
+msgid ""
+"If you would like to build the manual in a specific language, run ``docs-"
+"source/<language>/make.bat html``."
+msgstr ""
+
+#: ../../pages/development.rst:125
+msgid ""
+"To copy built html files to the root of GitHub pages ``docs/``, run "
+"``docs-source/update.bat``."
+msgstr ""
+
+#: ../../pages/development.rst:130
+msgid "Localization"
+msgstr ""
+
+#: ../../pages/development.rst:132
+msgid ""
+"THRotator supports dialog boxes and error messages in multiple languages "
+"by Multilingual User Interface (MUI)."
+msgstr ""
+
+#: ../../pages/development.rst:135
+msgid ""
+"You can easily add new language based on English localization resource. "
+"Let's look at how to add a new language with French example."
+msgstr ""
+
+#: ../../pages/development.rst:138
+msgid "This section doesn't refer to the actual translation."
+msgstr ""
+
+#: ../../pages/development.rst:141
+msgid "1. Copy template"
+msgstr ""
+
+#: ../../pages/development.rst:143
+msgid ""
+"Create ``localization_<language name>`` folder in the directory where "
+"``localization_en-US`` exists. Language name is one of **Language/culture"
+" name** found in `Available Language Packs for Windows "
+"<https://technet.microsoft.com/en-us/library/hh825678.aspx>`_. This page "
+"also provides language ID in **Language hexadecimal identifier**, which "
+"should be memorized for a later step. Since example is French, folder "
+"name is ``localization_fr-FR`` and memorize language ID **0x040c**."
+msgstr ""
+
+#: ../../pages/development.rst:147
+msgid ""
+"From ``localization_en-US``, copy ``CMakeLists.txt``, ``resource.h``, and"
+" ``THRotator_en-US.rc`` folder to ``localization_<language name>`` (in "
+"current example, copy to ``localization_fr-FR``)."
+msgstr ""
+
+#: ../../pages/development.rst:149
+msgid ""
+"Rename ``localization_<language name>\\THRotator_en-US.rc`` to "
+"``localization_<language name>\\THRotator_<language name>.rc`` (in "
+"current example, rename to ``THRotator_fr-FR.rc``)."
+msgstr ""
+
+#: ../../pages/development.rst:154
+msgid "2. Prepare for CMake"
+msgstr ""
+
+#: ../../pages/development.rst:156
+msgid ""
+"Open ``localization_<language name>\\CMakeLists.txt`` and replace all "
+"``en-US`` occurrences with ``<language name>``. Then replace **0x0409** "
+"in ``set(language_id 0x0409)`` to the memorized language ID. In current "
+"example replace with **0x040c**. This is the end of editing "
+"``localization_<language name>\\CMakeLists.txt``."
+msgstr ""
+
+#: ../../pages/development.rst:160
+msgid ""
+"Open ``CMakeLists.txt`` in the root directory of THRotator, add "
+"``add_subdirectory(localization_<language name>)`` to the final line."
+msgstr ""
+
+#: ../../pages/development.rst:163
+msgid ""
+"In current French example, ``localization_fr-FR\\CMakeLists.txt`` finally"
+" looks like the following: ::"
+msgstr ""
+
+#: ../../pages/development.rst:172
+msgid "``CMakeLists.txt`` finally looks like the following: ::"
+msgstr ""
+
+#: ../../pages/development.rst:182
+msgid "3. Generate project files"
+msgstr ""
+
+#: ../../pages/development.rst:184
+msgid "Generate project files as described in :ref:`devel_proj_gen`."
+msgstr ""
+
+#: ../../pages/development.rst:187
+msgid "4. Translate"
+msgstr ""
+
+#: ../../pages/development.rst:189
+msgid ""
+"After reopening or reloading ``THRotator.sln``, you can find that a "
+"project ``localization_<language name>`` is added."
+msgstr ""
+
+#: ../../pages/development.rst:192
+msgid ""
+"From Resource View of Visual Studio, you can start to translate string "
+"table and dialog box resources that belong to ``localization_<language "
+"name>``. On property window, change language of string table and dialog "
+"boxes from ``English (United States)`` to the language name you want to "
+"translate into. In French example, change to ``French (France)``."
+msgstr ""
+
+#: ../../pages/development.rst:197
+msgid "5. Build and launch"
+msgstr ""
+
+#: ../../pages/development.rst:199
+msgid ""
+"By building ``localization_<language name>``, ``.mui`` files are "
+"generated to the ``<language name>`` folder located in the output "
+"directories of ``d3d8.dll`` and ``d3d9.dll``."
+msgstr ""
+
+#: ../../pages/development.rst:201
+msgid ""
+"Copy ``d3d8.dll`` or ``d3d9.dll`` and ``<language name>`` folder to the "
+"directory where the executable of the game is located. If your system "
+"supports the language you are trying to add, GUI and messages are now in "
+"that language."
+msgstr ""
+
+#: ../../pages/development.rst:207
+msgid ""
+"The respective checksum of ``d3d8.dll`` and ``d3d9.dll`` is embedded to "
+"``d3d8.dll.mui`` and ``d3d9.dll.mui``. If the embedded checksum doesn't "
+"match that of .dll, that language will not be loaded."
+msgstr ""
+
+#: ../../pages/install.rst:3
+msgid "Install"
+msgstr ""
+
+#: ../../pages/install.rst:5
+msgid "This page shows the steps to install THRotator."
+msgstr ""
+
+#: ../../pages/install.rst:8
+msgid "Download THRotator"
+msgstr ""
+
+#: ../../pages/install.rst:10
+msgid ""
+"Download the latest release from "
+"`<https://github.com/massanoori/THRotator/releases>`_. The file named "
+"like ``THRotator_X_Y_Z.zip`` is what has to be downloaded."
+msgstr ""
+
+#: ../../pages/install.rst:15
+msgid "Determine which DLL is needed"
+msgstr ""
+
+#: ../../pages/install.rst:17
+msgid "First, determine the target game runs on Direct3D 8 or Direct3D 9."
+msgstr ""
+
+#: ../../pages/install.rst:19
+msgid "If the game is one of the following, the game is Direct3D 8-based."
+msgstr ""
+
+#: ../../pages/install.rst:21
+msgid "the Embodiment of Scarlet Devil (Th06)"
+msgstr ""
+
+#: ../../pages/install.rst:22
+msgid "Perfect Cherry Blossom (Th07)"
+msgstr ""
+
+#: ../../pages/install.rst:23
+msgid "Imperishable Night (Th08)"
+msgstr ""
+
+#: ../../pages/install.rst:24
+msgid "Phantasmagoria of Flower View (Th09)"
+msgstr ""
+
+#: ../../pages/install.rst:25
+msgid "Shoot the Bullet (Th095)"
+msgstr ""
+
+#: ../../pages/install.rst:27
+msgid ""
+"If the game is one of the following or later, the game is Direct3D "
+"9-based."
+msgstr ""
+
+#: ../../pages/install.rst:29
+msgid "Mountain of Faith (Th10)"
+msgstr ""
+
+#: ../../pages/install.rst:30
+msgid "Subterranean Animism (Th11)"
+msgstr ""
+
+#: ../../pages/install.rst:31
+msgid "Undefined Fantastic Object (Th12)"
+msgstr ""
+
+#: ../../pages/install.rst:32
+msgid "Double Spoiler (Th125)"
+msgstr ""
+
+#: ../../pages/install.rst:33
+msgid "Fairy Wars (Th128)"
+msgstr ""
+
+#: ../../pages/install.rst:34
+msgid "Ten Desires (Th13)"
+msgstr ""
+
+#: ../../pages/install.rst:35
+msgid "Double Dealing Character (Th14, tested on demo version)"
+msgstr ""
+
+#: ../../pages/install.rst:36
+msgid "Impossible Spell Card (Th143)"
+msgstr ""
+
+#: ../../pages/install.rst:37
+msgid "Legacy of Lunatic Kingdom (Th15, tested on demo version)"
+msgstr ""
+
+#: ../../pages/install.rst:38
+msgid "Hidden Star in Four Seasons (Th16)"
+msgstr ""
+
+#: ../../pages/install.rst:39
+msgid "Uwabami Breakers (alcostg)"
+msgstr ""
+
+#: ../../pages/install.rst:41
+msgid ""
+"If the game is Direct3D 8-based and `DX8 to DX9 Converter "
+"<http://enbdev.com/download_convertor_dx8todx9.htm>`_ is not installed, "
+"you need to copy ``d3d8/d3d8.dll``."
+msgstr ""
+
+#: ../../pages/install.rst:45
+msgid "Otherwise, you need to copy ``d3d9/d3d9.dll``."
+msgstr ""
+
+#: ../../pages/install.rst:48
+msgid "Copy DLL file"
+msgstr ""
+
+#: ../../pages/install.rst:50
+msgid ""
+"Copy DLL file to the location where the game is installed (where the .exe"
+" file exists). Windows may ask you to input an administrator's name and "
+"password to copy the DLL file."
+msgstr ""
+
+#: ../../pages/install.rst:55
+msgid "Copy config file"
+msgstr ""
+
+#: ../../pages/install.rst:57
+msgid ""
+"Copy config file corresponding to the game ``sample-config/<filename of "
+"executable>.throtator`` to the following directory."
+msgstr ""
+
+#: ../../pages/install.rst:60
+msgid "For Th06, Th07, Th08, Th09, Th095, Th10, Th11, Th12, and alcostg"
+msgstr ""
+
+#: ../../pages/install.rst:60 ../../pages/install.rst:73
+msgid "Where the game is installed."
+msgstr ""
+
+#: ../../pages/install.rst:63
+msgid "For Th125, Th128, Th13, Th14, Th143, Th15, and later"
+msgstr ""
+
+#: ../../pages/install.rst:63
+msgid "Where the save data (score, replay, screen capture, and others) is saved."
+msgstr ""
+
+#: ../../pages/install.rst:65
+msgid "Location of save data"
+msgstr ""
+
+#: ../../pages/install.rst:67
+msgid "On Windows Vista, 7, 8, and 10"
+msgstr ""
+
+#: ../../pages/install.rst:69
+msgid ""
+"``C:\\Users\\<user name>\\AppData\\Roaming\\ShanghaiAlice\\th<product "
+"number>\\``"
+msgstr ""
+
+#: ../../pages/install.rst:71
+msgid "Executing command ``set APPDATA=`` before launching"
+msgstr ""
+
+#: ../../pages/install.rst:75
+msgid "Migration from old format"
+msgstr ""
+
+#: ../../pages/install.rst:77
+msgid ""
+"Don't copy new config file named as ``<filename of exe>.throtator``. "
+"THRotator tries to load ``<filename of exe>.throtator`` first."
+msgstr ""
+
+#: ../../pages/install.rst:78
+msgid ""
+"Keep the installed location of ``throt.ini`` or copy your backed-up "
+"``throt.ini`` to the location of save data."
+msgstr ""
+
+#: ../../pages/install.rst:79
+msgid ""
+"Your configuration will be saved to ``<filename of exe>.throtator`` since"
+" next launch."
+msgstr ""
+
+#: ../../pages/install.rst:82
+msgid "Localize"
+msgstr ""
+
+#: ../../pages/install.rst:84
+msgid "GUI and messages are in Japanese by default."
+msgstr ""
+
+#: ../../pages/install.rst:86
+msgid ""
+"If you copy ``d3d8/en-US`` (for  ``d3d8/d3d8.dll``) or ``d3d9/en-US`` "
+"(for ``d3d9/d3d9.dll``) folder to the same directory where DLL file "
+"exists, GUI and messages become in English."
+msgstr ""
+
+#: ../../pages/install.rst:91
+msgid "Aspect ratio distortion by default config files"
+msgstr ""
+
+#: ../../pages/install.rst:93
+msgid ""
+"In order to show all digits in HUD elements, their aspect ratios are not "
+"preserved in the following products."
+msgstr ""
+
+#: ../../pages/install.rst:96
+msgid "Th08 (To show all digits)"
+msgstr ""
+
+#: ../../pages/install.rst:97
+msgid "Th095 (To show all digits)"
+msgstr ""
+
+#: ../../pages/install.rst:98
+msgid "Th125 (To show all digits)"
+msgstr ""
+
+#: ../../pages/install.rst:99
+msgid "Th128 (To show `Perfect Freeze`)"
+msgstr ""
+
+#: ../../pages/install.rst:100
+msgid "Since Th13 (To show the denominators of fragments)"
+msgstr ""
+
+#: ../../pages/releasenotes.rst:3
+msgid "Release notes"
+msgstr ""
+
+#: ../../pages/releasenotes.rst:6
+msgid "1.3.1"
+msgstr ""
+
+#: ../../pages/releasenotes.rst:8
+msgid "Released on August 16, 2017."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:11
+msgid "New feature"
+msgstr ""
+
+#: ../../pages/releasenotes.rst:13
+msgid "Save logs to ``throtator-log.txt``"
+msgstr ""
+
+#: ../../pages/releasenotes.rst:16 ../../pages/releasenotes.rst:46
+#: ../../pages/releasenotes.rst:68 ../../pages/releasenotes.rst:83
+#: ../../pages/releasenotes.rst:97
+msgid "Bug fixes"
+msgstr ""
+
+#: ../../pages/releasenotes.rst:18
+msgid ""
+"Fix unexpected screen rotation when clicking apply button after clicking "
+"a radio button of interpolation method."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:19
+msgid "Fix division by zero depending on the initialization method of Direct3D."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:20
+msgid "Fix unnecessary values in configuration files."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:21
+msgid ""
+"Fix null in configuration file when the number of other rectangles is "
+"zero."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:25
+msgid "1.3.0"
+msgstr ""
+
+#: ../../pages/releasenotes.rst:27
+msgid "Released on August 12, 2017."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:30
+msgid "New features"
+msgstr ""
+
+#: ../../pages/releasenotes.rst:32
+msgid "Config for Th16."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:33
+msgid "Forced HUD rearrangements."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:34
+msgid "Internationalized user interface (currently English and Japanese)."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:35
+msgid "User's manual generated by Sphinx (English and Japanese)."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:36
+msgid ""
+"Experimental support on Direct3D 9 Ex. Hopefully wider support on non-"
+"Touhou Project games."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:37
+msgid ""
+"On Touhou Project games running on Direct3D 8, except for Touhou 7, the "
+"game doesn't stop while the editor window is open. This makes it easier "
+"to check the result of your modification."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:39
+msgid "New design of configuration files."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:41
+msgid ""
+"Previous design required to rename files to install and to edit .ini "
+"files directly to support a new game."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:42
+msgid ""
+"New design doesn't need renaming and an older game's configuration file "
+"can be used for a new game."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:43
+msgid ""
+"THRotator can read the previous ``throt.ini``. Configuration file is "
+"converted to new format upon next save."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:48
+msgid "Fix fixed window resolusion to 640x480 from Th11 to Th13 in windowed mode."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:49
+msgid ""
+"Fix that some implemented methods of D3D interfaces return unexpected "
+"values."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:50
+msgid ""
+"Fix the issue Touhou 7 does not accept any player's inputs when `DX8 to "
+"DX9 converter <http://enbdev.com/download_convertor_dx8todx9.htm>`_ and "
+"``d3d9.dll`` of THRotator are installed at the same time."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:52
+msgid ""
+"Fix the issue threshould input by user was compared with wrong count of "
+"setting viewports on Touhou 6 and 7."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:54
+msgid ""
+"THRotator converts the threshold to the correct one on Touhou 6 and 7 "
+"while reading config in the old format."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:57 ../../pages/releasenotes.rst:104
+msgid "Others"
+msgstr ""
+
+#: ../../pages/releasenotes.rst:59 ../../pages/releasenotes.rst:108
+msgid "Lots of refactoring"
+msgstr ""
+
+#: ../../pages/releasenotes.rst:60
+msgid "Introducing CMake for supporting multiple Visual Studio versions."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:63
+msgid "1.2.2"
+msgstr ""
+
+#: ../../pages/releasenotes.rst:65 ../../pages/releasenotes.rst:80
+msgid "Released on May 28, 2017."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:70
+msgid "No fix regarding functionality."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:72
+msgid "Fix obsolete version number string."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:78
+msgid "1.2.1"
+msgstr ""
+
+#: ../../pages/releasenotes.rst:85
+msgid ""
+"Fix black screen when chosen resolution is wider or taller than screen in"
+" windowed mode."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:86
+msgid ""
+"Fix black stripe when monitor resolution is smaller than game resolution "
+"in fullscreen mode."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:87
+msgid "Fix crash when throt.ini is not writable."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:92
+msgid "1.2.0"
+msgstr ""
+
+#: ../../pages/releasenotes.rst:94
+msgid "Released on May 14, 2017."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:99
+msgid "Fix black screen on Touhou 15"
+msgstr ""
+
+#: ../../pages/releasenotes.rst:100
+msgid "Add support on higher resolutions (960x720, 1280x960)"
+msgstr ""
+
+#: ../../pages/releasenotes.rst:106
+msgid "Faster throt.ini I/O"
+msgstr ""
+
+#: ../../pages/releasenotes.rst:107
+msgid "Versioning by Semantic Versioning 2.0"
+msgstr ""
+
+#: ../../pages/releasenotes.rst:112
+msgid "1.01"
+msgstr ""
+
+#: ../../pages/releasenotes.rst:114
+msgid "Released on Aug 18, 2011."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:116
+msgid "Magnification of screen with aspect ratio fixed."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:120
+msgid "1.00"
+msgstr ""
+
+#: ../../pages/releasenotes.rst:122
+msgid "Released on Aug 14, 2011."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:124
+msgid "The first release."
+msgstr ""
+
+#: ../../pages/releasenotes.rst:126
+msgid "On Aug 16, 2011, the default HUD arrangements for Th13 was fixed."
+msgstr ""
+
+#: ../../pages/troubleshoot.rst:3
+msgid "Troubleshoot"
+msgstr ""
+
+#: ../../pages/troubleshoot.rst:6
+msgid "Screen doesn't rotate by ``Alt+Left`` and ``Alt+Right`` keys"
+msgstr ""
+
+#: ../../pages/troubleshoot.rst:8 ../../pages/troubleshoot.rst:16
+#: ../../pages/troubleshoot.rst:24
+msgid ""
+"Make sure that ``d3d8.dll`` or ``d3d9.dll`` has been copied to the "
+"appropriate location. If it doesn't work correctly even after copy, make "
+"sure that the appropriate file has been copied. For example, ``d3d9.dll``"
+" doesn't work on games run on Direct3D 8. Follow instruction described in"
+" :doc:`install` carefully."
+msgstr ""
+
+#: ../../pages/troubleshoot.rst:14
+msgid ""
+"``Show THRotator window`` or ``Open THRotator`` doesn't appears from "
+"title bar"
+msgstr ""
+
+#: ../../pages/troubleshoot.rst:22
+msgid ""
+"Pixels are not smooth in windowed mode when the resolution is 960×720 or "
+"1280×960"
+msgstr ""
+
+#: ../../pages/troubleshoot.rst:30
+msgid "HUD elements are not rearranged for vertically-long screen"
+msgstr ""
+
+#: ../../pages/troubleshoot.rst:32 ../../pages/troubleshoot.rst:41
+#: ../../pages/troubleshoot.rst:50
+msgid ""
+"Make sure that config file correctly corresponds to the product. Also, "
+"make sure that the destination is correct. Since Double Spoiler (Th125), "
+"destination directory is confusing. Follow instruction described in "
+":doc:`install` carefully."
+msgstr ""
+
+#: ../../pages/troubleshoot.rst:39
+msgid "Scores, bombs and other HUD elements are not shown"
+msgstr ""
+
+#: ../../pages/troubleshoot.rst:48
+msgid "Misalignment in Touhou 9.5, 12.5, 12.8, and 14.3"
+msgstr ""
+
+#: ../../pages/troubleshoot.rst:57
+msgid ""
+"Player's inputs are not accepted or the game terminates after "
+"customization window is opened"
+msgstr ""
+
+#: ../../pages/troubleshoot.rst:59
+msgid "Try the following steps:"
+msgstr ""
+
+#: ../../pages/troubleshoot.rst:61
+msgid "Open configuration file with a text editor"
+msgstr ""
+
+#: ../../pages/troubleshoot.rst:62
+msgid ""
+"Replace the line of ``\"use_modal_editor\": false`` with "
+"``\"use_modal_editor\": true``."
+msgstr ""
+
+#: ../../pages/troubleshoot.rst:63
+msgid "Re-launch the game"
+msgstr ""
+
+#: ../../pages/troubleshoot.rst:65
+msgid ""
+"Although these steps force the game to suspend while customization window"
+" is open, they provide a workaround for this issue."
+msgstr ""
+
+#: ../../pages/uninstall.rst:3
+msgid "Uninstall"
+msgstr ""
+
+#: ../../pages/uninstall.rst:5
+msgid ""
+"If you would like to disable THRotator temporarily, rename ``d3d8.dll`` "
+"or ``d3d9.dll`` into another name, such as ``d3d9.dll.bak``. If you would"
+" like to completely uninstall THRotator, delete ``d3d8.dll`` or "
+"``d3d9.dll`` and configuration file."
+msgstr ""
+
+#: ../../pages/usage.rst:3
+msgid "How to use"
+msgstr ""
+
+#: ../../pages/usage.rst:6
+msgid "Rotate a screen"
+msgstr ""
+
+#: ../../pages/usage.rst:8
+msgid ""
+"By pressing ``Alt+Left`` or ``Alt+Right``, the screen is rotated by 90 "
+"degrees in left or right direction. When entire screen aspect ratio, seen"
+" from rotated screen viewpoint, is smaller than the original, THRotator "
+"tries to magnify main screen region to as large size as possible while "
+"you are playing or watching replay data."
+msgstr ""
+
+#: ../../pages/usage.rst:14
+msgid "Screen capture on Th06"
+msgstr ""
+
+#: ../../pages/usage.rst:16
+msgid ""
+"THRotator allows to capture a screen into a .bmp file by pressing "
+"``Home`` key on Th06, which is unsupported on the original Th06."
+msgstr ""
+
+#: ../../pages/usage.rst:19
+msgid ""
+"The destination is ``snapshot`` folder in the installed directory, which "
+"is the same as that since Th07 until Th12."
+msgstr ""
+
+#: ../../pages/usage.rst:25
+msgid "Force HUD rearrangements"
+msgstr ""
+
+#: ../../pages/usage.rst:27
+msgid ""
+"HUD rearrangements for vertical screen are forced with ``Alt+Up`` and "
+"``Alt+Down`` keys. This option is useful when you want to manually switch"
+" to HUD arrangements for vertically-long screen."
+msgstr ""
+
+#: ../../pages/usage.rst:30
+msgid ""
+"THRotator detects whether you are playing or not by the criterion "
+"described in :ref:`usage_state_detection`. If you would like to use "
+"THRotator on a newer Touhou Project game or a game other than Touhou "
+"Project on which this detection methodology doesn't work, use this "
+"feature or manipulate on the cutomization window, as described in "
+":ref:`usage_ui_force_vertical`."
+msgstr ""
+
+#: ../../pages/usage.rst:35 ../../pages/usage.rst:145
+msgid "This config is not saved due to its large effect."
+msgstr ""
+
+#: ../../pages/usage.rst:39
+msgid "Customization window"
+msgstr ""
+
+#: ../../pages/usage.rst:41
+msgid ""
+"Right click on the title bar, and click ``Show THRotator window`` or "
+"``Open THRotator`` to show the customization window. The customization "
+"window looks like as follows:"
+msgstr ""
+
+#: ../../pages/usage.rst:47
+msgid "|custom_win_screenshot_ja|"
+msgstr ""
+
+#: ../../pages/usage.rst:51
+msgid ""
+"Due to some issues on Touhou 7, the game is suspended while this window "
+"is shown."
+msgstr ""
+
+#: ../../pages/usage.rst:56
+msgid "1. Game state"
+msgstr ""
+
+#: ../../pages/usage.rst:58
+msgid ""
+"THRotator detects by counting setting viewport whether you are playing "
+"(we call it playing state) or not. In Touhou Project, viewport is updated"
+" more frequently while playing state than otherwise. THRotator exploits "
+"this fact to automatically switch to an HUD arrangement for vertically-"
+"long screen."
+msgstr ""
+
+#: ../../pages/usage.rst:62
+msgid ""
+"By clicking ``Count SetViewport()`` button, you can measure the number of"
+" times of setting viewport. If number of times of setting viewport is "
+"more than the threshold, HUD elements are arranged for vertically-long "
+"screen."
+msgstr ""
+
+#: ../../pages/usage.rst:65
+msgid ""
+"If THRotator fails to read configuration file, the threshold is set to "
+"999 by default to prevent unintentional switching."
+msgstr ""
+
+#: ../../pages/usage.rst:67
+msgid ""
+"If you would like to use THRotator on a newer Touhou Project game or a "
+"game other than Touhou Project on which this detection methodology "
+"doesn't work, follow :ref:`usage_force_vertical` or manipulate on the "
+"cutomization window, as described in :ref:`usage_ui_force_vertical`."
+msgstr ""
+
+#: ../../pages/usage.rst:72
+msgid "2. Main screen"
+msgstr ""
+
+#: ../../pages/usage.rst:74
+msgid ""
+"Specifying main screen position and size (blue rectangle in the figure "
+"below). This rectangle is moved to the center of window or of entire "
+"screen, and magnified to fit to the client size of window or of entire "
+"screen, keeping its aspect ratio fixed."
+msgstr ""
+
+#: ../../pages/usage.rst:81
+msgid ""
+"In most of Touhou Project games, its position and size are (left, top, "
+"width, height)=(32, 16, 384, 448). Exceptionally, the position and size "
+"are (left, top, width, height)=(128, 16, 384, 448) in Shoot the Bullet "
+"(Th095), Fairy Wars (Th128), and other spin-off games."
+msgstr ""
+
+#: ../../pages/usage.rst:86
+msgid ""
+"This rectangle specified here doesn't have to correctly match the actual "
+"main screen rectangle. In fact, some margin is introduced in .ini files "
+"for Fairy Wars (Th128) and Uwabami Breakers (alcostg) to accommodate all "
+"the HUD elements."
+msgstr ""
+
+#: ../../pages/usage.rst:90
+msgid "Finally, ``Offset`` can be used to adjust vertical position."
+msgstr ""
+
+#: ../../pages/usage.rst:92
+msgid ""
+"Since Th14, you can additionally choose 960x720 and 1280x720 resolutions."
+" In that case, specify position, width, and height in the coordinate "
+"scaled to 640x480."
+msgstr ""
+
+#: ../../pages/usage.rst:96
+msgid "3. Rotation angle"
+msgstr ""
+
+#: ../../pages/usage.rst:98
+msgid ""
+"Although you can rotate a screen by ``Alt+Left`` and ``Alt+Right``, this "
+"window can also be used to specify rotation angle. The direction of "
+"rotation is counter-clockwise."
+msgstr ""
+
+#: ../../pages/usage.rst:102
+msgid "The default choice is 0 degrees."
+msgstr ""
+
+#: ../../pages/usage.rst:106
+msgid "4. Pixel interpolation when magnified"
+msgstr ""
+
+#: ../../pages/usage.rst:108
+msgid "Specifying how pixel colors are interpolated when magnified."
+msgstr ""
+
+#: ../../pages/usage.rst:110
+msgid "The default choice is bilinear."
+msgstr ""
+
+#: ../../pages/usage.rst:114
+msgid "5. Vertically-long window"
+msgstr ""
+
+#: ../../pages/usage.rst:116
+msgid ""
+"If checked, the window size becomes vertically-long by swapping its width"
+" and height."
+msgstr ""
+
+#: ../../pages/usage.rst:118 ../../pages/usage.rst:126
+#: ../../pages/usage.rst:138
+msgid "This checkbox is unchecked by default."
+msgstr ""
+
+#: ../../pages/usage.rst:122
+msgid "6. Show this window when launched"
+msgstr ""
+
+#: ../../pages/usage.rst:124
+msgid "If checked, this window appears immediately after the game is launched."
+msgstr ""
+
+#: ../../pages/usage.rst:128
+msgid "This checkbox is disabled on Touhou 7."
+msgstr ""
+
+#: ../../pages/usage.rst:133
+msgid "7. Force HUD rearrangements"
+msgstr ""
+
+#: ../../pages/usage.rst:135
+msgid ""
+"If checked, HUD rearrangements are forced. This option can also be "
+"switched with ``Alt+Up`` and ``Alt+Down`` when the main window is focused"
+" on."
+msgstr ""
+
+#: ../../pages/usage.rst:140
+msgid ""
+"THRotator detects whether you are playing or not by the criterion "
+"described in :ref:`usage_state_detection`. If you would like to use "
+"THRotator on a newer Touhou Project game or a game other than Touhou "
+"Project on which this detection methodology doesn't work, manipulate on "
+"this checkbox or follow :ref:`usage_force_vertical`."
+msgstr ""
+
+#: ../../pages/usage.rst:149
+msgid "8. Other rectangles"
+msgstr ""
+
+#: ../../pages/usage.rst:151
+msgid ""
+"Specifying source and destination rectangles other than main screen. To "
+"create a new rectangle transfer, click ``Add`` button, then rectangle "
+"editing window appears. To edit an existing rectangle transfer, select "
+"the name of rectangle transfer and click ``Edit``, then rectangle editing"
+" window appears."
+msgstr ""
+
+#: ../../pages/usage.rst:157
+msgid ""
+"Rectangles are transferred from top to bottom in the list view. So the "
+"bottommost transfer is rendered in front of all the other transfers."
+msgstr ""
+
+#: ../../pages/usage.rst:160
+msgid ""
+"Coordinate system is as follows, where Wp and Hp are width and height of "
+"main screen size that is fit to the aspect ratio inverted from the "
+"original."
+msgstr ""
+
+#: ../../pages/usage.rst:165
+msgid ""
+"Since 1.01, rectangle transfer destination can reach the remaining black "
+"stripe regions."
+msgstr ""
+
+#: ../../pages/usage.rst:167
+msgid ""
+"Since Th14, you can additionally choose 960x720 and 1280x720 resolutions."
+" In these resolutions, specify position, width, and height in the "
+"coordinate scaled to 640x480."
+msgstr ""
+
+#: ../../pages/usage.rst:171
+msgid "9. Hide this window"
+msgstr ""
+
+#: ../../pages/usage.rst:173
+msgid "Closing this window."
+msgstr ""
+
+#: ../../pages/usage.rst:177
+msgid "10. Discard change"
+msgstr ""
+
+#: ../../pages/usage.rst:179
+msgid "Resetting to the parameters when ``Apply`` was pressed last time."
+msgstr ""
+
+#: ../../pages/usage.rst:183
+msgid "11. Apply"
+msgstr ""
+
+#: ../../pages/usage.rst:185
+msgid ""
+"Applying input parameters to actual rendering. When successful, "
+"configuration file is saved."
+msgstr ""
+
+#: ../../pages/usage.rst:190
+msgid "Best practices"
+msgstr ""
+
+#: ../../pages/usage.rst:192
+msgid ""
+"Although this page describes the detailed behavior, it is much easier to "
+"understand the behavior by actually editing parameters."
+msgstr ""
+
+#: ../../pages/usage.rst:195
+msgid "Procedure to support a new product looks like as follows:"
+msgstr ""
+
+#: ../../pages/usage.rst:197
+msgid ""
+"Measure times of setting viewport in playing state and non-playing state "
+"respectively, determine a value larger than that in non-playing state and"
+" smaller than or equal to that in playing state, and fill the threshold "
+"by that value."
+msgstr ""
+
+#: ../../pages/usage.rst:201
+msgid ""
+"Please measure this value while challenging a spell card since it "
+"generally becomes fewer."
+msgstr ""
+
+#: ../../pages/usage.rst:203
+msgid "Fill main screen position and size."
+msgstr ""
+
+#: ../../pages/usage.rst:204
+msgid "Add rectangle transfers for the scores, lives, and other HUD elements."
+msgstr ""
+
