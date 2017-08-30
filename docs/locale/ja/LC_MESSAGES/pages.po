@@ -1058,8 +1058,8 @@ msgid ""
 msgstr ""
 
 #: ../../pages/usage.rst:47
-msgid "|custom_win_screenshot_ja|"
-msgstr ""
+msgid "|custom_win_screenshot_en|"
+msgstr "|custom_win_screenshot_ja|"
 
 #: ../../pages/usage.rst:51
 msgid ""
