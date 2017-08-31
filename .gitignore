@@ -1,0 +1,3 @@
+﻿# Don't include intermediate files and directories
+_*/
+*.mo
