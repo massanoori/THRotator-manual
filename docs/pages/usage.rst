@@ -38,22 +38,92 @@ use this feature or manipulate on the cutomization window, as described in :ref:
 Customization window
 =====================
 
-Right click on the title bar, and click ``Show THRotator window`` or ``Open THRotator`` to show the customization window.
-The customization window looks like as follows:
+.. |thr_win_en| image:: ../images/throtator-window-en.png
+.. |thr_win_ja| image:: ../images/throtator-window-ja.png
 
-.. |custom_win_screenshot_en| image:: ../images/custom_en.png
-.. |custom_win_screenshot_ja| image:: ../images/custom_ja.png
+|thr_win_en|
 
-|custom_win_screenshot_en|
+Customization window can be shown by one of the following ways:
 
-.. note::
+* Right-click on the title bar, and click ``Show THRotator window``
+* Type ``Alt+R``.
 
-   Due to some issues on Touhou 7, the game is suspended while this window is shown.
+
+Rotation angle
+-----------------------
+
+Although you can rotate a screen by ``Alt+Left`` and ``Alt+Right``,
+this window can also be used to specify rotation angle.
+The direction of rotation is counter-clockwise.
+
+The default choice is 0 degrees.
+
+
+Vertical window
+-----------------------
+
+If checked, the window size becomes vertically-long by swapping its width and height.
+
+This checkbox is unchecked by default.
+
+
+Open THRotator first
+-----------------------------------------
+
+If checked, this window appears immediately after the game is launched.
+
+This checkbox is unchecked by default.
+
+
+Force HUD rearrangements
+---------------------------
+
+If checked, HUD rearrangements are forced.
+This option can also be switched with ``Alt+Up`` and ``Alt+Down`` when the main window is focused on.
+
+This checkbox is unchecked by default.
+
+THRotator detects whether you are playing or not by the criterion described in :ref:`usage_state_detection`.
+If you would like to use THRotator on a newer Touhou Project game or a game other than Touhou Project
+on which this detection methodology doesn't work,
+manipulate on this checkbox or follow :ref:`usage_force_vertical`.
+
+.. note:: This config is not saved due to its large effect.
+
+
+Hide
+---------------------------
+
+Closing this window.
+
+
+Reload
+---------------------------
+
+Reloading current config file.
+
+
+Save
+---------------------------
+
+Save current configuration to a configuration file.
+
+
+About
+---------------------------
+
+Show a popup displaying the information of THRotator, such as version.
+
 
 .. _usage_state_detection:
 
-1 Game state
+Gameplay detection
 -----------------------
+
+.. |thr_win_gd_en| image:: ../images/throtator-window-gamedetec-en.png
+.. |thr_win_gd_ja| image:: ../images/throtator-window-gamedetec-ja.png
+
+|thr_win_gd_en|
 
 THRotator detects by counting setting viewport whether you are playing (we call it playing state) or not.
 In Touhou Project, viewport is updated more frequently while playing state than otherwise.
@@ -68,8 +138,14 @@ If you would like to use THRotator on a newer Touhou Project game or a game othe
 on which this detection methodology doesn't work,
 follow :ref:`usage_force_vertical` or manipulate on the cutomization window, as described in :ref:`usage_ui_force_vertical`.
 
-2 Main screen
+
+Main screen
 -----------------------
+
+.. |thr_win_ms_en| image:: ../images/throtator-window-mainscreen-en.png
+.. |thr_win_ms_ja| image:: ../images/throtator-window-mainscreen-ja.png
+
+|thr_win_ms_en|
 
 Specifying main screen position and size (blue rectangle in the figure below).
 This rectangle is moved to the center of window or of entire screen,
@@ -92,69 +168,38 @@ Finally, ``Offset`` can be used to adjust vertical position.
 Since Th14, you can additionally choose 960x720 and 1280x720 resolutions.
 In these resolutions, specify position, width, and height in the coordinate scaled to 640x480.
 
-3 Rotation angle
------------------------
 
-Although you can rotate a screen by ``Alt+Left`` and ``Alt+Right``,
-this window can also be used to specify rotation angle.
-The direction of rotation is counter-clockwise.
-
-The default choice is 0 degrees.
-
-
-4 Pixel interpolation when magnified
+Pixel interpolation
 -------------------------------------
+
+.. |thr_win_pl_en| image:: ../images/throtator-window-pixelerp-en.png
+.. |thr_win_pl_ja| image:: ../images/throtator-window-pixelerp-ja.png
+
+|thr_win_pl_en|
 
 Specifying how pixel colors are interpolated when magnified.
 
 The default choice is bilinear.
 
 
-5 Vertically-long window
--------------------------
-
-If checked, the window size becomes vertically-long by swapping its width and height.
-
-This checkbox is unchecked by default.
-
-
-6 Show this window when launched
------------------------------------------
-
-If checked, this window appears immediately after the game is launched.
-
-This checkbox is unchecked by default.
-
-.. note:: This checkbox is disabled on Touhou 7.
-
 .. _usage_ui_force_vertical:
 
-7 Force HUD rearrangements
----------------------------
 
-If checked, HUD rearrangements are forced.
-This option can also be switched with ``Alt+Up`` and ``Alt+Down`` when the main window is focused on.
-
-This checkbox is unchecked by default.
-
-THRotator detects whether you are playing or not by the criterion described in :ref:`usage_state_detection`.
-If you would like to use THRotator on a newer Touhou Project game or a game other than Touhou Project
-on which this detection methodology doesn't work,
-manipulate on this checkbox or follow :ref:`usage_force_vertical`.
-
-.. note:: This config is not saved due to its large effect.
-
-
-8 Other rectangles
+Other rectangles
 -------------------
 
-Specifying source and destination rectangles other than main screen.
-To create a new rectangle transfer, click ``Add`` button,
-then rectangle editing window appears.
-To edit an existing rectangle transfer, select the name of rectangle transfer and click ``Edit``,
-then rectangle editing window appears.
+.. |thr_win_or_en| image:: ../images/throtator-window-otherrects-en.png
+.. |thr_win_or_ja| image:: ../images/throtator-window-otherrects-ja.png
 
-Rectangles are transferred from top to bottom in the list view.
+|thr_win_or_en|
+
+Specifying source and destination rectangles other than main screen.
+
+To create a new rectangle transfer, click ``Add`` button.
+To edit a rectangle transfer, select the name of rectangle from rectangle list.
+Then you can edit the positions and sizes of the rectangule of source and destination.
+
+Rectangles are transferred from top to bottom in the list box.
 So the bottommost transfer is rendered in front of all the other transfers.
 
 Coordinate system is as follows,
@@ -167,23 +212,6 @@ Since 1.01, rectangle transfer destination can reach the remaining black stripe 
 Since Th14, you can additionally choose 960x720 and 1280x720 resolutions.
 In these resolutions, specify position, width, and height in the coordinate scaled to 640x480.
 
-9 Hide this window
----------------------------
-
-Closing this window.
-
-
-10 Discard change
----------------------------
-
-Resetting to the parameters when ``Apply`` was pressed last time.
-
-
-11 Apply
----------------
-
-Applying input parameters to actual rendering.
-When successful, configuration file is saved.
 
 
 Best practices
