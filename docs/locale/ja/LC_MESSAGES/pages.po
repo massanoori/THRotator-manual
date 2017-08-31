@@ -139,7 +139,7 @@ msgid ""
 "link=shared,static``."
 msgstr ""
 "``b2.exe`` が出来上がるので、そのあとに ``b2 --with-filesystem runtime-"
-"link=shared,static``を実行します。"
+"link=shared,static`` を実行します。"
 
 #: ../../pages/development.rst:55
 msgid "Install CMake"
