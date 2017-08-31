@@ -1122,11 +1122,11 @@ msgstr ""
 
 #: ../../pages/usage.rst:3
 msgid "How to use"
-msgstr ""
+msgstr "使い方"
 
 #: ../../pages/usage.rst:6
 msgid "Rotate a screen"
-msgstr ""
+msgstr "画面の回転"
 
 #: ../../pages/usage.rst:8
 msgid ""
@@ -1136,26 +1136,34 @@ msgid ""
 "tries to magnify main screen region to as large size as possible while "
 "you are playing or watching replay data."
 msgstr ""
+"``Alt+左右キー`` を押すことで、それぞれ左方向、右方向に90度ずつ回転します。"
+"また、プレイ時またはリプレイ再生時に、回転された画面から見てアスペクト比が本来よりも小さくなると、"
+"プレイ領域を画面目一杯に拡大します。 "
 
 #: ../../pages/usage.rst:14
 msgid "Screen capture on Th06"
-msgstr ""
+msgstr "東方紅魔郷でのスクリーンキャプチャ"
 
 #: ../../pages/usage.rst:16
 msgid ""
 "THRotator allows to capture a screen into a .bmp file by pressing "
 "``Home`` key on Th06, which is unsupported on the original Th06."
 msgstr ""
+"東方紅魔郷にはスクリーンキャプチャが存在しませんが、"
+"THRotatorを使うことでスクリーンキャプチャを保存できるようになります。"
 
 #: ../../pages/usage.rst:19
 msgid ""
 "The destination is ``snapshot`` folder in the installed directory, which "
 "is the same as that since Th07 until Th12."
 msgstr ""
+"``Homeキー`` でスクリーンキャプチャを行います。"
+"保存先は、星蓮船までの作品と同じく、インストールディレクトリ以下の ``snapshot`` フォルダです。"
+"ファイルフォーマットは ``.bmp`` です。 "
 
 #: ../../pages/usage.rst:25
 msgid "Force HUD rearrangements"
-msgstr ""
+msgstr "縦用レイアウトの強制"
 
 #: ../../pages/usage.rst:27
 msgid ""
@@ -1163,6 +1171,8 @@ msgid ""
 "``Alt+Down`` keys. This option is useful when you want to manually switch"
 " to HUD arrangements for vertically-long screen."
 msgstr ""
+"``Alt+上下キー`` により、縦用レイアウトを強制できます。"
+"このオプションは、手動で縦用レイアウトにしたいときに便利です。"
 
 #: ../../pages/usage.rst:30
 msgid ""
@@ -1173,14 +1183,17 @@ msgid ""
 "feature or manipulate on the cutomization window, as described in "
 ":ref:`usage_ui_force_vertical`."
 msgstr ""
+"縦画面用のレイアウトへの遷移は、 :ref:`usage_state_detection` で説明している方法で判定しています。"
+"東方プロジェクトの将来の作品でこの判定方法が通用しなくなった場合や、この判定方法が使えない他のゲームに使いたい場合は、"
+"この縦用レイアウトの強制機能か、カスタマイズ画面の :ref:`usage_ui_force_vertical` の方法で、手動で切り替えてください。"
 
 #: ../../pages/usage.rst:35 ../../pages/usage.rst:145
 msgid "This config is not saved due to its large effect."
-msgstr ""
+msgstr "この機能は影響の大きさを鑑み、この設定は設定ファイルに保存しないようになっています。"
 
 #: ../../pages/usage.rst:39
 msgid "Customization window"
-msgstr ""
+msgstr "カスタマイズ画面"
 
 #: ../../pages/usage.rst:41
 msgid ""
@@ -1188,6 +1201,8 @@ msgid ""
 "``Open THRotator`` to show the customization window. The customization "
 "window looks like as follows:"
 msgstr ""
+"ウィンドウモードでタイトルバーを右クリックし、メニューの1番下の ``THRotatorを表示`` をクリックすると、"
+"次のような画面が表示されます。"
 
 #: ../../pages/usage.rst:47
 msgid "|custom_win_screenshot_en|"
@@ -1198,10 +1213,11 @@ msgid ""
 "Due to some issues on Touhou 7, the game is suspended while this window "
 "is shown."
 msgstr ""
+"東方妖々夢では、不具合回避のためこの画面が出ている間ゲームが停止します。"
 
 #: ../../pages/usage.rst:56
 msgid "1. Game state"
-msgstr ""
+msgstr "1. プレイ状態の判定"
 
 #: ../../pages/usage.rst:58
 msgid ""
@@ -1211,6 +1227,10 @@ msgid ""
 "this fact to automatically switch to an HUD arrangement for vertically-"
 "long screen."
 msgstr ""
+"本ツールでは、現在プレイ中またはリプレイ再生中かどうかを判定するためのパラメータとして、"
+"1フレームあたりのVP(=ビューポート)設定回数の閾値を用います。"
+"VP設定回数は、メニュー表示時などの本編をプレイしていない状態に比べ、"
+"プレイ時やリプレイ再生時のほうが多いため、このような判定方法を用いています。"
 
 #: ../../pages/usage.rst:62
 msgid ""
@@ -1219,12 +1239,16 @@ msgid ""
 "more than the threshold, HUD elements are arranged for vertically-long "
 "screen."
 msgstr ""
+"VP設定回数取得ボタンで、1フレーム間の実際のVP設定回数を取得できます。"
+"回数閾値の欄に、本編をプレイしているときのVP設定回数以下、そうでないときのVP設定回数よりも大きい値を入力することで、"
+"本編プレイ時に縦画面用のレイアウトになるように設定することができます。"
 
 #: ../../pages/usage.rst:65
 msgid ""
 "If THRotator fails to read configuration file, the threshold is set to "
 "999 by default to prevent unintentional switching."
 msgstr ""
+"設定ファイルが読み込めない場合は、意図せず縦画面用のレイアウトになるのを防ぐため、デフォルト値は999です。"
 
 #: ../../pages/usage.rst:67
 msgid ""
@@ -1233,10 +1257,14 @@ msgid ""
 "doesn't work, follow :ref:`usage_force_vertical` or manipulate on the "
 "cutomization window, as described in :ref:`usage_ui_force_vertical`."
 msgstr ""
+"東方プロジェクトの将来の作品でこの判定方法が通用しなくなった場合や、"
+"この判定方法が使えない他のゲームに使いたい場合は、"
+":ref:`usage_force_vertical` か、"
+"カスタマイズ画面の :ref:`usage_ui_force_vertical` の方法で、手動で切り替えてください。"
 
 #: ../../pages/usage.rst:72
 msgid "2. Main screen"
-msgstr ""
+msgstr "2. プレイ画面領域"
 
 #: ../../pages/usage.rst:74
 msgid ""
@@ -1245,6 +1273,8 @@ msgid ""
 "screen, and magnified to fit to the client size of window or of entire "
 "screen, keeping its aspect ratio fixed."
 msgstr ""
+"プレイ画面の矩形の位置、大きさを指定します(下図青枠の部分)。"
+"ここで指定した矩形が画面いっぱいにアスペクト比を保存しながら拡大され、画面の中央に配置されます。"
 
 #: ../../pages/usage.rst:81
 msgid ""
@@ -1253,6 +1283,8 @@ msgid ""
 "are (left, top, width, height)=(128, 16, 384, 448) in Shoot the Bullet "
 "(Th095), Fairy Wars (Th128), and other spin-off games."
 msgstr ""
+"東方プロジェクトの多くの作品では、(左,上,幅,高さ)=(32,16,384,448)、"
+"文花帖や妖精大戦争のように真ん中に配置されている場合は(128,16,384,448)です。"
 
 #: ../../pages/usage.rst:86
 msgid ""
@@ -1261,10 +1293,12 @@ msgid ""
 "for Fairy Wars (Th128) and Uwabami Breakers (alcostg) to accommodate all "
 "the HUD elements."
 msgstr ""
+"しかし、ここで指定した矩形は実際のプレイ領域と同じである必要はありません。"
+"妖精大戦争と黄昏酒場のデフォルトレイアウトのように、広めに取ることができます。"
 
 #: ../../pages/usage.rst:90
 msgid "Finally, ``Offset`` can be used to adjust vertical position."
-msgstr ""
+msgstr "オフセットは画面が拡大された後にどれだけy方向に移動させるかを指定します。"
 
 #: ../../pages/usage.rst:92
 msgid ""
@@ -1272,10 +1306,12 @@ msgid ""
 " In that case, specify position, width, and height in the coordinate "
 "scaled to 640x480."
 msgstr ""
+"輝針城以降の作品のように解像度が640x480ではない場合は、"
+"画面を640x480に縮小した後の位置と幅を入力します。"
 
 #: ../../pages/usage.rst:96
 msgid "3. Rotation angle"
-msgstr ""
+msgstr "3. 画面の回転角度"
 
 #: ../../pages/usage.rst:98
 msgid ""
@@ -1283,53 +1319,56 @@ msgid ""
 "window can also be used to specify rotation angle. The direction of "
 "rotation is counter-clockwise."
 msgstr ""
+"画面の回転は ``Alt+左右キー`` ですることができますが、この画面でも回転角を指定することができます。"
+"回転方向は、左回り(反時計回り)です。"
 
 #: ../../pages/usage.rst:102
 msgid "The default choice is 0 degrees."
-msgstr ""
+msgstr "デフォルトは0°です。"
 
 #: ../../pages/usage.rst:106
 msgid "4. Pixel interpolation when magnified"
-msgstr ""
+msgstr "4. 拡大時の補間方法"
 
 #: ../../pages/usage.rst:108
 msgid "Specifying how pixel colors are interpolated when magnified."
-msgstr ""
+msgstr "画像の拡大が行われた時の補間方法を指定します。"
 
 #: ../../pages/usage.rst:110
 msgid "The default choice is bilinear."
-msgstr ""
+msgstr "デフォルトはバイリニアです。"
 
 #: ../../pages/usage.rst:114
 msgid "5. Vertically-long window"
-msgstr ""
+msgstr "5. ウィンドウを縦長にする"
 
 #: ../../pages/usage.rst:116
 msgid ""
 "If checked, the window size becomes vertically-long by swapping its width"
 " and height."
 msgstr ""
+"ウィンドウモード時にチェックを入れておくと、ウィンドウの幅と高さを交換して縦長になります。"
 
 #: ../../pages/usage.rst:118 ../../pages/usage.rst:126
 #: ../../pages/usage.rst:138
 msgid "This checkbox is unchecked by default."
-msgstr ""
+msgstr "デフォルトではチェックされていません。"
 
 #: ../../pages/usage.rst:122
 msgid "6. Show this window when launched"
-msgstr ""
+msgstr "6. 起動時にTHRotatorの画面を出す"
 
 #: ../../pages/usage.rst:124
 msgid "If checked, this window appears immediately after the game is launched."
-msgstr ""
+msgstr "起動時にTHRotatorの画面を出すかどうかを指定します。"
 
 #: ../../pages/usage.rst:128
 msgid "This checkbox is disabled on Touhou 7."
-msgstr ""
+msgstr "このチェックボックスは東方妖々夢では無効です。"
 
 #: ../../pages/usage.rst:133
 msgid "7. Force HUD rearrangements"
-msgstr ""
+msgstr "7. 縦用レイアウトを強制する"
 
 #: ../../pages/usage.rst:135
 msgid ""
@@ -1337,6 +1376,8 @@ msgid ""
 "switched with ``Alt+Up`` and ``Alt+Down`` when the main window is focused"
 " on."
 msgstr ""
+"プレイ中とは判定されていない間でも、縦用レイアウトを強瀬宇するかどうかを指定します。"
+"この設定は、メインウィンドウがフォーカスされているときに ``Alt+上下キー`` でも行うことができます。"
 
 #: ../../pages/usage.rst:140
 msgid ""
@@ -1346,10 +1387,13 @@ msgid ""
 "Project on which this detection methodology doesn't work, manipulate on "
 "this checkbox or follow :ref:`usage_force_vertical`."
 msgstr ""
+"縦画面用のレイアウトへの遷移は、 :ref:`usage_state_detection` で説明している方法で判定しています。"
+"東方プロジェクトの将来の作品でこの判定方法が通用しなくなった場合や、この判定方法が使えない他のゲームに使いたい場合は、"
+"このチェックボックスか :ref:`usage_force_vertical` の方法で、手動で切り替えてください。"
 
 #: ../../pages/usage.rst:149
 msgid "8. Other rectangles"
-msgstr ""
+msgstr "8. その他領域"
 
 #: ../../pages/usage.rst:151
 msgid ""
@@ -1359,12 +1403,16 @@ msgid ""
 "the name of rectangle transfer and click ``Edit``, then rectangle editing"
 " window appears."
 msgstr ""
+"プレイ領域以外の矩形の転送元矩形、転送先矩形の位置、大きさを指定します。"
+"追加、またはリストから矩形を選択して編集すると矩形編集画面が表示されます。"
 
 #: ../../pages/usage.rst:157
 msgid ""
 "Rectangles are transferred from top to bottom in the list view. So the "
 "bottommost transfer is rendered in front of all the other transfers."
 msgstr ""
+"矩形の転送は、上から順番に行われます。"
+"そのため、リストの一番下にある矩形が最も上に描画されます。"
 
 #: ../../pages/usage.rst:160
 msgid ""
@@ -1372,12 +1420,15 @@ msgid ""
 "main screen size that is fit to the aspect ratio inverted from the "
 "original."
 msgstr ""
+"転送先の座標系は、プレイ領域のサイズを、本来の逆数のアスペクト比に合わせた幅と高さをWp,Hpとして、"
+"次のようになります。"
 
 #: ../../pages/usage.rst:165
 msgid ""
 "Since 1.01, rectangle transfer destination can reach the remaining black "
 "stripe regions."
 msgstr ""
+"また、ver. 1.01から拡大して余った黒帯の領域にも矩形の転送ができるようになりました。"
 
 #: ../../pages/usage.rst:167
 msgid ""
@@ -1385,46 +1436,52 @@ msgid ""
 " In these resolutions, specify position, width, and height in the "
 "coordinate scaled to 640x480."
 msgstr ""
+"輝針城以降の作品のように解像度が640x480ではない場合は、"
+"画面を640x480に縮小した後の位置と幅を入力します。"
 
 #: ../../pages/usage.rst:171
 msgid "9. Hide this window"
-msgstr ""
+msgstr "9. このウィンドウを隠す"
 
 #: ../../pages/usage.rst:173
 msgid "Closing this window."
-msgstr ""
+msgstr "右上の閉じるボタンと同じくTHRotatorの画面を閉じます。"
 
 #: ../../pages/usage.rst:177
 msgid "10. Discard change"
-msgstr ""
+msgstr "10. 変更を破棄"
 
 #: ../../pages/usage.rst:179
 msgid "Resetting to the parameters when ``Apply`` was pressed last time."
-msgstr ""
+msgstr "最後に適用を押したときの状態に、フォームへの入力を戻します。"
 
 #: ../../pages/usage.rst:183
 msgid "11. Apply"
-msgstr ""
+msgstr "11. 適用"
 
 #: ../../pages/usage.rst:185
 msgid ""
 "Applying input parameters to actual rendering. When successful, "
 "configuration file is saved."
 msgstr ""
+"この画面で入力されたパラメータを実際に反映させます。"
+"このボタンを押したタイミングで設定ファイルが保存されます。"
 
 #: ../../pages/usage.rst:190
 msgid "Best practices"
-msgstr ""
+msgstr "ベストプラクティス"
 
 #: ../../pages/usage.rst:192
 msgid ""
 "Although this page describes the detailed behavior, it is much easier to "
 "understand the behavior by actually editing parameters."
 msgstr ""
+"以上長々と説明しましたが、パラメータを実際に変えてみて、"
+"どのようになるかを見たほうが、理解しやすいかもしれません。 "
 
 #: ../../pages/usage.rst:195
 msgid "Procedure to support a new product looks like as follows:"
-msgstr ""
+msgstr "新作への対応の要領ですが、おおむね次のようになります。"
 
 #: ../../pages/usage.rst:197
 msgid ""
@@ -1433,18 +1490,21 @@ msgid ""
 " smaller than or equal to that in playing state, and fill the threshold "
 "by that value."
 msgstr ""
+"非プレイ時とプレイ時のVP設定回数を取得して、非プレイ時よりも大きく、プレイ時以下の値を回数閾値に入力する。"
 
 #: ../../pages/usage.rst:201
 msgid ""
 "Please measure this value while challenging a spell card since it "
 "generally becomes fewer."
 msgstr ""
+"多くの作品ではスペルカード挑戦中の設定回数は少ないため、"
+"スペルカード挑戦中の設定回数も考慮してください。"
 
 #: ../../pages/usage.rst:203
 msgid "Fill main screen position and size."
-msgstr ""
+msgstr "プレイ画面領域の位置とサイズを入力する。"
 
 #: ../../pages/usage.rst:204
 msgid "Add rectangle transfers for the scores, lives, and other HUD elements."
-msgstr ""
+msgstr "スコアなどの情報を表示するために、その他領域に矩形を追加する。"
 
