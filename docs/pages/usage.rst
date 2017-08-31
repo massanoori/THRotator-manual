@@ -52,7 +52,7 @@ The customization window looks like as follows:
 
 .. _usage_state_detection:
 
-1. Game state
+1 Game state
 -----------------------
 
 THRotator detects by counting setting viewport whether you are playing (we call it playing state) or not.
@@ -68,7 +68,7 @@ If you would like to use THRotator on a newer Touhou Project game or a game othe
 on which this detection methodology doesn't work,
 follow :ref:`usage_force_vertical` or manipulate on the cutomization window, as described in :ref:`usage_ui_force_vertical`.
 
-2. Main screen
+2 Main screen
 -----------------------
 
 Specifying main screen position and size (blue rectangle in the figure below).
@@ -92,7 +92,7 @@ Finally, ``Offset`` can be used to adjust vertical position.
 Since Th14, you can additionally choose 960x720 and 1280x720 resolutions.
 In these resolutions, specify position, width, and height in the coordinate scaled to 640x480.
 
-3. Rotation angle
+3 Rotation angle
 -----------------------
 
 Although you can rotate a screen by ``Alt+Left`` and ``Alt+Right``,
@@ -102,7 +102,7 @@ The direction of rotation is counter-clockwise.
 The default choice is 0 degrees.
 
 
-4. Pixel interpolation when magnified
+4 Pixel interpolation when magnified
 -------------------------------------
 
 Specifying how pixel colors are interpolated when magnified.
@@ -110,7 +110,7 @@ Specifying how pixel colors are interpolated when magnified.
 The default choice is bilinear.
 
 
-5. Vertically-long window
+5 Vertically-long window
 -------------------------
 
 If checked, the window size becomes vertically-long by swapping its width and height.
@@ -118,7 +118,7 @@ If checked, the window size becomes vertically-long by swapping its width and he
 This checkbox is unchecked by default.
 
 
-6. Show this window when launched
+6 Show this window when launched
 -----------------------------------------
 
 If checked, this window appears immediately after the game is launched.
@@ -129,7 +129,7 @@ This checkbox is unchecked by default.
 
 .. _usage_ui_force_vertical:
 
-7. Force HUD rearrangements
+7 Force HUD rearrangements
 ---------------------------
 
 If checked, HUD rearrangements are forced.
@@ -145,7 +145,7 @@ manipulate on this checkbox or follow :ref:`usage_force_vertical`.
 .. note:: This config is not saved due to its large effect.
 
 
-8. Other rectangles
+8 Other rectangles
 -------------------
 
 Specifying source and destination rectangles other than main screen.
@@ -167,19 +167,19 @@ Since 1.01, rectangle transfer destination can reach the remaining black stripe 
 Since Th14, you can additionally choose 960x720 and 1280x720 resolutions.
 In these resolutions, specify position, width, and height in the coordinate scaled to 640x480.
 
-9. Hide this window
+9 Hide this window
 ---------------------------
 
 Closing this window.
 
 
-10. Discard change
+10 Discard change
 ---------------------------
 
 Resetting to the parameters when ``Apply`` was pressed last time.
 
 
-11. Apply
+11 Apply
 ---------------
 
 Applying input parameters to actual rendering.

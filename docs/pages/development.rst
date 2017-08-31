@@ -137,7 +137,7 @@ Let's look at how to add a new language with French example.
 
 .. note:: This section doesn't refer to the actual translation.
 
-1. Copy template
+1 Copy template
 -----------------------------
 
 1. Create ``localization_<language name>`` folder in the directory where ``localization_en-US`` exists.
@@ -150,7 +150,7 @@ Let's look at how to add a new language with French example.
    (in current example, rename to ``THRotator_fr-FR.rc``).
 
 
-2. Prepare for CMake
+2 Prepare for CMake
 --------------------------
 
 1. Open ``localization_<language name>\CMakeLists.txt`` and replace all ``en-US`` occurrences with ``<language name>``.
@@ -178,12 +178,12 @@ In current French example, ``localization_fr-FR\CMakeLists.txt`` finally looks l
     add_subdirectory(localization_en-US)
     add_subdirectory(localization_fr-FR) # Added
 	
-3. Generate project files
+3 Generate project files
 ----------------------------------
 
 Generate project files as described in :ref:`devel_proj_gen`.
 
-4. Translate
+4 Translate
 -----------------
 
 After reopening or reloading ``THRotator.sln``,
@@ -193,7 +193,7 @@ From Resource View of Visual Studio, you can start to translate string table and
 On property window, change language of string table and dialog boxes from ``English (United States)`` to the language name you want to translate into.
 In French example, change to ``French (France)``.
 
-5. Build and launch
+5 Build and launch
 -------------------
 
 By building ``localization_<language name>``, ``.mui`` files are generated to the ``<language name>`` folder located in the output directories of ``d3d8.dll`` and ``d3d9.dll``.
