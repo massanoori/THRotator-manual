@@ -90,7 +90,7 @@ to accommodate all the HUD elements.
 Finally, ``Offset`` can be used to adjust vertical position.
 
 Since Th14, you can additionally choose 960x720 and 1280x720 resolutions.
-In that case, specify position, width, and height in the coordinate scaled to 640x480.
+In these resolutions, specify position, width, and height in the coordinate scaled to 640x480.
 
 3. Rotation angle
 -----------------------
