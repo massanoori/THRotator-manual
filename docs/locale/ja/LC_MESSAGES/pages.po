@@ -1018,11 +1018,11 @@ msgstr "2011/8/16に、東方神霊廟のデフォルトレイアウトを修正
 
 #: ../../pages/troubleshoot.rst:3
 msgid "Troubleshoot"
-msgstr ""
+msgstr "トラブルシューティング"
 
 #: ../../pages/troubleshoot.rst:6
 msgid "Screen doesn't rotate by ``Alt+Left`` and ``Alt+Right`` keys"
-msgstr ""
+msgstr "``Alt+左右キー`` を押しても画面が回転しない"
 
 #: ../../pages/troubleshoot.rst:8 ../../pages/troubleshoot.rst:16
 #: ../../pages/troubleshoot.rst:24
@@ -1033,22 +1033,27 @@ msgid ""
 " doesn't work on games run on Direct3D 8. Follow instruction described in"
 " :doc:`install` carefully."
 msgstr ""
+"``d3d8.dll`` または ``d3d9.dll`` がコピーされているかどうかをご確認ください。"
+"コピーしても動かない場合はDirect3D 8版の作品に ``d3d9.dll`` をコピーしたり、その逆をしていないかご確認ください。 ""
+"もう一度 :doc:`install` を確認して、画面を回転したい作品が、Direct3D 8版とDirect3D 9版のどちらを必要とするのかを確かめてください。"
 
 #: ../../pages/troubleshoot.rst:14
 msgid ""
 "``Show THRotator window`` or ``Open THRotator`` doesn't appears from "
 "title bar"
 msgstr ""
+"タイトルバーから ``THRotatorを表示``"
+"または ``THRotatorを開く`` が出てこない"
 
 #: ../../pages/troubleshoot.rst:22
 msgid ""
 "Pixels are not smooth in windowed mode when the resolution is 960×720 or "
 "1280×960"
-msgstr ""
+msgstr "ウィンドウモードの解像度に960×720または1280×960を指定したときに表示がなめらかにならない"
 
 #: ../../pages/troubleshoot.rst:30
 msgid "HUD elements are not rearranged for vertically-long screen"
-msgstr ""
+msgstr "縦画面用のレイアウトになるべきところで縦画面用のレイアウトにならない"
 
 #: ../../pages/troubleshoot.rst:32 ../../pages/troubleshoot.rst:41
 #: ../../pages/troubleshoot.rst:50
@@ -1058,48 +1063,52 @@ msgid ""
 "destination directory is confusing. Follow instruction described in "
 ":doc:`install` carefully."
 msgstr ""
+"作品に対応した設定ファイルをコピーしてあるかどうかをご確認ください。 また、コピー先に間違いがないかをご確認ください。 ""
+"ダブルスポイラー以降の作品はコピー先を間違えやすいと思いますが、 :doc:`install` をもう一度確認してみてください。"
 
 #: ../../pages/troubleshoot.rst:39
 msgid "Scores, bombs and other HUD elements are not shown"
-msgstr ""
+msgstr "スコアや残機などの情報が表示されない"
 
 #: ../../pages/troubleshoot.rst:48
 msgid "Misalignment in Touhou 9.5, 12.5, 12.8, and 14.3"
-msgstr ""
+msgstr "縦画面用のレイアウトがずれている"
 
 #: ../../pages/troubleshoot.rst:57
 msgid ""
 "Player's inputs are not accepted or the game terminates after "
 "customization window is opened"
-msgstr ""
+msgstr "編集画面を開くと、ゲームが入力を受け付けなくなったり、急に終了したりする"
 
 #: ../../pages/troubleshoot.rst:59
 msgid "Try the following steps:"
-msgstr ""
+msgstr "次の手順をお試しください。"
 
 #: ../../pages/troubleshoot.rst:61
 msgid "Open configuration file with a text editor"
-msgstr ""
+msgstr "設定ファイルをテキストエディタで開いてください。"
 
 #: ../../pages/troubleshoot.rst:62
 msgid ""
 "Replace the line of ``\"use_modal_editor\": false`` with "
 "``\"use_modal_editor\": true``."
 msgstr ""
+"``"use_modal_editor": false`` を、 ``"use_modal_editor": true`` に変更してください。"
 
 #: ../../pages/troubleshoot.rst:63
 msgid "Re-launch the game"
-msgstr ""
+msgstr "再度ゲームを起動してください。"
 
 #: ../../pages/troubleshoot.rst:65
 msgid ""
 "Although these steps force the game to suspend while customization window"
 " is open, they provide a workaround for this issue."
 msgstr ""
+"この設定を行うと、編集画面が開いている最中はゲームは停止するものの、不具合を回避することができます。"
 
 #: ../../pages/uninstall.rst:3
 msgid "Uninstall"
-msgstr ""
+msgstr "アンインストール方法"
 
 #: ../../pages/uninstall.rst:5
 msgid ""
@@ -1108,6 +1117,8 @@ msgid ""
 " like to completely uninstall THRotator, delete ``d3d8.dll`` or "
 "``d3d9.dll`` and configuration file."
 msgstr ""
+"``d3d9.dll`` または ``d3d8.dll`` を、 ``d3d9.dll.bak`` のような別の名前に変えることで、THRotatorを無効化できます。"
+"完全に削除する場合は、 ``d3d9.dll`` または ``d3d8.dll`` と設定ファイルを削除してください。 "
 
 #: ../../pages/usage.rst:3
 msgid "How to use"
