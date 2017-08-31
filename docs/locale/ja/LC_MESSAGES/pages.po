@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "次に、コマンドプロンプトでクローン先のディレクトリにカレントディレクトリを移し、 ``git submodule update --init`` "
 "を実行します。このコマンドにより、外部ライブラリの `fmt <https://github.com/fmtlib/fmt>`_ "
-"と`json.hpp <https://github.com/nlohmann/json>`_ のソースコードが取得されます。"
+"と `json.hpp <https://github.com/nlohmann/json>`_ のソースコードが取得されます。"
 
 #: ../../pages/development.rst:17
 msgid "Build THRotator"
