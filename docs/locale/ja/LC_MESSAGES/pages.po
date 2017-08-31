@@ -23,13 +23,15 @@ msgstr "開発"
 
 #: ../../pages/development.rst:7
 msgid "Get the THRotator source code"
-msgstr ""
+msgstr "THRotatorのソースコードの入手"
 
 #: ../../pages/development.rst:9
 msgid ""
 "Clone the THRotator repository by git from `GitHub "
 "<https://github.com/massanoori/THRotator>`_."
 msgstr ""
+"`GitHub <https://github.com/massanoori/THRotator>`_ から、"
+"gitを用いてリポジトリをクローンしてください。"
 
 #: ../../pages/development.rst:11
 msgid ""
@@ -38,58 +40,65 @@ msgid ""
 "`fmt <https://github.com/fmtlib/fmt>`_ and `json.hpp "
 "<https://github.com/nlohmann/json>`_."
 msgstr ""
+"次に、コマンドプロンプトでクローン先のディレクトリにカレントディレクトリを移し、 ``git submodule update --init`` を実行します。"
+"このコマンドにより、外部ライブラリの `fmt <https://github.com/fmtlib/fmt>`_ と"
+"`json.hpp <https://github.com/nlohmann/json>`_ のソースコードが取得されます。"
 
 #: ../../pages/development.rst:17
 msgid "Build THRotator"
-msgstr ""
+msgstr "THRotatorのビルド"
 
 #: ../../pages/development.rst:19
 msgid "This section gives you an instruction to build THRotator from source code."
-msgstr ""
+msgstr "ここでは、THRotatorのビルドするまでの手順を説明します。"
 
 #: ../../pages/development.rst:21
 msgid "The prerequisites are the following:"
-msgstr ""
+msgstr "ビルドに必要なソフトウェアは、次の通りです。"
 
 #: ../../pages/development.rst:23
 msgid "Microsoft Visual C++ (2012 or later)"
-msgstr ""
+msgstr "Microsoft Visual C++ (2012以降)"
 
 #: ../../pages/development.rst:24
 msgid "Boost C++ Libraries"
-msgstr ""
+msgstr "Boost C++ Libraries"
 
 #: ../../pages/development.rst:25
 msgid "CMake"
-msgstr ""
+msgstr "CMake"
 
 #: ../../pages/development.rst:28
 msgid "Install Microsoft Visual C++"
-msgstr ""
+msgstr "Microsoft Visual C++ のインストール"
 
 #: ../../pages/development.rst:30
 msgid "If you have installed Visual C++, skip this step."
-msgstr ""
+msgstr "インストール済みの場合は不要です。"
 
 #: ../../pages/development.rst:32
 msgid ""
 "Download Visual Studio from `Home page of Visual Studio "
 "<https://www.visualstudio.com/>`_. Community Edition is just enough."
 msgstr ""
+"`Visual Studio のホームページ <https://www.visualstudio.com/>`_ から、Visual Studioをダウンロードしてください。"
+"エディションは無料で利用可能なCommunityで問題ありません。"
 
 #: ../../pages/development.rst:35
 msgid ""
 "Since the installer of Visual Studio 2015, Visual C++ is not installed by"
 " default. Edit the installation option so that Visual C++ is installed."
 msgstr ""
+"Visual Studio 2015以降の場合、Visual C++がデフォルトでインストールされないので、"
+"インストールオプションでVisual C++をインストールするように設定を変更してください。"
 
 #: ../../pages/development.rst:39
 msgid "Install Boost C++ Libraries"
-msgstr ""
+msgstr "Boost C++ Libraries のインストール"
 
 #: ../../pages/development.rst:41
 msgid "If you have built ``filesystem`` modules, skip this step."
-msgstr ""
+msgstr "``filesystem`` モジュールがビルド済みの場合は不要です。"
 
 #: ../../pages/development.rst:43
 msgid ""
@@ -97,10 +106,12 @@ msgid ""
 " latest release from **Current Release**. Then extract ZIP archive to "
 "some location (for example ``C:\\boost\\``)."
 msgstr ""
+"`Boost C++ Libraries <http://www.boost.org/>`_ の **Current Release** から最新版をダウンロードし、"
+"適当なディレクトリに解凍します(例えば、 ``C:\boost\`` など)。"
 
 #: ../../pages/development.rst:46
 msgid "Next, build ``filesystem`` modules by following the steps given below."
-msgstr ""
+msgstr "次に、boostの ``filesystem`` モジュールをビルドします。"
 
 #: ../../pages/development.rst:48
 msgid ""
@@ -108,62 +119,71 @@ msgid ""
 "``VS20XX x64 Native Tools Command Prompts``. If your system is x86-based,"
 " launch ``VS20XX x86 Native Tools Command Prompts``."
 msgstr ""
+"使っているOSが64 bitの場合は、 ``スタートメニュー`` → ``Visual Studio 20XX`` → ``VS20XX x64 Native Tools コマンドプロンプト`` 、"
+"32 bitの場合は、 ``VS20XX x86 Native Tools コマンドプロンプト`` を開きます。"
 
 #: ../../pages/development.rst:50
 msgid ""
 "On the opened command prompt, change directory to the location where "
 "extracted ``bootstrap.bat`` exists."
-msgstr ""
+msgstr "開いたコマンドプロンプトで、解凍したboostの、 ``bootstrap.bat`` のあるフォルダへ移動します。"
 
 #: ../../pages/development.rst:51
 msgid "Run ``bootstrap.bat``."
-msgstr ""
+msgstr "``bootstrap.bat`` を実行します。"
 
 #: ../../pages/development.rst:52
 msgid ""
 "``b2.exe`` will be generated, then run ``b2 --with-filesystem runtime-"
 "link=shared,static``."
 msgstr ""
+"``b2.exe`` が出来上がるので、そのあとに ``b2 --with-filesystem runtime-link=shared,static``"
+"を実行します。"
 
 #: ../../pages/development.rst:55
 msgid "Install CMake"
-msgstr ""
+msgstr "CMake のインストール"
 
 #: ../../pages/development.rst:57
 msgid "If you have installed CMake 3.5 or later, skip this step."
-msgstr ""
+msgstr "CMake 3.5 以降をインストール済みの場合は不要です。"
 
 #: ../../pages/development.rst:59
 msgid ""
 "Access to `Home page of CMake <https://cmake.org/>`_. Then download one "
 "of the following from **Download** page."
 msgstr ""
+"`CMakeのホームページ <https://cmake.org/>`_ の **Download** にある、"
+"最新のリリース(Latest Release)から、以下のいずれかをダウンロードし、"
+"インストーラの場合はインストールを行ってください。"
 
 #: ../../pages/development.rst:61
 msgid "Windows win64-x64 Installer"
-msgstr ""
+msgstr "Windows win64-x64 Installer (64 bit OS向けインストーラ)"
 
 #: ../../pages/development.rst:62
 msgid "Windows win64-x64 ZIP"
-msgstr ""
+msgstr "Windows win64-x64 ZIP (64 bit OS向け実行ファイル)"
 
 #: ../../pages/development.rst:63
 msgid "Windows win32-x86 Installer"
-msgstr ""
+msgstr "Windows win32-x86 Installer　(32 bit OS向けインストーラ)"
 
 #: ../../pages/development.rst:64
 msgid "Windows win32-x86 ZIP"
-msgstr ""
+msgstr "Windows win32-x86 ZIP (32 bit OS 向け実行ファイル)"
 
 #: ../../pages/development.rst:66
 msgid ""
 "If you are using x64-based system, you can use both win64-x64 and "
 "win32-x86. If you are using x86-based system, you can use only win32-x86."
 msgstr ""
+"使っているOSが64 bitの場合は、プラットフォームはwin64-x64、win32-x86の両方を使えますが、"
+"32 bitのOSの場合はwin32-x86しか実行できません。"
 
 #: ../../pages/development.rst:73
 msgid "Generate project files"
-msgstr ""
+msgstr "プロジェクトファイル生成"
 
 #: ../../pages/development.rst:75
 msgid ""
@@ -171,18 +191,22 @@ msgid ""
 "``CMake (cmake-gui)``. If you have downloaded CMake directly, run ``bin"
 "\\cmake-gui.exe``."
 msgstr ""
+"CMakeをインストーラからインストールした場合は、 ``スタートメニュー`` → ``CMake`` → ``CMake (cmake-gui)`` を実行します。"
+"直接ダウンロードした場合は、 ``bin\cmake-gui.exe`` を実行します。"
 
 #: ../../pages/development.rst:77
 msgid ""
 "Fill ``Where is the source code:`` by the location of THRotator source "
 "code."
-msgstr ""
+msgstr "``Where is the source code:`` に、THRotatorのソースコードがあるルートディレクトリのパスを入力します。"
 
 #: ../../pages/development.rst:78
 msgid ""
 "Fill ``Where to build the binaries:`` by the location of project files "
 "you want to generate."
 msgstr ""
+"``Where to build the binaries:`` に、"
+"プロジェクトファイルの生成先、およびビルドを行うディレクトリのパスを入力します。"
 
 #: ../../pages/development.rst:79
 msgid ""
@@ -190,82 +214,90 @@ msgid ""
 "``Visual Studio XX 20XX`` and press ``Finish``. Don't choose a generator "
 "name with Win64 or ARM."
 msgstr ""
+"``Configure`` ボタンを押します。Generatorの選択画面が出るので、"
+"ここで ``Visual Studio XX 20XX`` を選択し、 ``Finish`` ボタンを押します。"
+"Win64、ARMが付いているものは選択しないでください。"
 
 #: ../../pages/development.rst:81
 msgid ""
 "Set the boost installation directory (where bootstrap.bat exists) to "
 "``BOOST_INCLUDE_DIR``."
 msgstr ""
+"``BOOST_INCLUDE_DIR`` に、boostのインクルードディレクトリ(bootstrap.batがあるディレクトリ)のパスを入力します。"
 
 #: ../../pages/development.rst:82
 msgid ""
 "Set the boost library directory (``<boost install "
 "directory>\\stage\\lib`` by default) to ``BOOST_LIB_DIR``."
 msgstr ""
+"``BOOST_LIB_DIR`` に、boostのライブラリディレクトリ"
+"(デフォルトでは、 ``<boostのインクルードディレクトリ>\stage\lib`` )を入力します。"
 
 #: ../../pages/development.rst:83
 msgid ""
 "Press ``Configure`` again. If you don't see any errors, press "
 "``Generate``."
-msgstr ""
+msgstr "再度 ``Configure`` ボタンを押し、エラーがなければ ``Generate`` ボタンを押します。"
 
 #: ../../pages/development.rst:87 ../../pages/development.rst:118
 msgid "Build"
-msgstr ""
+msgstr "ビルド"
 
 #: ../../pages/development.rst:89
 msgid "Open generated ``THRotator.sln``."
-msgstr ""
+msgstr "プロジェクト生成先にある ``THRotator.sln`` を開いてください。"
 
 #: ../../pages/development.rst:90
 msgid "Five projects are loaded."
-msgstr ""
+msgstr "5つのプロジェクトが読み込まれます。"
 
 #: ../../pages/development.rst:92
 msgid "ALL_BUILD (project to build all the other projects)"
-msgstr ""
+msgstr "ALL_BUILD (すべてのプロジェクトをビルドするプロジェクト)"
 
 #: ../../pages/development.rst:93
 msgid "d3d8 (THRotator based on Direct3D 8)"
-msgstr ""
+msgstr "d3d8 (Direct3D 8版THRotator)"
 
 #: ../../pages/development.rst:94
 msgid "d3d9 (THRotator based on Direct3D 9)"
-msgstr ""
+msgstr "d3d9 (Direct3D 9版THRotator)"
 
 #: ../../pages/development.rst:95
 msgid "localization_en-US (English resource DLL of THRotator)"
-msgstr ""
+msgstr "localization_en-US (THRotatorの英語UIリソースDLL)"
 
 #: ../../pages/development.rst:96
 msgid "ZERO_CHECK (automatically generated by CMake)"
-msgstr ""
+msgstr "ZERO_CHECK (CMakeが自動で生成)"
 
 #: ../../pages/development.rst:98
 msgid ""
 "Build ``d3d8`` for THRotator based on Direct3D 8, build ``d3d9`` for "
 "THRotator based on Direct3D 9."
 msgstr ""
+"Direct3D 8版をビルドしたい場合は ``d3d8`` 、"
+"Direct3D 9版をビルドしたい場合は ``d3d9`` をビルドしてください。"
 
 #: ../../pages/development.rst:102
 msgid "Build manual"
-msgstr ""
+msgstr "マニュアルのビルド"
 
 #: ../../pages/development.rst:104
 msgid "Sphinx is used to build the manual of THRotator."
-msgstr ""
+msgstr "マニュアルのビルドは、Sphinxを用いています。"
 
 #: ../../pages/development.rst:107
 msgid "Install Sphinx"
-msgstr ""
+msgstr "Sphinxのインストール"
 
 #: ../../pages/development.rst:109
 msgid "See `<http://www.sphinx-doc.org/en/stable/install.html>`_."
-msgstr ""
+msgstr "http://sphinx-users.jp/gettingstarted/install_windows.html をご覧ください。"
 
 #: ../../pages/development.rst:112
 msgid "Install a theme of Sphinx"
-msgstr ""
+msgstr "Sphinxテーマのインストール"
 
 #: ../../pages/development.rst:114
 msgid ""
@@ -273,48 +305,60 @@ msgid ""
 "<https://github.com/rtfd/sphinx_rtd_theme>`_. To install it, run ``python"
 " -m pip install sphinx_rtd_theme``."
 msgstr ""
+"THRotatorでは、テーマとして `sphinx_rtd_theme <https://github.com/rtfd/sphinx_rtd_theme>`_ を使っています。"
+"このテーマのインストールは、 ``python -m pip install sphinx_rtd_theme`` を実行することでインストールできます。"
 
 #: ../../pages/development.rst:120
 msgid ""
 "By running ``docs-source/compile.bat``, html files are built for every "
 "languages to ``docs-source/<language>/_build``."
 msgstr ""
+"``docs-source/compile.bat`` を実行すると、すべての言語に対して、"
+"``docs/<言語>/_build`` 以下にhtml形式のマニュアルが生成されます。"
 
 #: ../../pages/development.rst:122
 msgid ""
 "If you would like to build the manual in a specific language, run ``docs-"
 "source/<language>/make.bat html``."
 msgstr ""
+"言語ごとに生成したい場合は、"
+"``docs-source/<言語>/make.bat html`` を実行してください。"
 
 #: ../../pages/development.rst:125
 msgid ""
 "To copy built html files to the root of GitHub pages ``docs/``, run "
 "``docs-source/update.bat``."
 msgstr ""
+"GitHub Pagesとして公開されるディレクトリ ``docs/`` へコピーするには、"
+"``docs-source/update.bat`` を実行してください。"
 
 #: ../../pages/development.rst:130
 msgid "Localization"
-msgstr ""
+msgstr "ローカライズ"
 
 #: ../../pages/development.rst:132
 msgid ""
 "THRotator supports dialog boxes and error messages in multiple languages "
 "by Multilingual User Interface (MUI)."
 msgstr ""
+"THRotatorはWindowsのMultilingual User Interface (MUI)による、"
+"GUIやエラーメッセージの多言語化が可能です。"
 
 #: ../../pages/development.rst:135
 msgid ""
 "You can easily add new language based on English localization resource. "
 "Let's look at how to add a new language with French example."
 msgstr ""
+"新しい言語を追加する際は、英語版のリソースをテンプレートとして容易に作成可能です。"
+"フランス語を追加することを例に、作成の流れを見ていきましょう。"
 
 #: ../../pages/development.rst:138
 msgid "This section doesn't refer to the actual translation."
-msgstr ""
+msgstr "ここでは、具体的な翻訳については扱いません。"
 
 #: ../../pages/development.rst:141
 msgid "1. Copy template"
-msgstr ""
+msgstr "1. テンプレートをコピー"
 
 #: ../../pages/development.rst:143
 msgid ""
@@ -326,6 +370,12 @@ msgid ""
 "should be memorized for a later step. Since example is French, folder "
 "name is ``localization_fr-FR`` and memorize language ID **0x040c**."
 msgstr ""
+"まず、ひな型となる ``localization_en-US`` があるフォルダに、"
+"新しく ``localization_<言語名>`` を作成します。"
+"言語名は、 `Available Language Packs for Windows <https://technet.microsoft.com/en-us/library/hh825678.aspx>`_ の **Language/culture name** です。"
+"また、このページには **Language hexadecimal identifier** に言語IDも記載されていますので、このIDもメモしておきます。"
+"今回はフランス語を例としていますので、 ``localization_fr-FR`` を作成します。"
+"また、言語IDの **0x040c** をメモしておきます。"
 
 #: ../../pages/development.rst:147
 msgid ""
@@ -333,6 +383,8 @@ msgid ""
 " ``THRotator_en-US.rc`` folder to ``localization_<language name>`` (in "
 "current example, copy to ``localization_fr-FR``)."
 msgstr ""
+"``localization_en-US`` の中にある、 ``CMakeLists.txt`` 、 ``resource.h`` 、 ``THRotator_en-US.rc`` を、"
+"新たに作成した ``localization_<言語名>`` (今回は ``localization_fr-FR``) にコピーします。"
 
 #: ../../pages/development.rst:149
 msgid ""
@@ -340,10 +392,12 @@ msgid ""
 "``localization_<language name>\\THRotator_<language name>.rc`` (in "
 "current example, rename to ``THRotator_fr-FR.rc``)."
 msgstr ""
+"``localization_<言語名>\THRotator_en-US.rc`` を、"
+"``localization_<言語名>\THRotator_<言語名>.rc`` (今回は ``THRotator_fr-FR.rc``)にリネームします。"
 
 #: ../../pages/development.rst:154
 msgid "2. Prepare for CMake"
-msgstr ""
+msgstr "2. CMakeの準備"
 
 #: ../../pages/development.rst:156
 msgid ""
@@ -353,40 +407,49 @@ msgid ""
 "example replace with **0x040c**. This is the end of editing "
 "``localization_<language name>\\CMakeLists.txt``."
 msgstr ""
+"``localization_<言語名>\CMakeLists.txt`` を開き、 ``en-US`` となっている部分を、 ``<言語名>`` に置換します。"
+"また、 ``set(language_id 0x0409)`` の **0x0409** を、メモしておいた言語IDに置き換えます。"
+"今回は言語IDが **0x040c** なので、 ``set(language_id 0x040c)`` に変更します。"
+"``localization_<言語名>\CMakeLists.txt`` の編集は以上です。"
 
 #: ../../pages/development.rst:160
 msgid ""
 "Open ``CMakeLists.txt`` in the root directory of THRotator, add "
 "``add_subdirectory(localization_<language name>)`` to the final line."
 msgstr ""
+"ソースコードのルートフォルダにある ``CMakeLists.txt`` を開き、"
+"最後の行に ``add_subdirectory(localization_<language name>)`` を追加します。"
 
 #: ../../pages/development.rst:163
 msgid ""
 "In current French example, ``localization_fr-FR\\CMakeLists.txt`` finally"
 " looks like the following: ::"
 msgstr ""
+"フランス語の例では、``localization_fr-FR\CMakeLists.txt`` の中身は次のようになります。 ::"
 
 #: ../../pages/development.rst:172
 msgid "``CMakeLists.txt`` finally looks like the following: ::"
-msgstr ""
+msgstr "また、ルートフォルダにある ``CMakeLists.txt`` の中身は次のようになります。 ::"
 
 #: ../../pages/development.rst:182
 msgid "3. Generate project files"
-msgstr ""
+msgstr "3. プロジェクトファイルの生成"
 
 #: ../../pages/development.rst:184
 msgid "Generate project files as described in :ref:`devel_proj_gen`."
-msgstr ""
+msgstr "本ページの :ref:`devel_proj_gen` で説明している方法で、プロジェクトファイルを生成します。"
 
 #: ../../pages/development.rst:187
 msgid "4. Translate"
-msgstr ""
+msgstr "4. 翻訳"
 
 #: ../../pages/development.rst:189
 msgid ""
 "After reopening or reloading ``THRotator.sln``, you can find that a "
 "project ``localization_<language name>`` is added."
 msgstr ""
+"``THRotator.sln`` を開きなおすか、再読み込みすると、"
+"プロジェクト ``localization_<言語名>`` が追加されているはずです。"
 
 #: ../../pages/development.rst:192
 msgid ""
@@ -396,10 +459,14 @@ msgid ""
 "boxes from ``English (United States)`` to the language name you want to "
 "translate into. In French example, change to ``French (France)``."
 msgstr ""
+"Visual Studioのリソースビューを開き"、
+"``localization_<言語名>`` の中にあるString Tableやダイアログリソースを翻訳していきます。"
+"String Tableやダイアログリソースのプロパティの ``Language`` が、 ``英語 (米国)`` になっていますので、"
+"翻訳先の言語に変更してください。フランス語の例では、 ``フランス語 (フランス)`` に変更します。"
 
 #: ../../pages/development.rst:197
 msgid "5. Build and launch"
-msgstr ""
+msgstr "5. ビルドと実行"
 
 #: ../../pages/development.rst:199
 msgid ""
@@ -407,6 +474,8 @@ msgid ""
 "generated to the ``<language name>`` folder located in the output "
 "directories of ``d3d8.dll`` and ``d3d9.dll``."
 msgstr ""
+"プロジェクト ``localization_<言語名>`` をビルドすると、"
+"``d3d8.dll`` 、 ``d3d9.dll`` の出力ディレクトリに言語名のフォルダができ、その中に ``.mui`` ファイルが出来上がります。"
 
 #: ../../pages/development.rst:201
 msgid ""
@@ -415,6 +484,8 @@ msgid ""
 "supports the language you are trying to add, GUI and messages are now in "
 "that language."
 msgstr ""
+"``d3d8.dll`` または ``d3d9.dll`` と一緒に、言語名のフォルダもゲームの実行ファイルのフォルダにコピーします。"
+"そのままゲームを実行すると、お使いのPCにその言語が存在すれば、THRotatorのGUIやメッセージがその言語で表示されるようになります。"
 
 #: ../../pages/development.rst:207
 msgid ""
@@ -422,6 +493,8 @@ msgid ""
 "``d3d8.dll.mui`` and ``d3d9.dll.mui``. If the embedded checksum doesn't "
 "match that of .dll, that language will not be loaded."
 msgstr ""
+"d3d8.dll.muiまたはd3d9.dll.muiには、それぞれd3d8.dll、d3d9.dllのチェックサムが埋め込まれます。"
+".dllのチェックサムと.muiに埋め込まれたチェックサムが異なる場合は、言語の読み込みが失敗してしまいます。"
 
 #: ../../pages/install.rst:3
 msgid "Install"
