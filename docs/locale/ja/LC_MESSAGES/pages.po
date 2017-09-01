@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: THRotator 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-01 00:52+0900\n"
+"POT-Creation-Date: 2017-09-02 02:16+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1119,7 +1119,7 @@ msgstr ""
 "``Homeキー`` でスクリーンキャプチャを行います。保存先は、星蓮船までの作品と同じく、インストールディレクトリ以下の "
 "``snapshot`` フォルダです。ファイルフォーマットは ``.bmp`` です。 "
 
-#: ../../pages/usage.rst:25 ../../pages/usage.rst:79
+#: ../../pages/usage.rst:25
 msgid "Force HUD rearrangements"
 msgstr "縦用レイアウトの強制"
 
@@ -1136,14 +1136,14 @@ msgid ""
 "described in :ref:`usage_state_detection`. If you would like to use "
 "THRotator on a newer Touhou Project game or a game other than Touhou "
 "Project on which this detection methodology doesn't work, use this "
-"feature or manipulate on the cutomization window, as described in "
-":ref:`usage_ui_force_vertical`."
+"feature or check ``Force HUD Rearrangements`` checkbox in the "
+"cutomization window."
 msgstr ""
 "縦画面用のレイアウトへの遷移は、 :ref:`usage_state_detection` "
 "で説明している方法で判定しています。東方プロジェクトの将来の作品でこの判定方法が通用しなくなった場合や、この判定方法が使えない他のゲームに使いたい場合は、この縦用レイアウトの強制機能か、カスタマイズ画面の"
-" :ref:`usage_ui_force_vertical` の方法で、手動で切り替えてください。"
+" ``縦用レイアウトを強制する`` にチェックを入れてください。"
 
-#: ../../pages/usage.rst:35 ../../pages/usage.rst:91
+#: ../../pages/usage.rst:35
 msgid "This config is not saved due to its large effect."
 msgstr "この機能は影響の大きさを鑑み、この設定は設定ファイルに保存しないようになっています。"
 
@@ -1167,105 +1167,24 @@ msgstr "タイトルバーで右クリックし、 ``THRotatorのウィンドウ
 msgid "Type ``Alt+R``."
 msgstr "``Alt+R`` とキー入力"
 
-#: ../../pages/usage.rst:53
-msgid "Rotation angle"
-msgstr "画面の回転角度"
-
-#: ../../pages/usage.rst:55
+#: ../../pages/usage.rst:51
 msgid ""
-"Although you can rotate a screen by ``Alt+Left`` and ``Alt+Right``, this "
-"window can also be used to specify rotation angle. The direction of "
-"rotation is counter-clockwise."
-msgstr "画面の回転は ``Alt+左右キー`` ですることができますが、この画面でも回転角を指定することができます。回転方向は、左回り(反時計回り)です。"
-
-#: ../../pages/usage.rst:59
-msgid "The default choice is 0 degrees."
-msgstr "デフォルトは0°です。"
-
-#: ../../pages/usage.rst:63
-msgid "Vertical window"
-msgstr "ウィンドウを縦長にする"
-
-#: ../../pages/usage.rst:65
-msgid ""
-"If checked, the window size becomes vertically-long by swapping its width"
-" and height."
-msgstr "ウィンドウモード時にチェックを入れておくと、ウィンドウの幅と高さを交換して縦長になります。"
-
-#: ../../pages/usage.rst:67 ../../pages/usage.rst:75 ../../pages/usage.rst:84
-msgid "This checkbox is unchecked by default."
-msgstr "デフォルトではチェックされていません。"
-
-#: ../../pages/usage.rst:71
-msgid "Open THRotator first"
-msgstr "このウィンドウを最初に開く"
-
-#: ../../pages/usage.rst:73
-msgid "If checked, this window appears immediately after the game is launched."
-msgstr "起動時にTHRotatorの画面を出すかどうかを指定します。"
-
-#: ../../pages/usage.rst:81
-msgid ""
-"If checked, HUD rearrangements are forced. This option can also be "
-"switched with ``Alt+Up`` and ``Alt+Down`` when the main window is focused"
-" on."
+"For detailed description of each element in this window, refer to help "
+"texts that appears by hovering buttons, input fields, and other GUI "
+"elements."
 msgstr ""
-"プレイ中とは判定されていない間でも、縦用レイアウトを強瀬宇するかどうかを指定します。この設定は、メインウィンドウがフォーカスされているときに "
-"``Alt+上下キー`` でも行うことができます。"
+"このGUI上の各要素については、ボタンや入力フィールドなどにマウスカーソルを合わせると出てくる、"
+"ヘルプテキストを参照してください。"
 
-#: ../../pages/usage.rst:86
-msgid ""
-"THRotator detects whether you are playing or not by the criterion "
-"described in :ref:`usage_state_detection`. If you would like to use "
-"THRotator on a newer Touhou Project game or a game other than Touhou "
-"Project on which this detection methodology doesn't work, manipulate on "
-"this checkbox or follow :ref:`usage_force_vertical`."
-msgstr ""
-"縦画面用のレイアウトへの遷移は、 :ref:`usage_state_detection` "
-"で説明している方法で判定しています。東方プロジェクトの将来の作品でこの判定方法が通用しなくなった場合や、この判定方法が使えない他のゲームに使いたい場合は、このチェックボックスか"
-" :ref:`usage_force_vertical` の方法で、手動で切り替えてください。"
-
-#: ../../pages/usage.rst:95
-msgid "Hide"
-msgstr "非表示"
-
-#: ../../pages/usage.rst:97
-msgid "Closing this window."
-msgstr "右上の閉じるボタンと同じくTHRotatorの画面を閉じます。"
-
-#: ../../pages/usage.rst:101
-msgid "Reload"
-msgstr "再読み込み"
-
-#: ../../pages/usage.rst:103
-msgid "Reloading current config file."
-msgstr "現在の設定ファイルを再読み込みします。"
-
-#: ../../pages/usage.rst:107
-msgid "Save"
-msgstr "保存"
-
-#: ../../pages/usage.rst:109
-msgid "Save current configuration to a configuration file."
-msgstr "現在の設定を設定ファイルに保存します。"
-
-#: ../../pages/usage.rst:113
-msgid "About"
-msgstr "バージョン情報"
-
-#: ../../pages/usage.rst:115
-msgid "Show a popup displaying the information of THRotator, such as version."
-msgstr "THRotatorの情報(バージョンなど)を表示するポップアップを表示します。"
-
-#: ../../pages/usage.rst:121
+#: ../../pages/usage.rst:57
 msgid "Gameplay detection"
 msgstr "プレイ状態判定"
 
-#: ../../pages/usage.rst:126
+#: ../../pages/usage.rst:62
 msgid "|thr_win_gd_en|"
 msgstr "|thr_win_gd_ja|"
 
-#: ../../pages/usage.rst:128
+#: ../../pages/usage.rst:64
 msgid ""
 "THRotator detects by counting setting viewport whether you are playing "
 "(we call it playing state) or not. In Touhou Project, viewport is updated"
@@ -1274,146 +1193,40 @@ msgid ""
 "long screen."
 msgstr "本ツールでは、現在プレイ中またはリプレイ再生中かどうかを判定するためのパラメータとして、1フレームあたりのVP(=ビューポート)設定回数の閾値を用います。VP設定回数は、メニュー表示時などの本編をプレイしていない状態に比べ、プレイ時やリプレイ再生時のほうが多いため、このような判定方法を用いています。VP設定回数が回数閾値を超えた場合、縦画面化のレイアウトを使ったほうが大きく表示できると判断された場合に限り、縦画面用のレイアウトになります。"
 
-#: ../../pages/usage.rst:132
+#: ../../pages/usage.rst:68
 msgid ""
-"By clicking ``Count SetViewport()`` button, you can measure the number of"
-" times of setting viewport. If number of times of setting viewport is "
-"more than the threshold, HUD elements are arranged for vertically-long "
-"screen."
-msgstr "VP設定回数取得ボタンで、1フレーム間の実際のVP設定回数を取得できます。回数閾値の欄に、本編をプレイしているときのVP設定回数以下、そうでないときのVP設定回数よりも大きい値を入力することで、本編プレイ時に縦画面用のレイアウトになるように設定することができます。"
+"``SetVP() count`` always shows the number of times of setting viewport. "
+"If number of times of setting viewport is equal to or more than the "
+"threshold, HUD elements are arranged for vertically-long screen."
+msgstr ""
+"``ビューポート設定回数`` は、常にビューポート設定回数を表示しています。"
+"もし設定回数が閾値以上であれば、縦画面用のレイアウトになります。"
 
-#: ../../pages/usage.rst:135
+#: ../../pages/usage.rst:71
 msgid ""
 "If THRotator fails to read configuration file, the threshold is set to "
 "999 by default to prevent unintentional switching."
 msgstr "設定ファイルが読み込めない場合は、意図せず縦画面用のレイアウトになるのを防ぐため、デフォルト値は999です。"
 
-#: ../../pages/usage.rst:137
+#: ../../pages/usage.rst:73
 msgid ""
 "If you would like to use THRotator on a newer Touhou Project game or a "
 "game other than Touhou Project on which this detection methodology "
-"doesn't work, follow :ref:`usage_force_vertical` or manipulate on the "
-"cutomization window, as described in :ref:`usage_ui_force_vertical`."
+"doesn't work, follow :ref:`usage_force_vertical` or check ``Force HUD "
+"Rearrangements`` checkbox in the cutomization window."
 msgstr ""
 "東方プロジェクトの将来の作品でこの判定方法が通用しなくなった場合や、この判定方法が使えない他のゲームに使いたい場合は、:ref:`usage_force_vertical`"
-" か、カスタマイズ画面の :ref:`usage_ui_force_vertical` の方法で、手動で切り替えてください。"
+" か、カスタマイズ画面の ``縦用レイアウトを強制する`` にチェックを入れてください。"
 
-#: ../../pages/usage.rst:143
-msgid "Main screen"
-msgstr "プレイ画面領域"
-
-#: ../../pages/usage.rst:148
-msgid "|thr_win_ms_en|"
-msgstr "|thr_win_ms_ja|"
-
-#: ../../pages/usage.rst:150
-msgid ""
-"Specifying main screen position and size (blue rectangle in the figure "
-"below). This rectangle is moved to the center of window or of entire "
-"screen, and magnified to fit to the client size of window or of entire "
-"screen, keeping its aspect ratio fixed."
-msgstr "プレイ画面の矩形の位置、大きさを指定します(下図青枠の部分)。ここで指定した矩形が画面いっぱいにアスペクト比を保存しながら拡大され、画面の中央に配置されます。"
-
-#: ../../pages/usage.rst:157
-msgid ""
-"In most of Touhou Project games, its position and size are (left, top, "
-"width, height)=(32, 16, 384, 448). Exceptionally, the position and size "
-"are (left, top, width, height)=(128, 16, 384, 448) in Shoot the Bullet "
-"(Th095), Fairy Wars (Th128), and other spin-off games."
-msgstr "東方プロジェクトの多くの作品では、(左,上,幅,高さ)=(32,16,384,448)、文花帖や妖精大戦争のように真ん中に配置されている場合は(128,16,384,448)です。"
-
-#: ../../pages/usage.rst:162
-msgid ""
-"This rectangle specified here doesn't have to correctly match the actual "
-"main screen rectangle. In fact, some margin is introduced in .ini files "
-"for Fairy Wars (Th128) and Uwabami Breakers (alcostg) to accommodate all "
-"the HUD elements."
-msgstr "しかし、ここで指定した矩形は実際のプレイ領域と同じである必要はありません。妖精大戦争と黄昏酒場のデフォルトレイアウトのように、広めに取ることができます。"
-
-#: ../../pages/usage.rst:166
-msgid "Finally, ``Offset`` can be used to adjust vertical position."
-msgstr "オフセットは画面が拡大された後にどれだけy方向に移動させるかを指定します。"
-
-#: ../../pages/usage.rst:168 ../../pages/usage.rst:212
-msgid ""
-"Since Th14, you can additionally choose 960x720 and 1280x720 resolutions."
-" In these resolutions, specify position, width, and height in the "
-"coordinate scaled to 640x480."
-msgstr "輝針城以降の作品のように解像度が640x480ではない場合は、画面を640x480に縮小した後の位置と幅を入力します。"
-
-#: ../../pages/usage.rst:173
-msgid "Pixel interpolation"
-msgstr "拡大時の補間方法"
-
-#: ../../pages/usage.rst:178
-msgid "|thr_win_pl_en|"
-msgstr "|thr_win_pl_ja|"
-
-#: ../../pages/usage.rst:180
-msgid "Specifying how pixel colors are interpolated when magnified."
-msgstr "画像の拡大が行われた時の補間方法を指定します。"
-
-#: ../../pages/usage.rst:182
-msgid "The default choice is bilinear."
-msgstr "デフォルトはバイリニアです。"
-
-#: ../../pages/usage.rst:189
-msgid "Other rectangles"
-msgstr "その他領域"
-
-#: ../../pages/usage.rst:194
-msgid "|thr_win_or_en|"
-msgstr "|thr_win_or_ja|"
-
-#: ../../pages/usage.rst:196
-msgid "Specifying source and destination rectangles other than main screen."
-msgstr "プレイ領域以外の矩形の転送元矩形、転送先矩形の位置、大きさを指定します。"
-
-#: ../../pages/usage.rst:198
-msgid ""
-"To create a new rectangle transfer, click ``Add`` button. To edit a "
-"rectangle transfer, select the name of rectangle from rectangle list. "
-"Then you can edit the positions and sizes of the rectangule of source and"
-" destination."
-msgstr ""
-"``追加`` "
-"ボタンを押すことで、新しい矩形転送が追加されます。編集するには、"
-"矩形一覧から矩形の名前を選択します。そうすると、元と先の矩形の位置と大きさを編集できるようになります。"
-
-#: ../../pages/usage.rst:202
-msgid ""
-"Rectangles are transferred from top to bottom in the list box. So the "
-"bottommost transfer is rendered in front of all the other transfers."
-msgstr "矩形の転送は、上から順番に行われます。そのため、リストの一番下にある矩形が最も上に描画されます。"
-
-#: ../../pages/usage.rst:205
-msgid ""
-"Coordinate system is as follows, where Wp and Hp are width and height of "
-"main screen size that is fit to the aspect ratio inverted from the "
-"original."
-msgstr "転送先の座標系は、プレイ領域のサイズを、本来の逆数のアスペクト比に合わせた幅と高さをWp,Hpとして、次のようになります。"
-
-#: ../../pages/usage.rst:210
-msgid ""
-"Since 1.01, rectangle transfer destination can reach the remaining black "
-"stripe regions."
-msgstr "また、ver. 1.01から拡大して余った黒帯の領域にも矩形の転送ができるようになりました。"
-
-#: ../../pages/usage.rst:218
+#: ../../pages/usage.rst:78
 msgid "Best practices"
 msgstr "ベストプラクティス"
 
-#: ../../pages/usage.rst:220
-msgid ""
-"Although this page describes the detailed behavior, it is much easier to "
-"understand the behavior by actually editing parameters."
-msgstr "以上長々と説明しましたが、パラメータを実際に変えてみて、どのようになるかを見たほうが、理解しやすいかもしれません。 "
-
-#: ../../pages/usage.rst:223
+#: ../../pages/usage.rst:80
 msgid "Procedure to support a new product looks like as follows:"
 msgstr "新作への対応の要領ですが、おおむね次のようになります。"
 
-#: ../../pages/usage.rst:225
+#: ../../pages/usage.rst:82
 msgid ""
 "Measure times of setting viewport in playing state and non-playing state "
 "respectively, determine a value larger than that in non-playing state and"
@@ -1421,17 +1234,16 @@ msgid ""
 "by that value."
 msgstr "非プレイ時とプレイ時のVP設定回数を取得して、非プレイ時よりも大きく、プレイ時以下の値を回数閾値に入力する。"
 
-#: ../../pages/usage.rst:229
+#: ../../pages/usage.rst:86
 msgid ""
 "Please measure this value while challenging a spell card since it "
 "generally becomes fewer."
 msgstr "多くの作品ではスペルカード挑戦中の設定回数は少ないため、スペルカード挑戦中の設定回数も考慮してください。"
 
-#: ../../pages/usage.rst:231
+#: ../../pages/usage.rst:88
 msgid "Fill main screen position and size."
 msgstr "プレイ画面領域の位置とサイズを入力する。"
 
-#: ../../pages/usage.rst:232
+#: ../../pages/usage.rst:89
 msgid "Add rectangle transfers for the scores, lives, and other HUD elements."
 msgstr "スコアなどの情報を表示するために、その他領域に矩形を追加する。"
-

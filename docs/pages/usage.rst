@@ -30,7 +30,7 @@ This option is useful when you want to manually switch to HUD arrangements for v
 THRotator detects whether you are playing or not by the criterion described in :ref:`usage_state_detection`.
 If you would like to use THRotator on a newer Touhou Project game or a game other than Touhou Project
 on which this detection methodology doesn't work,
-use this feature or manipulate on the cutomization window, as described in :ref:`usage_ui_force_vertical`.
+use this feature or check ``Force HUD Rearrangements`` checkbox in the cutomization window.
 
 .. note:: This config is not saved due to its large effect.
 
@@ -48,77 +48,13 @@ Customization window can be shown by one of the following ways:
 * Right-click on the title bar, and click ``Show THRotator window``
 * Type ``Alt+R``.
 
-
-Rotation angle
------------------------
-
-Although you can rotate a screen by ``Alt+Left`` and ``Alt+Right``,
-this window can also be used to specify rotation angle.
-The direction of rotation is counter-clockwise.
-
-The default choice is 0 degrees.
-
-
-Vertical window
------------------------
-
-If checked, the window size becomes vertically-long by swapping its width and height.
-
-This checkbox is unchecked by default.
-
-
-Open THRotator first
------------------------------------------
-
-If checked, this window appears immediately after the game is launched.
-
-This checkbox is unchecked by default.
-
-
-Force HUD rearrangements
----------------------------
-
-If checked, HUD rearrangements are forced.
-This option can also be switched with ``Alt+Up`` and ``Alt+Down`` when the main window is focused on.
-
-This checkbox is unchecked by default.
-
-THRotator detects whether you are playing or not by the criterion described in :ref:`usage_state_detection`.
-If you would like to use THRotator on a newer Touhou Project game or a game other than Touhou Project
-on which this detection methodology doesn't work,
-manipulate on this checkbox or follow :ref:`usage_force_vertical`.
-
-.. note:: This config is not saved due to its large effect.
-
-
-Hide
----------------------------
-
-Closing this window.
-
-
-Reload
----------------------------
-
-Reloading current config file.
-
-
-Save
----------------------------
-
-Save current configuration to a configuration file.
-
-
-About
----------------------------
-
-Show a popup displaying the information of THRotator, such as version.
-
+For detailed description of each element in this window, refer to help texts
+that appears by hovering buttons, input fields, and other GUI elements.
 
 .. _usage_state_detection:
 
 Gameplay detection
------------------------
+=======================
 
 .. |thr_win_gd_en| image:: ../images/throtator-window-gamedetec-en.png
 .. |thr_win_gd_ja| image:: ../images/throtator-window-gamedetec-ja.png
@@ -129,96 +65,17 @@ THRotator detects by counting setting viewport whether you are playing (we call 
 In Touhou Project, viewport is updated more frequently while playing state than otherwise.
 THRotator exploits this fact to automatically switch to an HUD arrangement for vertically-long screen.
 
-By clicking ``Count SetViewport()`` button, you can measure the number of times of setting viewport.
-If number of times of setting viewport is more than the threshold, HUD elements are arranged for vertically-long screen.
+``SetVP() count`` always shows the number of times of setting viewport.
+If number of times of setting viewport is equal to or more than the threshold, HUD elements are arranged for vertically-long screen.
 
 If THRotator fails to read configuration file, the threshold is set to 999 by default to prevent unintentional switching.
 
 If you would like to use THRotator on a newer Touhou Project game or a game other than Touhou Project
 on which this detection methodology doesn't work,
-follow :ref:`usage_force_vertical` or manipulate on the cutomization window, as described in :ref:`usage_ui_force_vertical`.
-
-
-Main screen
------------------------
-
-.. |thr_win_ms_en| image:: ../images/throtator-window-mainscreen-en.png
-.. |thr_win_ms_ja| image:: ../images/throtator-window-mainscreen-ja.png
-
-|thr_win_ms_en|
-
-Specifying main screen position and size (blue rectangle in the figure below).
-This rectangle is moved to the center of window or of entire screen,
-and magnified to fit to the client size of window or of entire screen,
-keeping its aspect ratio fixed.
-
-.. image:: ../images/pr.png
-
-In most of Touhou Project games, its position and size are (left, top, width, height)=(32, 16, 384, 448).
-Exceptionally,
-the position and size are (left, top, width, height)=(128, 16, 384, 448)
-in Shoot the Bullet (Th095), Fairy Wars (Th128), and other spin-off games.
-
-This rectangle specified here doesn't have to correctly match the actual main screen rectangle.
-In fact, some margin is introduced in .ini files for Fairy Wars (Th128) and Uwabami Breakers (alcostg)
-to accommodate all the HUD elements.
-
-Finally, ``Offset`` can be used to adjust vertical position.
-
-Since Th14, you can additionally choose 960x720 and 1280x720 resolutions.
-In these resolutions, specify position, width, and height in the coordinate scaled to 640x480.
-
-
-Pixel interpolation
--------------------------------------
-
-.. |thr_win_pl_en| image:: ../images/throtator-window-pixelerp-en.png
-.. |thr_win_pl_ja| image:: ../images/throtator-window-pixelerp-ja.png
-
-|thr_win_pl_en|
-
-Specifying how pixel colors are interpolated when magnified.
-
-The default choice is bilinear.
-
-
-.. _usage_ui_force_vertical:
-
-
-Other rectangles
--------------------
-
-.. |thr_win_or_en| image:: ../images/throtator-window-otherrects-en.png
-.. |thr_win_or_ja| image:: ../images/throtator-window-otherrects-ja.png
-
-|thr_win_or_en|
-
-Specifying source and destination rectangles other than main screen.
-
-To create a new rectangle transfer, click ``Add`` button.
-To edit a rectangle transfer, select the name of rectangle from rectangle list.
-Then you can edit the positions and sizes of the rectangule of source and destination.
-
-Rectangles are transferred from top to bottom in the list box.
-So the bottommost transfer is rendered in front of all the other transfers.
-
-Coordinate system is as follows,
-where Wp and Hp are width and height of main screen size that is fit to the aspect ratio inverted from the original.
-
-.. image:: ../images/cs.png
-
-Since 1.01, rectangle transfer destination can reach the remaining black stripe regions.
-
-Since Th14, you can additionally choose 960x720 and 1280x720 resolutions.
-In these resolutions, specify position, width, and height in the coordinate scaled to 640x480.
-
-
+follow :ref:`usage_force_vertical` or check ``Force HUD Rearrangements`` checkbox in the cutomization window.
 
 Best practices
--------------------
-
-Although this page describes the detailed behavior,
-it is much easier to understand the behavior by actually editing parameters.
+=======================
 
 Procedure to support a new product looks like as follows:
 
