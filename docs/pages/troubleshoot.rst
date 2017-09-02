@@ -51,16 +51,3 @@ Make sure that config file correctly corresponds to the product.
 Also, make sure that the destination is correct.
 Since Touhou 12.5, destination directory is confusing.
 Follow instruction described in :doc:`install` carefully.
-
-
-Player's inputs are not accepted or the game terminates after customization window is opened
-=================================================================================================
-
-Try the following steps:
-
-1. Open configuration file with a text editor
-2. Replace the line of ``"use_modal_editor": false`` with ``"use_modal_editor": true``.
-3. Re-launch the game
-
-Although these steps force the game to suspend while customization window is open,
-they provide a workaround for this issue.

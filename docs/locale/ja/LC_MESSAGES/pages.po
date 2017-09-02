@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: THRotator 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-02 13:19+0900\n"
+"POT-Creation-Date: 2017-09-02 13:37+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,8 +59,8 @@ msgid ""
 msgstr ""
 "次に、コマンドプロンプトでクローン先のディレクトリにカレントディレクトリを移し、 ``git submodule update --init`` "
 "を実行します。このコマンドにより、外部ライブラリの `fmt <https://github.com/fmtlib/fmt>`_ と "
-"`json.hpp <https://github.com/nlohmann/json>`_ 、 "
-"`ImGui <https://github.com/ocornut/imgui>`_ のソースコードが取得されます。"
+"`json.hpp <https://github.com/nlohmann/json>`_ 、 `ImGui "
+"<https://github.com/ocornut/imgui>`_ のソースコードが取得されます。"
 
 #: ../../pages/development.rst:22
 msgid "Build THRotator"
@@ -628,8 +628,8 @@ msgid ""
 "Run ``msgfmt.exe <path to .po> -o "
 "locale\\<language>\\LC_MESSAGES\\<filename of .po without extension>``."
 msgstr ""
-"``msgfmt.exe <path to .po> -o locale\\<言語>\\LC_MESSAGES\\<.poのファイル名から拡張子を除いたもの>``"
-" を実行してください。"
+"``msgfmt.exe <path to .po> -o "
+"locale\\<言語>\\LC_MESSAGES\\<.poのファイル名から拡張子を除いたもの>`` を実行してください。"
 
 #: ../../pages/development.rst:287
 msgid "5 Build"
@@ -639,9 +639,7 @@ msgstr "5 ビルド"
 msgid ""
 "Before actual build, run ``set SPHINXOPTS=-D language=<language>`` to "
 "specify the final language of manual."
-msgstr ""
-"実際のビルドを行う前に ``set SPHINXOPTS=-D language=<言語>`` "
-"を実行して、最終的なマニュアルの言語を指定します。"
+msgstr "実際のビルドを行う前に ``set SPHINXOPTS=-D language=<言語>`` を実行して、最終的なマニュアルの言語を指定します。"
 
 #: ../../pages/development.rst:292
 msgid ""
@@ -1194,38 +1192,6 @@ msgstr "スコアや残機などの情報が表示されない"
 msgid "Misalignment in Touhou 9.5, 12.5, 12.8, and 14.3"
 msgstr "縦画面用のレイアウトがずれている"
 
-#: ../../pages/troubleshoot.rst:57
-msgid ""
-"Player's inputs are not accepted or the game terminates after "
-"customization window is opened"
-msgstr "編集画面を開くと、ゲームが入力を受け付けなくなったり、急に終了したりする"
-
-#: ../../pages/troubleshoot.rst:59
-msgid "Try the following steps:"
-msgstr "次の手順をお試しください。"
-
-#: ../../pages/troubleshoot.rst:61
-msgid "Open configuration file with a text editor"
-msgstr "設定ファイルをテキストエディタで開いてください。"
-
-#: ../../pages/troubleshoot.rst:62
-msgid ""
-"Replace the line of ``\"use_modal_editor\": false`` with "
-"``\"use_modal_editor\": true``."
-msgstr ""
-"``\"use_modal_editor\": false`` を、 ``\"use_modal_editor\": true`` "
-"に変更してください。"
-
-#: ../../pages/troubleshoot.rst:63
-msgid "Re-launch the game"
-msgstr "再度ゲームを起動してください。"
-
-#: ../../pages/troubleshoot.rst:65
-msgid ""
-"Although these steps force the game to suspend while customization window"
-" is open, they provide a workaround for this issue."
-msgstr "この設定を行うと、編集画面が開いている最中はゲームは停止するものの、不具合を回避することができます。"
-
 #: ../../pages/uninstall.rst:3
 msgid "Uninstall"
 msgstr "アンインストール方法"
@@ -1403,32 +1369,3 @@ msgstr "プレイ画面領域の位置とサイズを入力する。"
 #: ../../pages/usage.rst:89
 msgid "Add rectangle transfers for the scores, lives, and other HUD elements."
 msgstr "スコアなどの情報を表示するために、その他領域に矩形を追加する。"
-
-#~ msgid ""
-#~ "By running ``docs-source/compile.bat``, html"
-#~ " files are built for every languages"
-#~ " to ``docs-source/<language>/_build``."
-#~ msgstr ""
-#~ "``docs-source/compile.bat`` "
-#~ "を実行すると、すべての言語に対して、``docs/<言語>/_build`` 以下にhtml形式のマニュアルが生成されます。"
-
-#~ msgid ""
-#~ "If you would like to build the "
-#~ "manual in a specific language, run "
-#~ "``docs-source/<language>/make.bat html``."
-#~ msgstr "言語ごとに生成したい場合は、``docs-source/<言語>/make.bat html`` を実行してください。"
-
-#~ msgid ""
-#~ "To copy built html files to the"
-#~ " root of GitHub pages ``docs/``, run"
-#~ " ``docs-source/update.bat``."
-#~ msgstr ""
-#~ "GitHub Pagesとして公開されるディレクトリ ``docs/`` "
-#~ "へコピーするには、``docs-source/update.bat`` を実行してください。"
-
-#~ msgid ""
-#~ "Below items are required for "
-#~ "internationalization * Sphinx-intl * "
-#~ "GetText for Windows"
-#~ msgstr ""
-
