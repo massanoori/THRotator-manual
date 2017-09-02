@@ -14,8 +14,8 @@ Clone the THRotator repository by git.
 * Manual's source code: `massanoori/THRotator-manual (GitHub) <https://github.com/massanoori/THRotator-manual>`_.
 
 Next, change directory to cloned directory and run ``git submodule update --init``.
-This command downloads the source code of external libraries, `fmt <https://github.com/fmtlib/fmt>`_
-and `json.hpp <https://github.com/nlohmann/json>`_.
+This command downloads the source code of external libraries, `fmt <https://github.com/fmtlib/fmt>`_,
+`json.hpp <https://github.com/nlohmann/json>`_, and `ImGui <https://github.com/ocornut/imgui>`_.
 
 
 Build THRotator

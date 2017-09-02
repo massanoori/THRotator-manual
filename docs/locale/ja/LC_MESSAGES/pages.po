@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: THRotator 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-02 13:11+0900\n"
+"POT-Creation-Date: 2017-09-02 13:19+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,12 +53,14 @@ msgstr ""
 msgid ""
 "Next, change directory to cloned directory and run ``git submodule update"
 " --init``. This command downloads the source code of external libraries, "
-"`fmt <https://github.com/fmtlib/fmt>`_ and `json.hpp "
-"<https://github.com/nlohmann/json>`_."
+"`fmt <https://github.com/fmtlib/fmt>`_, `json.hpp "
+"<https://github.com/nlohmann/json>`_, and `ImGui "
+"<https://github.com/ocornut/imgui>`_."
 msgstr ""
 "次に、コマンドプロンプトでクローン先のディレクトリにカレントディレクトリを移し、 ``git submodule update --init`` "
 "を実行します。このコマンドにより、外部ライブラリの `fmt <https://github.com/fmtlib/fmt>`_ と "
-"`json.hpp <https://github.com/nlohmann/json>`_ のソースコードが取得されます。"
+"`json.hpp <https://github.com/nlohmann/json>`_ 、 "
+"`ImGui <https://github.com/ocornut/imgui>`_ のソースコードが取得されます。"
 
 #: ../../pages/development.rst:22
 msgid "Build THRotator"
@@ -68,7 +70,7 @@ msgstr "THRotatorのビルド"
 msgid "This section gives you an instruction to build THRotator from source code."
 msgstr "ここでは、THRotatorのビルドするまでの手順を説明します。"
 
-#: ../../pages/development.rst:26 ../../pages/development.rst:111
+#: ../../pages/development.rst:26 ../../pages/development.rst:193
 msgid "The prerequisites are the following:"
 msgstr "ビルドに必要なソフトウェアは、次の通りです。"
 
@@ -294,204 +296,10 @@ msgid ""
 msgstr "Direct3D 8版をビルドしたい場合は ``d3d8`` 、Direct3D 9版をビルドしたい場合は ``d3d9`` をビルドしてください。"
 
 #: ../../pages/development.rst:107
-msgid "Build manual"
-msgstr "マニュアルのビルド"
-
-#: ../../pages/development.rst:109
-msgid "Sphinx is used to build the manual of THRotator."
-msgstr "マニュアルのビルドは、Sphinxを用いています。"
-
-#: ../../pages/development.rst:113
-msgid "Python 2.7"
-msgstr "Python 2.7"
-
-#: ../../pages/development.rst:114
-msgid "pip"
-msgstr "pip"
-
-#: ../../pages/development.rst:115
-msgid "Sphinx"
-msgstr "Sphinx"
-
-#: ../../pages/development.rst:116
-msgid "Items below are required for internationalization."
-msgstr "以下のものは多言語対応に必要です。"
-
-#: ../../pages/development.rst:118
-msgid "Sphinx-intl"
-msgstr "Sphinx-intl"
-
-#: ../../pages/development.rst:119
-msgid "GetText for Windows"
-msgstr "GetText for Windows"
-
-#: ../../pages/development.rst:122
-msgid "Install Python 2.7, pip, and Sphinx"
-msgstr "Python 2.7, pip, and Sphinxのインストール"
-
-#: ../../pages/development.rst:124
-msgid "See `<http://www.sphinx-doc.org/en/stable/install.html>`_."
-msgstr "http://sphinx-users.jp/gettingstarted/install_windows.html をご覧ください。"
-
-#: ../../pages/development.rst:127
-msgid "Install Sphinx-intl"
-msgstr "Sphinx-intlのインストール"
-
-#: ../../pages/development.rst:129
-msgid ""
-"Sphinx-intl is a package for internationalization of sphinx. To install "
-"it, run ``python -m pip install sphinx-intl``."
-msgstr ""
-"Sphinx-intlはsphinxにおける多言語化のためのパッケージです。 ``python -m pip install sphinx-"
-"intl`` を実行すると、インストールできます。"
-
-#: ../../pages/development.rst:133
-msgid "Install GetText for Windows"
-msgstr "GetText for Windowsのインストール"
-
-#: ../../pages/development.rst:135
-msgid ""
-"Download binaries from `GetText for Windows "
-"<http://gnuwin32.sourceforge.net/packages/gettext.htm>`_. Then extract "
-"the downloaded zip file."
-msgstr ""
-"バイナリを `GetText for Windows "
-"<http://gnuwin32.sourceforge.net/packages/gettext.htm>`_ "
-"からダウンロードしてください。そして、ダウンロードしたzipファイルを解凍します。"
-
-#: ../../pages/development.rst:138
-msgid ""
-"If needed, add the directory of the executable files to ``PATH`` "
-"environment variable."
-msgstr "必要であれば、実行ファイルのディレクトリを、環境変数 ``PATH`` に追加してください。"
-
-#: ../../pages/development.rst:142
-msgid "Install a theme of Sphinx"
-msgstr "Sphinxテーマのインストール"
-
-#: ../../pages/development.rst:144
-msgid ""
-"THRotator adopts a theme `sphinx_rtd_theme "
-"<https://github.com/rtfd/sphinx_rtd_theme>`_. To install it, run ``python"
-" -m pip install sphinx_rtd_theme``."
-msgstr ""
-"THRotatorでは、テーマとして `sphinx_rtd_theme "
-"<https://github.com/rtfd/sphinx_rtd_theme>`_ を使っています。このテーマのインストールは、 "
-"``python -m pip install sphinx_rtd_theme`` を実行することでインストールできます。"
-
-#: ../../pages/development.rst:148
-msgid "Build (English)"
-msgstr "ビルド (英語)"
-
-#: ../../pages/development.rst:150
-msgid ""
-"Open command prompt, change directory to ``docs/``, and run ``make.bat "
-"html``."
-msgstr "コマンドプロンプトで、 ``docs/`` ディレクトリに移動し、``make.bat html`` を実行します"
-
-#: ../../pages/development.rst:152
-msgid "Then html files are generated in ``docs/_build/html/``."
-msgstr "すると、 ``docs/_build/html/`` にhtmlファイルが生成されます。"
-
-#: ../../pages/development.rst:155
-msgid "Build (other languages)"
-msgstr "ビルド (その他の言語)"
-
-#: ../../pages/development.rst:157
-msgid "Build manual in another language involves a bit complicated process."
-msgstr "その他の言語のマニュアルのビルドは、少し複雑な手順が必要です。"
-
-#: ../../pages/development.rst:160
-msgid "1 Collecting texts to be translated"
-msgstr "1 翻訳されるテキストの収集"
-
-#: ../../pages/development.rst:162
-msgid ""
-"Open command prompt, change directory to ``docs/``, and run ``make.bat "
-"gettext``."
-msgstr "コマンドプロンプトで、 ``docs/`` ディレクトリに移動し、``make.bat gettext`` を実行します"
-
-#: ../../pages/development.rst:166
-msgid "2 Create or update .po file"
-msgstr "2 .poファイルの作成または更新"
-
-#: ../../pages/development.rst:168
-msgid ""
-"Run ``sphinx-intl.exe update -p .\\_build\\gettext -l <language>`` to "
-"create or update .po files that will be located in "
-"``doc/locale/<language>/LC_MESSAGES/``."
-msgstr ""
-"``sphinx-intl.exe update -p .\\_build\\gettext -l <language>`` "
-"を実行して、``doc/locale/<language>/LC_MESSAGES/`` にある.poファイルを作成または更新します。"
-
-#: ../../pages/development.rst:171
-msgid ""
-"``<language>`` is one of strings listed in `Sphinx Documentation "
-"<http://www.sphinx-doc.org/en/stable/config.html#confval-language>`_."
-msgstr ""
-"``<language>`` は `Sphinx Documentation <http://www.sphinx-"
-"doc.org/ja/stable/config.html?highlight=language#confval-language>`_ "
-"の言語リストの中から選んでください。"
-
-#: ../../pages/development.rst:173
-msgid ".po file contains pairs of original English text and translated text."
-msgstr ".poファイルには、オリジナルの英語のテキストと、翻訳されたテキストの組が記録されています。"
-
-#: ../../pages/development.rst:175
-msgid "sphinx-intl.exe is located in ``<Python installation>/Scripts/``"
-msgstr "sphinx-intl.exe は、 ``<Python installation>/Scripts/`` にあります。"
-
-#: ../../pages/development.rst:179
-msgid "3 Edit .po file"
-msgstr "3 .poファイルの編集"
-
-#: ../../pages/development.rst:181
-msgid "Add your translation to generated or updated .po file."
-msgstr "作成または更新された.poファイルに、翻訳されたテキストを追加していきます。"
-
-#: ../../pages/development.rst:183
-msgid "Single line translation example for Japanese: ::"
-msgstr "1行だけのテキストの翻訳例: ::"
-
-#: ../../pages/development.rst:188
-msgid "Multi line translation example: ::"
-msgstr "複数行のテキストの翻訳例: ::"
-
-#: ../../pages/development.rst:199
-msgid "4 Compile .po file to .mo file"
-msgstr "4 .poファイルを.moファイルへコンパイル"
-
-#: ../../pages/development.rst:201
-msgid ""
-"Run ``msgfmt.exe <path to .po> -o "
-"locale\\<language>\\LC_MESSAGES\\<filename of .po without extension>``."
-msgstr ""
-"``msgfmt.exe <path to .po> -o locale\\<language>\\LC_MESSAGES\\<filename "
-"of .po without extension>`` を実行してください。"
-
-#: ../../pages/development.rst:205
-msgid "5 Build"
-msgstr "5 ビルド"
-
-#: ../../pages/development.rst:207
-msgid ""
-"Before actual build, run ``set SPHINXOPTS=-D language=<language>`` to "
-"specify the final language of manual."
-msgstr ""
-"実際のビルドを行う前に ``set SPHINXOPTS=-D language=<language>`` "
-"を実行して、最終的なマニュアルの言語を指定します。"
-
-#: ../../pages/development.rst:210
-msgid ""
-"Then run ``make.bat html``. Html files will be generated in "
-"``docs/_build/html/``."
-msgstr "そして ``make.bat html`` を実行します。 htmlファイルが、``docs/_build/html/`` に生成されます。"
-
-#: ../../pages/development.rst:214
 msgid "Localization"
 msgstr "ローカライズ"
 
-#: ../../pages/development.rst:216
+#: ../../pages/development.rst:109
 msgid ""
 "THRotator supports dialog boxes and error messages in multiple languages "
 "by Multilingual User Interface (MUI)."
@@ -499,21 +307,21 @@ msgstr ""
 "THRotatorはWindowsのMultilingual User Interface "
 "(MUI)による、GUIやエラーメッセージの多言語化が可能です。"
 
-#: ../../pages/development.rst:219
+#: ../../pages/development.rst:112
 msgid ""
 "You can easily add new language based on English localization resource. "
 "Let's look at how to add a new language with French example."
 msgstr "新しい言語を追加する際は、英語版のリソースをテンプレートとして容易に作成可能です。フランス語を追加することを例に、作成の流れを見ていきましょう。"
 
-#: ../../pages/development.rst:222
+#: ../../pages/development.rst:115
 msgid "This section doesn't refer to the actual translation."
 msgstr "ここでは、具体的な翻訳については扱いません。"
 
-#: ../../pages/development.rst:225
+#: ../../pages/development.rst:118
 msgid "1 Copy template"
 msgstr "1 テンプレートをコピー"
 
-#: ../../pages/development.rst:227
+#: ../../pages/development.rst:120
 msgid ""
 "Create ``localization_<language name>`` folder in the directory where "
 "``localization_en-US`` exists. Language name is one of **Language/culture"
@@ -530,7 +338,7 @@ msgstr ""
 "identifier** に言語IDも記載されていますので、このIDもメモしておきます。今回はフランス語を例としていますので、 "
 "``localization_fr-FR`` を作成します。また、言語IDの **0x040c** をメモしておきます。"
 
-#: ../../pages/development.rst:231
+#: ../../pages/development.rst:124
 msgid ""
 "From ``localization_en-US``, copy ``CMakeLists.txt``, ``resource.h``, and"
 " ``THRotator_en-US.rc`` folder to ``localization_<language name>`` (in "
@@ -540,7 +348,7 @@ msgstr ""
 "``THRotator_en-US.rc`` を、新たに作成した ``localization_<言語名>`` (今回は "
 "``localization_fr-FR``) にコピーします。"
 
-#: ../../pages/development.rst:233
+#: ../../pages/development.rst:126
 msgid ""
 "Rename ``localization_<language name>\\THRotator_en-US.rc`` to "
 "``localization_<language name>\\THRotator_<language name>.rc`` (in "
@@ -550,11 +358,11 @@ msgstr ""
 "を、``localization_<言語名>\\THRotator_<言語名>.rc`` (今回は ``THRotator_fr-"
 "FR.rc``)にリネームします。"
 
-#: ../../pages/development.rst:238
+#: ../../pages/development.rst:131
 msgid "2 Prepare for CMake"
 msgstr "2 CMakeの準備"
 
-#: ../../pages/development.rst:240
+#: ../../pages/development.rst:133
 msgid ""
 "Open ``localization_<language name>\\CMakeLists.txt`` and replace all "
 "``en-US`` occurrences with ``<language name>``. Then replace **0x0409** "
@@ -567,7 +375,7 @@ msgstr ""
 "を、メモしておいた言語IDに置き換えます。今回は言語IDが **0x040c** なので、 ``set(language_id 0x040c)``"
 " に変更します。``localization_<言語名>\\CMakeLists.txt`` の編集は以上です。"
 
-#: ../../pages/development.rst:244
+#: ../../pages/development.rst:137
 msgid ""
 "Open ``CMakeLists.txt`` in the root directory of THRotator, add "
 "``add_subdirectory(localization_<language name>)`` to the final line."
@@ -575,29 +383,29 @@ msgstr ""
 "ソースコードのルートフォルダにある ``CMakeLists.txt`` を開き、最後の行に "
 "``add_subdirectory(localization_<language name>)`` を追加します。"
 
-#: ../../pages/development.rst:247
+#: ../../pages/development.rst:140
 msgid ""
 "In current French example, ``localization_fr-FR\\CMakeLists.txt`` finally"
 " looks like the following: ::"
 msgstr "フランス語の例では、``localization_fr-FR\\CMakeLists.txt`` の中身は次のようになります。 ::"
 
-#: ../../pages/development.rst:256
+#: ../../pages/development.rst:149
 msgid "``CMakeLists.txt`` finally looks like the following: ::"
 msgstr "また、ルートフォルダにある ``CMakeLists.txt`` の中身は次のようになります。 ::"
 
-#: ../../pages/development.rst:266
+#: ../../pages/development.rst:159
 msgid "3 Generate project files"
 msgstr "3 プロジェクトファイルの生成"
 
-#: ../../pages/development.rst:268
+#: ../../pages/development.rst:161
 msgid "Generate project files as described in :ref:`devel_proj_gen`."
 msgstr "本ページの :ref:`devel_proj_gen` で説明している方法で、プロジェクトファイルを生成します。"
 
-#: ../../pages/development.rst:271
+#: ../../pages/development.rst:164
 msgid "4 Translate"
 msgstr "4 翻訳"
 
-#: ../../pages/development.rst:273
+#: ../../pages/development.rst:166
 msgid ""
 "After reopening or reloading ``THRotator.sln``, you can find that a "
 "project ``localization_<language name>`` is added."
@@ -605,7 +413,7 @@ msgstr ""
 "``THRotator.sln`` を開きなおすか、再読み込みすると、プロジェクト ``localization_<言語名>`` "
 "が追加されているはずです。"
 
-#: ../../pages/development.rst:276
+#: ../../pages/development.rst:169
 msgid ""
 "From Resource View of Visual Studio, you can start to translate string "
 "table and dialog box resources that belong to ``localization_<language "
@@ -617,11 +425,11 @@ msgstr ""
 "Tableやダイアログリソースを翻訳していきます。String Tableやダイアログリソースのプロパティの ``Language`` が、 "
 "``英語 (米国)`` になっていますので、翻訳先の言語に変更してください。フランス語の例では、 ``フランス語 (フランス)`` に変更します。"
 
-#: ../../pages/development.rst:281
+#: ../../pages/development.rst:174
 msgid "5 Build and launch"
 msgstr "5 ビルドと実行"
 
-#: ../../pages/development.rst:283
+#: ../../pages/development.rst:176
 msgid ""
 "By building ``localization_<language name>``, ``.mui`` files are "
 "generated to the ``<language name>`` folder located in the output "
@@ -630,7 +438,7 @@ msgstr ""
 "プロジェクト ``localization_<言語名>`` をビルドすると、``d3d8.dll`` 、 ``d3d9.dll`` "
 "の出力ディレクトリに言語名のフォルダができ、その中に ``.mui`` ファイルが出来上がります。"
 
-#: ../../pages/development.rst:285
+#: ../../pages/development.rst:178
 msgid ""
 "Copy ``d3d8.dll`` or ``d3d9.dll`` and ``<language name>`` folder to the "
 "directory where the executable of the game is located. If your system "
@@ -640,12 +448,206 @@ msgstr ""
 "``d3d8.dll`` または ``d3d9.dll`` "
 "と一緒に、言語名のフォルダもゲームの実行ファイルのフォルダにコピーします。そのままゲームを実行すると、お使いのPCにその言語が存在すれば、THRotatorのGUIやメッセージがその言語で表示されるようになります。"
 
-#: ../../pages/development.rst:291
+#: ../../pages/development.rst:184
 msgid ""
 "The respective checksum of ``d3d8.dll`` and ``d3d9.dll`` is embedded to "
 "``d3d8.dll.mui`` and ``d3d9.dll.mui``. If the embedded checksum doesn't "
 "match that of .dll, that language will not be loaded."
 msgstr "d3d8.dll.muiまたはd3d9.dll.muiには、それぞれd3d8.dll、d3d9.dllのチェックサムが埋め込まれます。.dllのチェックサムと.muiに埋め込まれたチェックサムが異なる場合は、言語の読み込みが失敗してしまいます。"
+
+#: ../../pages/development.rst:189
+msgid "Build manual"
+msgstr "マニュアルのビルド"
+
+#: ../../pages/development.rst:191
+msgid "Sphinx is used to build the manual of THRotator."
+msgstr "マニュアルのビルドは、Sphinxを用いています。"
+
+#: ../../pages/development.rst:195
+msgid "Python 2.7"
+msgstr "Python 2.7"
+
+#: ../../pages/development.rst:196
+msgid "pip"
+msgstr "pip"
+
+#: ../../pages/development.rst:197
+msgid "Sphinx"
+msgstr "Sphinx"
+
+#: ../../pages/development.rst:198
+msgid "Items below are required for internationalization."
+msgstr "以下のものは多言語対応に必要です。"
+
+#: ../../pages/development.rst:200
+msgid "Sphinx-intl"
+msgstr "Sphinx-intl"
+
+#: ../../pages/development.rst:201
+msgid "GetText for Windows"
+msgstr "GetText for Windows"
+
+#: ../../pages/development.rst:204
+msgid "Install Python 2.7, pip, and Sphinx"
+msgstr "Python 2.7, pip, and Sphinxのインストール"
+
+#: ../../pages/development.rst:206
+msgid "See `<http://www.sphinx-doc.org/en/stable/install.html>`_."
+msgstr "http://sphinx-users.jp/gettingstarted/install_windows.html をご覧ください。"
+
+#: ../../pages/development.rst:209
+msgid "Install Sphinx-intl"
+msgstr "Sphinx-intlのインストール"
+
+#: ../../pages/development.rst:211
+msgid ""
+"Sphinx-intl is a package for internationalization of sphinx. To install "
+"it, run ``python -m pip install sphinx-intl``."
+msgstr ""
+"Sphinx-intlはsphinxにおける多言語化のためのパッケージです。 ``python -m pip install sphinx-"
+"intl`` を実行すると、インストールできます。"
+
+#: ../../pages/development.rst:215
+msgid "Install GetText for Windows"
+msgstr "GetText for Windowsのインストール"
+
+#: ../../pages/development.rst:217
+msgid ""
+"Download binaries from `GetText for Windows "
+"<http://gnuwin32.sourceforge.net/packages/gettext.htm>`_. Then extract "
+"the downloaded zip file."
+msgstr ""
+"バイナリを `GetText for Windows "
+"<http://gnuwin32.sourceforge.net/packages/gettext.htm>`_ "
+"からダウンロードしてください。そして、ダウンロードしたzipファイルを解凍します。"
+
+#: ../../pages/development.rst:220
+msgid ""
+"If needed, add the directory of the executable files to ``PATH`` "
+"environment variable."
+msgstr "必要であれば、実行ファイルのディレクトリを、環境変数 ``PATH`` に追加してください。"
+
+#: ../../pages/development.rst:224
+msgid "Install a theme of Sphinx"
+msgstr "Sphinxテーマのインストール"
+
+#: ../../pages/development.rst:226
+msgid ""
+"THRotator adopts a theme `sphinx_rtd_theme "
+"<https://github.com/rtfd/sphinx_rtd_theme>`_. To install it, run ``python"
+" -m pip install sphinx_rtd_theme``."
+msgstr ""
+"THRotatorでは、テーマとして `sphinx_rtd_theme "
+"<https://github.com/rtfd/sphinx_rtd_theme>`_ を使っています。このテーマのインストールは、 "
+"``python -m pip install sphinx_rtd_theme`` を実行することでインストールできます。"
+
+#: ../../pages/development.rst:230
+msgid "Build (English)"
+msgstr "ビルド (英語)"
+
+#: ../../pages/development.rst:232
+msgid ""
+"Open command prompt, change directory to ``docs/``, and run ``make.bat "
+"html``."
+msgstr "コマンドプロンプトで、 ``docs/`` ディレクトリに移動し、``make.bat html`` を実行します"
+
+#: ../../pages/development.rst:234
+msgid "Then html files are generated in ``docs/_build/html/``."
+msgstr "すると、 ``docs/_build/html/`` にhtmlファイルが生成されます。"
+
+#: ../../pages/development.rst:237
+msgid "Build (other languages)"
+msgstr "ビルド (その他の言語)"
+
+#: ../../pages/development.rst:239
+msgid "Build manual in another language involves a bit complicated process."
+msgstr "その他の言語のマニュアルのビルドは、少し複雑な手順が必要です。"
+
+#: ../../pages/development.rst:242
+msgid "1 Collecting texts to be translated"
+msgstr "1 翻訳されるテキストの収集"
+
+#: ../../pages/development.rst:244
+msgid ""
+"Open command prompt, change directory to ``docs/``, and run ``make.bat "
+"gettext``."
+msgstr "コマンドプロンプトで、 ``docs/`` ディレクトリに移動し、``make.bat gettext`` を実行します"
+
+#: ../../pages/development.rst:248
+msgid "2 Create or update .po file"
+msgstr "2 .poファイルの作成または更新"
+
+#: ../../pages/development.rst:250
+msgid ""
+"Run ``sphinx-intl.exe update -p .\\_build\\gettext -l <language>`` to "
+"create or update .po files that will be located in "
+"``doc/locale/<language>/LC_MESSAGES/``."
+msgstr ""
+"``sphinx-intl.exe update -p .\\_build\\gettext -l <language>`` "
+"を実行して、``doc/locale/<language>/LC_MESSAGES/`` にある.poファイルを作成または更新します。"
+
+#: ../../pages/development.rst:253
+msgid ""
+"``<language>`` is one of strings listed in `Sphinx Documentation "
+"<http://www.sphinx-doc.org/en/stable/config.html#confval-language>`_."
+msgstr ""
+"``<language>`` は `Sphinx Documentation <http://www.sphinx-"
+"doc.org/ja/stable/config.html?highlight=language#confval-language>`_ "
+"の言語リストの中から選んでください。"
+
+#: ../../pages/development.rst:255
+msgid ".po file contains pairs of original English text and translated text."
+msgstr ".poファイルには、オリジナルの英語のテキストと、翻訳されたテキストの組が記録されています。"
+
+#: ../../pages/development.rst:257
+msgid "sphinx-intl.exe is located in ``<Python installation>/Scripts/``"
+msgstr "sphinx-intl.exe は、 ``<Python installation>/Scripts/`` にあります。"
+
+#: ../../pages/development.rst:261
+msgid "3 Edit .po file"
+msgstr "3 .poファイルの編集"
+
+#: ../../pages/development.rst:263
+msgid "Add your translation to generated or updated .po file."
+msgstr "作成または更新された.poファイルに、翻訳されたテキストを追加していきます。"
+
+#: ../../pages/development.rst:265
+msgid "Single line translation example for Japanese: ::"
+msgstr "1行だけのテキストの翻訳例: ::"
+
+#: ../../pages/development.rst:270
+msgid "Multi line translation example: ::"
+msgstr "複数行のテキストの翻訳例: ::"
+
+#: ../../pages/development.rst:281
+msgid "4 Compile .po file to .mo file"
+msgstr "4 .poファイルを.moファイルへコンパイル"
+
+#: ../../pages/development.rst:283
+msgid ""
+"Run ``msgfmt.exe <path to .po> -o "
+"locale\\<language>\\LC_MESSAGES\\<filename of .po without extension>``."
+msgstr ""
+"``msgfmt.exe <path to .po> -o locale\\<language>\\LC_MESSAGES\\<filename "
+"of .po without extension>`` を実行してください。"
+
+#: ../../pages/development.rst:287
+msgid "5 Build"
+msgstr "5 ビルド"
+
+#: ../../pages/development.rst:289
+msgid ""
+"Before actual build, run ``set SPHINXOPTS=-D language=<language>`` to "
+"specify the final language of manual."
+msgstr ""
+"実際のビルドを行う前に ``set SPHINXOPTS=-D language=<language>`` "
+"を実行して、最終的なマニュアルの言語を指定します。"
+
+#: ../../pages/development.rst:292
+msgid ""
+"Then run ``make.bat html``. Html files will be generated in "
+"``docs/_build/html/``."
+msgstr "そして ``make.bat html`` を実行します。 htmlファイルが、``docs/_build/html/`` に生成されます。"
 
 #: ../../pages/install.rst:3
 msgid "Install"
