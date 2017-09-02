@@ -2,11 +2,16 @@
 Development
 ====================
 
+.. note:: This page assumes development on Windows.
+
 
 Get the THRotator source code
 ==================================
 
-Clone the THRotator repository by git from `GitHub <https://github.com/massanoori/THRotator>`_.
+Clone the THRotator repository by git.
+
+* DLL's source code: `massanoori/THRotator (GitHub) <https://github.com/massanoori/THRotator>`_.
+* Manual's source code: `massanoori/THRotator-manual (GitHub) <https://github.com/massanoori/THRotator-manual>`_.
 
 Next, change directory to cloned directory and run ``git submodule update --init``.
 This command downloads the source code of external libraries, `fmt <https://github.com/fmtlib/fmt>`_
@@ -98,34 +103,6 @@ Build
 3. Build ``d3d8`` for THRotator based on Direct3D 8, build ``d3d9`` for THRotator based on Direct3D 9.
 
 
-Build manual
-====================
-
-Sphinx is used to build the manual of THRotator.
-
-Install Sphinx
-------------------------
-
-See `<http://www.sphinx-doc.org/en/stable/install.html>`_.
-
-Install a theme of Sphinx
-------------------------------
-
-THRotator adopts a theme `sphinx_rtd_theme <https://github.com/rtfd/sphinx_rtd_theme>`_.
-To install it, run ``python -m pip install sphinx_rtd_theme``.
-
-Build
-----------------------------
-
-By running ``docs-source/compile.bat``, html files are built for every languages to ``docs-source/<language>/_build``.
-
-If you would like to build the manual in a specific language,
-run ``docs-source/<language>/make.bat html``.
-
-To copy built html files to the root of GitHub pages ``docs/``,
-run ``docs-source/update.bat``.
-
-
 Localization
 =============
 
@@ -206,3 +183,110 @@ If your system supports the language you are trying to add, GUI and messages are
 
    The respective checksum of ``d3d8.dll`` and ``d3d9.dll`` is embedded to ``d3d8.dll.mui`` and ``d3d9.dll.mui``.
    If the embedded checksum doesn't match that of .dll, that language will not be loaded.
+
+
+Build manual
+====================
+
+Sphinx is used to build the manual of THRotator.
+
+The prerequisites are the following:
+
+* Python 2.7
+* pip
+* Sphinx
+* Items below are required for internationalization.
+
+  * Sphinx-intl
+  * GetText for Windows
+
+Install Python 2.7, pip, and Sphinx
+-----------------------------------
+
+See `<http://www.sphinx-doc.org/en/stable/install.html>`_.
+
+Install Sphinx-intl
+-------------------
+
+Sphinx-intl is a package for internationalization of sphinx.
+To install it, run ``python -m pip install sphinx-intl``.
+
+Install GetText for Windows
+---------------------------
+
+Download binaries from `GetText for Windows <http://gnuwin32.sourceforge.net/packages/gettext.htm>`_.
+Then extract the downloaded zip file.
+
+If needed, add the directory of the executable files to ``PATH`` environment variable.
+
+
+Install a theme of Sphinx
+------------------------------
+
+THRotator adopts a theme `sphinx_rtd_theme <https://github.com/rtfd/sphinx_rtd_theme>`_.
+To install it, run ``python -m pip install sphinx_rtd_theme``.
+
+Build (English)
+---------------
+
+Open command prompt, change directory to ``docs/``, and run ``make.bat html``.
+
+Then html files are generated in ``docs/_build/html/``.
+
+Build (other languages)
+-----------------------
+
+Build manual in another language involves a bit complicated process.
+
+1 Collecting texts to be translated
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Open command prompt, change directory to ``docs/``, and run ``make.bat gettext``.
+
+
+2 Create or update .po file
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Run ``sphinx-intl.exe update -p .\_build\gettext -l <language>`` to create or update .po files
+that will be located in ``doc/locale/<language>/LC_MESSAGES/``.
+
+``<language>`` is one of strings listed in `Sphinx Documentation <http://www.sphinx-doc.org/en/stable/config.html#confval-language>`_.
+
+.po file contains pairs of original English text and translated text.
+
+.. note:: sphinx-intl.exe is located in ``<Python installation>/Scripts/``
+
+
+3 Edit .po file
+^^^^^^^^^^^^^^^
+
+Add your translation to generated or updated .po file.
+
+Single line translation example for Japanese: ::
+
+    msgid "THRotator User's Manual"
+    msgstr "THRotator ユーザーマニュアル"
+	
+Multi line translation example: ::
+
+    msgid ""
+    "If you would like to build the manual in a specific language,"
+    "run ``docs-source/<language>/make.bat html``."
+    msgstr ""
+    "特定の言語に対してマニュアルをビルドしたいときは、"
+    "``docs-source/<language>/make.bat html`` を実行してください。"
+
+	
+4 Compile .po file to .mo file
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Run ``msgfmt.exe <path to .po> -o locale\<language>\LC_MESSAGES\<filename of .po without extension>``.
+
+
+5 Build
+^^^^^^^
+
+Before actual build, run ``set SPHINXOPTS=-D language=<language>``
+to specify the final language of manual.
+
+Then run ``make.bat html``. Html files will be generated in ``docs/_build/html/``.
