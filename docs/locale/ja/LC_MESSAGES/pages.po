@@ -816,7 +816,7 @@ msgstr "OSがWindows Vista/7/8/10の場合"
 msgid ""
 "``C:\\Users\\<user name>\\AppData\\Roaming\\ShanghaiAlice\\th<product "
 "number>\\``"
-msgstr "``C:\\Users\\<ログインユーザ名>\\AppData\\Roaming\\ShanghaiAlice\th<作品ナンバリング>\\``"
+msgstr "``C:\\Users\\<ログインユーザ名>\\AppData\\Roaming\\ShanghaiAlice\\th<作品ナンバリング>\\``"
 
 #: ../../pages/install.rst:71
 msgid "Executing command ``set APPDATA=`` before launching"
