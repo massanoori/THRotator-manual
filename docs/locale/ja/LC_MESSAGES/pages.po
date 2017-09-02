@@ -583,15 +583,15 @@ msgid ""
 "create or update .po files that will be located in "
 "``doc/locale/<language>/LC_MESSAGES/``."
 msgstr ""
-"``sphinx-intl.exe update -p .\\_build\\gettext -l <language>`` "
-"を実行して、``doc/locale/<language>/LC_MESSAGES/`` にある.poファイルを作成または更新します。"
+"``sphinx-intl.exe update -p .\\_build\\gettext -l <言語>`` "
+"を実行して、``doc/locale/<言語>/LC_MESSAGES/`` にある.poファイルを作成または更新します。"
 
 #: ../../pages/development.rst:253
 msgid ""
 "``<language>`` is one of strings listed in `Sphinx Documentation "
 "<http://www.sphinx-doc.org/en/stable/config.html#confval-language>`_."
 msgstr ""
-"``<language>`` は `Sphinx Documentation <http://www.sphinx-"
+"``<言語>`` は `Sphinx Documentation <http://www.sphinx-"
 "doc.org/ja/stable/config.html?highlight=language#confval-language>`_ "
 "の言語リストの中から選んでください。"
 
@@ -628,8 +628,8 @@ msgid ""
 "Run ``msgfmt.exe <path to .po> -o "
 "locale\\<language>\\LC_MESSAGES\\<filename of .po without extension>``."
 msgstr ""
-"``msgfmt.exe <path to .po> -o locale\\<language>\\LC_MESSAGES\\<filename "
-"of .po without extension>`` を実行してください。"
+"``msgfmt.exe <path to .po> -o locale\\<言語>\\LC_MESSAGES\\<.poのファイル名から拡張子を除いたもの>``"
+" を実行してください。"
 
 #: ../../pages/development.rst:287
 msgid "5 Build"
@@ -640,7 +640,7 @@ msgid ""
 "Before actual build, run ``set SPHINXOPTS=-D language=<language>`` to "
 "specify the final language of manual."
 msgstr ""
-"実際のビルドを行う前に ``set SPHINXOPTS=-D language=<language>`` "
+"実際のビルドを行う前に ``set SPHINXOPTS=-D language=<言語>`` "
 "を実行して、最終的なマニュアルの言語を指定します。"
 
 #: ../../pages/development.rst:292

@@ -274,7 +274,7 @@ Multi line translation example: ::
     "run ``docs-source/<language>/make.bat html``."
     msgstr ""
     "特定の言語に対してマニュアルをビルドしたいときは、"
-    "``docs-source/<language>/make.bat html`` を実行してください。"
+    "``docs-source/<言語>/make.bat html`` を実行してください。"
 
 	
 4 Compile .po file to .mo file
