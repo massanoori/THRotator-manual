@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: THRotator 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-02 13:37+0900\n"
+"POT-Creation-Date: 2017-09-02 20:13+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1286,12 +1286,12 @@ msgid "Customization window can be shown by one of the following ways:"
 msgstr "カスタマイズ画面は、以下のいずれかの方法で表示できます。"
 
 #: ../../pages/usage.rst:48
-msgid "Right-click on the title bar, and click ``Show THRotator window``"
+msgid "Right-click on the title bar, and click ``Show THRotator window``."
 msgstr "タイトルバーで右クリックし、 ``THRotatorのウィンドウを表示`` をクリック"
 
 #: ../../pages/usage.rst:49
-msgid "Type ``Alt+R``."
-msgstr "``Alt+R`` とキー入力"
+msgid "Type ``Alt+0``."
+msgstr "``Alt+0`` とキー入力"
 
 #: ../../pages/usage.rst:51
 msgid ""
@@ -1369,3 +1369,4 @@ msgstr "プレイ画面領域の位置とサイズを入力する。"
 #: ../../pages/usage.rst:89
 msgid "Add rectangle transfers for the scores, lives, and other HUD elements."
 msgstr "スコアなどの情報を表示するために、その他領域に矩形を追加する。"
+

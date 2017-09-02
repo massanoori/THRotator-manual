@@ -45,8 +45,8 @@ Customization window
 
 Customization window can be shown by one of the following ways:
 
-* Right-click on the title bar, and click ``Show THRotator window``
-* Type ``Alt+R``.
+* Right-click on the title bar, and click ``Show THRotator window``.
+* Type ``Alt+0``.
 
 For detailed description of each element in this window, refer to help texts
 that appears by hovering buttons, input fields, and other GUI elements.
