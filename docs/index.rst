@@ -8,28 +8,37 @@ THRotator provides a way to rotate a screen and to rearrange HUD elements.
 THRotator mainly focuses on Touhou Project and Uwabami Breakers, which shares the foundation of Touhou Project.
 Possibly, you can use THRotator for other vertically-scrolling shoot 'em up games.
 
-THRotator is not tested on Th7.5, Th10.5, and Th12.3.
+THRotator is not tested on Touhou 7.5, Touhou 10.5, and Touhou 12.3.
 THRotator is tested only on Windows 10.
 
 Supported products
 =======================================
 
-- the Embodiment of Scarlet Devil (Th06)
-- Perfect Cherry Blossom (Th07)
-- Imperishable Night (Th08)
-- Phantasmagoria of Flower View (Th09, screen rotation only)
-- Shoot the Bullet (Th095)
-- Mountain of Faith (Th10)
-- Subterranean Animism (Th11)
-- Undefined Fantastic Object (Th12)
-- Double Spoiler (Th125)
-- Fairy Wars (Th128)
-- Ten Desires (Th13)
-- Double Dealing Character (Th14, tested on demo version)
-- Impossible Spell Card (Th143)
-- Legacy of Lunatic Kingdom (Th15, tested on demo version)
-- Hidden Star in Four Seasons (Th16)
-- Uwabami Breakers (alcostg)
+- the Embodiment of Scarlet Devil (Touhou 6)
+- Perfect Cherry Blossom (Touhou 7)
+- Imperishable Night (Touhou 8)
+- Phantasmagoria of Flower View (Touhou 9)
+
+  - Screen rotation only, not fully tested.
+
+- Shoot the Bullet (Touhou 9.5)
+- Mountain of Faith (Touhou 10)
+- Subterranean Animism (Touhou 11)
+- Undefined Fantastic Object (Touhou 12)
+- Double Spoiler (Touhou 12.5)
+- Fairy Wars (Touhou 12.8)
+- Ten Desires (Touhou 13)
+- Double Dealing Character (Touhou 14)
+
+  - Tested on demo version.
+
+- Impossible Spell Card (Touhou 14.3)
+- Legacy of Lunatic Kingdom (Touhou 15)
+
+  - Tested on demo version.
+
+- Hidden Star in Four Seasons (Touhou 16)
+- Uwabami Breakers
 
 Main features
 =======================================
@@ -38,8 +47,8 @@ Main features
 - Magnify screen to as large size as possible while THRotator detects that you are playing.
 - Vertically-long window in windowed mode.
 - If you are not satisfied by the default HUD elements (such as lives, bombs, and score), you can customize them.
-- Save screen capture in BMP format on Th06 by Home key.
-- Fix jaggy pixels in Th11, 12, 12.5, 12.8, and 13 when screen resolution of 960x720 or 1280x960 is chosen.
+- Save screen capture in BMP format on Touhou 6 by Home key.
+- Fix jaggy pixels in Touhou 11, 12, 12.5, 12.8, and 13 when screen resolution of 960x720 or 1280x960 is chosen.
 
 
 Notes

@@ -10,14 +10,14 @@ When entire screen aspect ratio, seen from rotated screen viewpoint, is smaller 
 THRotator tries to magnify main screen region to as large size as possible while you are playing or watching replay data.
 
 
-Screen capture on Th06
+Screen capture on Touhou 6
 ========================================
 
-THRotator allows to capture a screen into a .bmp file by pressing ``Home`` key on Th06,
-which is unsupported on the original Th06.
+THRotator allows to capture a screen into a .bmp file by pressing ``Home`` key on Touhou 6,
+which is unsupported on the original Touhou 6.
 
 The destination is ``snapshot`` folder in the installed directory,
-which is the same as that since Th07 until Th12.
+which is the same as that since Touhou 7 until Touhou 12.
 
 .. _usage_force_vertical:
 

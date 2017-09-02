@@ -31,7 +31,7 @@ HUD elements are not rearranged for vertically-long screen
 
 Make sure that config file correctly corresponds to the product.
 Also, make sure that the destination is correct.
-Since Double Spoiler (Th125), destination directory is confusing.
+Since Touhou 12.5, destination directory is confusing.
 Follow instruction described in :doc:`install` carefully.
 
 
@@ -40,7 +40,7 @@ Scores, bombs and other HUD elements are not shown
 
 Make sure that config file correctly corresponds to the product.
 Also, make sure that the destination is correct.
-Since Double Spoiler (Th125), destination directory is confusing.
+Since Touhou 12.5, destination directory is confusing.
 Follow instruction described in :doc:`install` carefully.
 
 
@@ -49,7 +49,7 @@ Misalignment in Touhou 9.5, 12.5, 12.8, and 14.3
 
 Make sure that config file correctly corresponds to the product.
 Also, make sure that the destination is correct.
-Since Double Spoiler (Th125), destination directory is confusing.
+Since Touhou 12.5, destination directory is confusing.
 Follow instruction described in :doc:`install` carefully.
 
 
