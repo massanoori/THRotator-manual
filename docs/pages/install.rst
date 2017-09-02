@@ -8,7 +8,7 @@ Download THRotator
 =============================
 
 Download the latest release from `<https://github.com/massanoori/THRotator/releases>`_.
-The file named like ``THRotator_X_Y_Z.zip`` is what has to be downloaded.
+The file named like ``THRotator-X.Y.Z.zip`` is what has to be downloaded.
 
 
 Determine which DLL is needed
