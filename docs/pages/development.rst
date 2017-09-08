@@ -328,3 +328,28 @@ If you are permitted to submit a build, you can launch a static analysis by foll
 
 .. note:: You can also upload ``cov-int.zip`` downloaded from AppVeyor to Coverity Scan.
           But it can take several minutes or hours to upload a file depending on your internet connection.
+
+
+Incrementing version
+====================
+
+The version format of THRotator adheres to `Semantic Versioning 2.0 <http://semver.org/>`_.
+
+Major version is incremented when:
+
+* You have made huge design changes that affect user interactions.
+* New data format is incompatible with older versions.
+* You have made other revolutionary changes.
+
+
+Minor version is incremented when:
+
+* You have added new relatively big features or improvements.
+* New data format is upgradable from, but irreversible to, older versions.
+
+
+Patch version is incremented when:
+
+* You have fixed small but important issues that should be released as soon as possible.
+* You have added new relatively small features or improvements.
+* Changes above don't break forward- and backward-compatibility of data format.
