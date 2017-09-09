@@ -25,7 +25,7 @@ This section gives you an instruction to build THRotator from source code.
 
 The prerequisites are the following:
 
-* Microsoft Visual C++ (2012 or later)
+* Microsoft Visual C++ (2015 or later)
 * Boost C++ Libraries
 * CMake
 
