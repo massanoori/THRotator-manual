@@ -2,6 +2,24 @@
 Release notes
 ======================
 
+2.0.0
+=====
+
+Released on September 9, 2017.
+
+New feature
+-----------
+
+.. |thr_sample_screenshot_en| image:: ../images/HSiFS-screenshot-en.png
+.. |thr_sample_screenshot_ja| image:: ../images/HSiFS-screenshot-ja.png
+
+* Inline GUI allowing faster and more intuitive configuration.
+  |thr_sample_screenshot_en|
+  Background is gray for easy redistribution.
+
+  * Your input by keyboard or mouse dragging will be immediately reflected to acutual rendering.
+
+
 1.3.1
 =======================
 
