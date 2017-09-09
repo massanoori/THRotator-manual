@@ -2,6 +2,19 @@
 Release notes
 ======================
 
+2.0.1
+=====
+
+Released on September 10, 2017.
+
+Bug fix
+-------
+
+* Fix wrong threshold in configuration file for released version (1.00b) of Touhou 14.
+* Fix a modification actually made in 2.0.0 is missing in the release note on 2.0.0.
+
+  * The modification is to review Touhou 16 configuration file (see release note on 2.0.0 for detail). 
+
 2.0.0
 =====
 
@@ -20,6 +33,17 @@ New feature
   * Your input by keyboard or mouse dragging will be immediately reflected to actual rendering.
 
 * Online manual is now hosted by `Read the Docs <https://readthedocs.org/>`_.
+
+
+Improvement
+-----------
+
+* Review Touhou 16 configuration file.
+
+  * Larger bottom space for enemy indicator.
+  * Remove aspect ratio distortion.
+  * Move next score for extend to the bottom of current score.
+
 
 
 1.3.1
