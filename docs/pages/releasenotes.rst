@@ -19,6 +19,8 @@ New feature
 
   * Your input by keyboard or mouse dragging will be immediately reflected to actual rendering.
 
+* Online manual is now hosted by `Read the Docs <https://readthedocs.org/>`_.
+
 
 1.3.1
 =======================
