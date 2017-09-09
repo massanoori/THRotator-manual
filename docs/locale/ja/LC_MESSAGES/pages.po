@@ -1391,7 +1391,7 @@ msgstr ""
 msgid ""
 "``Show THRotator window`` or ``Open THRotator`` doesn't appears from "
 "title bar"
-msgstr "タイトルバーから ``THRotatorを表示``または ``THRotatorを開く`` が出てこない"
+msgstr "タイトルバーから ``THRotatorを表示`` または ``THRotatorを開く`` が出てこない"
 
 #: ../../pages/troubleshoot.rst:22
 msgid ""
