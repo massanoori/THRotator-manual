@@ -5,6 +5,15 @@ THRotator User's Manual
 THRotator allows users to enjoy vertically-scrolling shoot 'em up games on a vertically-long monitor.
 THRotator provides a way to rotate a screen and to rearrange HUD elements.
 
+THRotator also allows users to customize HUD arrangements for a vertical screen by the following GUI.
+
+.. |thr_sample_screenshot_en| image:: ./images/HSiFS-screenshot-en.png
+.. |thr_sample_screenshot_ja| image:: ./images/HSiFS-screenshot-ja.png
+
+|thr_sample_screenshot_en|
+
+Background is replaced by solid gray for easy redistribution.
+
 THRotator mainly focuses on Touhou Project and Uwabami Breakers, which shares the foundation of Touhou Project.
 Possibly, you can use THRotator for other vertically-scrolling shoot 'em up games.
 
