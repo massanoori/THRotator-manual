@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: THRotator 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-10 21:44+0900\n"
+"POT-Creation-Date: 2017-09-10 22:44+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1051,53 +1051,58 @@ msgstr "リリースノート"
 msgid "2.0.2"
 msgstr "2.0.2"
 
-#: ../../pages/releasenotes.rst:8 ../../pages/releasenotes.rst:18
+#: ../../pages/releasenotes.rst:8 ../../pages/releasenotes.rst:20
 msgid "Released on September 10, 2017."
 msgstr "リリース日: 2017/9/10"
 
-#: ../../pages/releasenotes.rst:11 ../../pages/releasenotes.rst:21
+#: ../../pages/releasenotes.rst:11 ../../pages/releasenotes.rst:23
 msgid "Bug fix"
 msgstr "バグ修正"
 
 #: ../../pages/releasenotes.rst:13
-msgid "Fix rejected negative y-offset."
-msgstr "マイナスのYオフセットを受け付けなくなっているのを修正しました。"
+msgid ""
+"Fix unable to assign a negative value for y-offset. This results in "
+"rendering misalignment on a game such as Touhou 12.5 after beginning to "
+"edit y-offset."
+msgstr ""
+"Yオフセットにマイナスの値を入力できず、"
+"ダブルスポイラーなどの作品でYオフセットを編集しようとすると画面がずれる現象を修正しました。"
 
-#: ../../pages/releasenotes.rst:16
+#: ../../pages/releasenotes.rst:18
 msgid "2.0.1"
 msgstr "2.0.1"
 
-#: ../../pages/releasenotes.rst:23
+#: ../../pages/releasenotes.rst:25
 msgid ""
 "Fix wrong threshold in configuration file for released version (1.00b) of"
 " Touhou 14."
 msgstr "設定ファイルの閾値の値が東方輝針城の製品版(1.00b)で正しくなかったのを修正しました。"
 
-#: ../../pages/releasenotes.rst:24
+#: ../../pages/releasenotes.rst:26
 msgid ""
 "Fix a modification actually made in 2.0.0 is missing in the release note "
 "on 2.0.0."
 msgstr "2.0.0のリリースで実際に行われた変更が、2.0.0のリリースノートに含まれていないのを修正しました。"
 
-#: ../../pages/releasenotes.rst:26
+#: ../../pages/releasenotes.rst:28
 msgid ""
 "The modification is to review Touhou 16 configuration file (see release "
 "note on 2.0.0 for detail)."
 msgstr "変更点は、東方天空璋の設定ファイルの見直しを行った点です(詳しくは、2.0.0のリリースノートをご覧ください)。"
 
-#: ../../pages/releasenotes.rst:29
+#: ../../pages/releasenotes.rst:31
 msgid "2.0.0"
 msgstr "2.0.0"
 
-#: ../../pages/releasenotes.rst:31
+#: ../../pages/releasenotes.rst:33
 msgid "Released on September 9, 2017."
 msgstr "リリース日: 2017/9/9"
 
-#: ../../pages/releasenotes.rst:34 ../../pages/releasenotes.rst:65
+#: ../../pages/releasenotes.rst:36 ../../pages/releasenotes.rst:67
 msgid "New feature"
 msgstr "新機能"
 
-#: ../../pages/releasenotes.rst:39
+#: ../../pages/releasenotes.rst:41
 msgid ""
 "Inline GUI allowing faster and more intuitive configuration. "
 "|thr_sample_screenshot_en| Background is gray for easy redistribution."
@@ -1105,150 +1110,150 @@ msgstr ""
 "GUIをインライン化し、直感的で素早い設定が可能になりました。|thr_sample_screenshot_ja| "
 "再配布を容易にするため、背景はグレーになっています。"
 
-#: ../../pages/releasenotes.rst:43
+#: ../../pages/releasenotes.rst:45
 msgid ""
 "Your input by keyboard or mouse dragging will be immediately reflected to"
 " actual rendering."
 msgstr "キーボードやマウスドラッグによる入力が、直ちに実際のレンダリングに反映されます。"
 
-#: ../../pages/releasenotes.rst:45
+#: ../../pages/releasenotes.rst:47
 msgid ""
 "Online manual is now hosted by `Read the Docs "
 "<https://readthedocs.org/>`_."
 msgstr "オンラインマニュアルを `Read the Docs <https://readthedocs.org/>`_ に移動しました。"
 
-#: ../../pages/releasenotes.rst:49
+#: ../../pages/releasenotes.rst:51
 msgid "Improvement"
 msgstr "改善"
 
-#: ../../pages/releasenotes.rst:51
+#: ../../pages/releasenotes.rst:53
 msgid "Review Touhou 16 configuration file."
 msgstr "東方天空璋の設定ファイルの見直しを行いました。"
 
-#: ../../pages/releasenotes.rst:53
+#: ../../pages/releasenotes.rst:55
 msgid "Larger bottom space for enemy indicator."
 msgstr "エネミーマーカーを表示する領域を拡張しました。"
 
-#: ../../pages/releasenotes.rst:54
+#: ../../pages/releasenotes.rst:56
 msgid "Remove aspect ratio distortion."
 msgstr "アスペクト比が保持されていないのを修正しました。"
 
-#: ../../pages/releasenotes.rst:55
+#: ../../pages/releasenotes.rst:57
 msgid "Move next score for extend to the bottom of current score."
 msgstr "次のエクステンドのスコアを、現在のスコアの下に移しました。"
 
-#: ../../pages/releasenotes.rst:60
+#: ../../pages/releasenotes.rst:62
 msgid "1.3.1"
 msgstr "1.3.1"
 
-#: ../../pages/releasenotes.rst:62
+#: ../../pages/releasenotes.rst:64
 msgid "Released on August 16, 2017."
 msgstr "リリース日: 2017/8/16"
 
-#: ../../pages/releasenotes.rst:67
+#: ../../pages/releasenotes.rst:69
 msgid "Save logs to ``throtator-log.txt``"
 msgstr "``throtator-log.txt`` にログ出力を行うようにしました。"
 
-#: ../../pages/releasenotes.rst:70 ../../pages/releasenotes.rst:100
-#: ../../pages/releasenotes.rst:122 ../../pages/releasenotes.rst:137
-#: ../../pages/releasenotes.rst:151
+#: ../../pages/releasenotes.rst:72 ../../pages/releasenotes.rst:102
+#: ../../pages/releasenotes.rst:124 ../../pages/releasenotes.rst:139
+#: ../../pages/releasenotes.rst:153
 msgid "Bug fixes"
 msgstr "バグ修正"
 
-#: ../../pages/releasenotes.rst:72
+#: ../../pages/releasenotes.rst:74
 msgid ""
 "Fix unexpected screen rotation when clicking apply button after clicking "
 "a radio button of interpolation method."
 msgstr "拡大時の補間方法のラジオボタンをクリックし、適用ボタンを押すと画面が回転する現象を修正しました。"
 
-#: ../../pages/releasenotes.rst:73
+#: ../../pages/releasenotes.rst:75
 msgid "Fix division by zero depending on the initialization method of Direct3D."
 msgstr "Direct3Dの初期化方法によって、ゼロ除算が発生するのを修正しました。"
 
-#: ../../pages/releasenotes.rst:74
+#: ../../pages/releasenotes.rst:76
 msgid "Fix unnecessary values in configuration files."
 msgstr "設定ファイルに不要な値が書き込まれるのを修正しました。"
 
-#: ../../pages/releasenotes.rst:75
+#: ../../pages/releasenotes.rst:77
 msgid ""
 "Fix null in configuration file when the number of other rectangles is "
 "zero."
 msgstr "その他領域の数が0個の時に、設定ファイルに ``null`` が保存されていたのを修正しました。"
 
-#: ../../pages/releasenotes.rst:79
+#: ../../pages/releasenotes.rst:81
 msgid "1.3.0"
 msgstr "1.3.0"
 
-#: ../../pages/releasenotes.rst:81
+#: ../../pages/releasenotes.rst:83
 msgid "Released on August 12, 2017."
 msgstr "リリース日: 2017/8/12"
 
-#: ../../pages/releasenotes.rst:84
+#: ../../pages/releasenotes.rst:86
 msgid "New features"
 msgstr "新機能"
 
-#: ../../pages/releasenotes.rst:86
+#: ../../pages/releasenotes.rst:88
 msgid "Config for Th16."
 msgstr "東方天空璋用の設定ファイルを追加しました。"
 
-#: ../../pages/releasenotes.rst:87
+#: ../../pages/releasenotes.rst:89
 msgid "Forced HUD rearrangements."
 msgstr "縦用レイアウトの強制ができるようになりました。"
 
-#: ../../pages/releasenotes.rst:88
+#: ../../pages/releasenotes.rst:90
 msgid "Internationalized user interface (currently English and Japanese)."
 msgstr "UIの国際化を行いました (現在は英語と日本語)。"
 
-#: ../../pages/releasenotes.rst:89
+#: ../../pages/releasenotes.rst:91
 msgid "User's manual generated by Sphinx (English and Japanese)."
 msgstr "マニュアル生成をSphinxで行うようにしました。"
 
-#: ../../pages/releasenotes.rst:90
+#: ../../pages/releasenotes.rst:92
 msgid ""
 "Experimental support on Direct3D 9 Ex. Hopefully wider support on non-"
 "Touhou Project games."
 msgstr "試験的にDirect3D 9 Exをサポートしました。東方プロジェクト以外でも動作するゲームが増えたかもしれません。"
 
-#: ../../pages/releasenotes.rst:91
+#: ../../pages/releasenotes.rst:93
 msgid ""
 "On Touhou Project games running on Direct3D 8, except for Touhou 7, the "
 "game doesn't stop while the editor window is open. This makes it easier "
 "to check the result of your modification."
 msgstr "東方妖々夢以外のDirect3D 8で動作する作品で、編集画面を開いている間もゲームが進行するようになり、変更の反映を確認しやすくしました。"
 
-#: ../../pages/releasenotes.rst:93
+#: ../../pages/releasenotes.rst:95
 msgid "New design of configuration files."
 msgstr "設定ファイルの仕様を変更しました。"
 
-#: ../../pages/releasenotes.rst:95
+#: ../../pages/releasenotes.rst:97
 msgid ""
 "Previous design required to rename files to install and to edit .ini "
 "files directly to support a new game."
 msgstr "これまでインストール時にファイル名を変えなければならなかったり、新しい作品に対応するときにファイルを直接編集する必要があったり面倒でした。"
 
-#: ../../pages/releasenotes.rst:96
+#: ../../pages/releasenotes.rst:98
 msgid ""
 "New design doesn't need renaming and an older game's configuration file "
 "can be used for a new game."
 msgstr "新しい仕様では、配布したファイル名のまま使用でき、新しい作品に対応するときには既存の作品のファイル名を変更することで、流用が可能です。"
 
-#: ../../pages/releasenotes.rst:97
+#: ../../pages/releasenotes.rst:99
 msgid ""
 "THRotator can read the previous ``throt.ini``. Configuration file is "
 "converted to new format upon next save."
 msgstr "これまでの ``throt.ini`` を読み込むことは可能です。次回の保存で、新しい設定ファイルの仕様に変換されます。"
 
-#: ../../pages/releasenotes.rst:102
+#: ../../pages/releasenotes.rst:104
 msgid "Fix fixed window resolusion to 640x480 from Th11 to Th13 in windowed mode."
 msgstr "東方地霊殿から東方神霊廟において、ウィンドウモードで解像度が640x480に固定されてしまうのを修正しました。"
 
-#: ../../pages/releasenotes.rst:103
+#: ../../pages/releasenotes.rst:105
 msgid ""
 "Fix that some implemented methods of D3D interfaces return unexpected "
 "values."
 msgstr "D3Dのインタフェースを実装した関数が、D3Dの仕様とは異なる値を返していたのを修正しました。"
 
-#: ../../pages/releasenotes.rst:104
+#: ../../pages/releasenotes.rst:106
 msgid ""
 "Fix the issue Touhou 7 does not accept any player's inputs when `DX8 to "
 "DX9 converter <http://enbdev.com/download_convertor_dx8todx9.htm>`_ and "
@@ -1258,117 +1263,117 @@ msgstr ""
 "<http://enbdev.com/download_convertor_dx8todx9.htm>`_ とTHRotatorの "
 "``d3d9.dll`` を東方妖々夢に対して併用すると、プレイヤーが操作できなくなる現象を修正しました。"
 
-#: ../../pages/releasenotes.rst:106
+#: ../../pages/releasenotes.rst:108
 msgid ""
 "Fix the issue threshould input by user was compared with wrong count of "
 "setting viewports on Touhou 6 and 7."
 msgstr "東方紅魔郷と東方妖々夢で、ビューポート設定回数の閾値が、誤ったビューポート設定回数と比較されていたのを修正しました。"
 
-#: ../../pages/releasenotes.rst:108
+#: ../../pages/releasenotes.rst:110
 msgid ""
 "THRotator converts the threshold to the correct one on Touhou 6 and 7 "
 "while reading config in the old format."
 msgstr "東方紅魔郷と東方妖々夢で古いフォーマットの設定ファイルをTHRotatorで読むと、閾値が正常な判定を行える値に自動で修正されます。"
 
-#: ../../pages/releasenotes.rst:111 ../../pages/releasenotes.rst:158
+#: ../../pages/releasenotes.rst:113 ../../pages/releasenotes.rst:160
 msgid "Others"
 msgstr "その他"
 
-#: ../../pages/releasenotes.rst:113 ../../pages/releasenotes.rst:162
+#: ../../pages/releasenotes.rst:115 ../../pages/releasenotes.rst:164
 msgid "Lots of refactoring"
 msgstr "リファクタリングを大量に実施しました。"
 
-#: ../../pages/releasenotes.rst:114
+#: ../../pages/releasenotes.rst:116
 msgid "Introducing CMake for supporting multiple Visual Studio versions."
 msgstr "複数のVisual Studioのバージョンをサポートするため、CMakeを導入しました。"
 
-#: ../../pages/releasenotes.rst:117
+#: ../../pages/releasenotes.rst:119
 msgid "1.2.2"
 msgstr "1.2.2"
 
-#: ../../pages/releasenotes.rst:119 ../../pages/releasenotes.rst:134
+#: ../../pages/releasenotes.rst:121 ../../pages/releasenotes.rst:136
 msgid "Released on May 28, 2017."
 msgstr "リリース日: 2017/5/28"
 
-#: ../../pages/releasenotes.rst:124
+#: ../../pages/releasenotes.rst:126
 msgid "No fix regarding functionality."
 msgstr "機能面での修正はありません"
 
-#: ../../pages/releasenotes.rst:126
+#: ../../pages/releasenotes.rst:128
 msgid "Fix obsolete version number string."
 msgstr "バージョン番号が更新されていないのを修正しました。"
 
-#: ../../pages/releasenotes.rst:132
+#: ../../pages/releasenotes.rst:134
 msgid "1.2.1"
 msgstr "1.2.1"
 
-#: ../../pages/releasenotes.rst:139
+#: ../../pages/releasenotes.rst:141
 msgid ""
 "Fix black screen when chosen resolution is wider or taller than screen in"
 " windowed mode."
 msgstr "ウィンドウモードにおいて、選択した解像度が、ディスプレイの解像度よりも大きい辺がある場合に画面が黒くなるのを修正しました。"
 
-#: ../../pages/releasenotes.rst:140
+#: ../../pages/releasenotes.rst:142
 msgid ""
 "Fix black stripe when monitor resolution is smaller than game resolution "
 "in fullscreen mode."
 msgstr "フルスクリーンモードにおいて、選択した解像度が、ディスプレイの解像度よりも大きい辺がある場合、画面の一部または全体が黒くなるのを修正しました。"
 
-#: ../../pages/releasenotes.rst:141
+#: ../../pages/releasenotes.rst:143
 msgid "Fix crash when throt.ini is not writable."
 msgstr "throt.iniが書き込み可能でない場合にクラッシュするのを修正しました。"
 
-#: ../../pages/releasenotes.rst:146
+#: ../../pages/releasenotes.rst:148
 msgid "1.2.0"
 msgstr "1.2.0"
 
-#: ../../pages/releasenotes.rst:148
+#: ../../pages/releasenotes.rst:150
 msgid "Released on May 14, 2017."
 msgstr "リリース日: 2017/5/14"
 
-#: ../../pages/releasenotes.rst:153
+#: ../../pages/releasenotes.rst:155
 msgid "Fix black screen on Touhou 15"
 msgstr "東方紺珠伝で画面が黒くなる現象を修正しました。"
 
-#: ../../pages/releasenotes.rst:154
+#: ../../pages/releasenotes.rst:156
 msgid "Add support on higher resolutions (960x720, 1280x960)"
 msgstr "960x720、1280x960の解像度に対応しました。"
 
-#: ../../pages/releasenotes.rst:160
+#: ../../pages/releasenotes.rst:162
 msgid "Faster throt.ini I/O"
 msgstr "throt.iniのファイル入出力を高速化しました。"
 
-#: ../../pages/releasenotes.rst:161
+#: ../../pages/releasenotes.rst:163
 msgid "Versioning by Semantic Versioning 2.0"
 msgstr ""
 "バージョンの増え方を変更しました。 今後は `Semantic Versioning 2.0 <http://semver.org/>`_ "
 "に従い増やしていきますが、THRotatorはAPIを提供しないため、APIを設定ファイルなどのデータと置き換えて解釈してください。"
 
-#: ../../pages/releasenotes.rst:166
+#: ../../pages/releasenotes.rst:168
 msgid "1.01"
 msgstr "1.01"
 
-#: ../../pages/releasenotes.rst:168
+#: ../../pages/releasenotes.rst:170
 msgid "Released on Aug 18, 2011."
 msgstr "リリース日: 2011/8/18"
 
-#: ../../pages/releasenotes.rst:170
+#: ../../pages/releasenotes.rst:172
 msgid "Magnification of screen with aspect ratio fixed."
 msgstr "アスペクト比固定拡大機能追加"
 
-#: ../../pages/releasenotes.rst:174
+#: ../../pages/releasenotes.rst:176
 msgid "1.00"
 msgstr "1.00"
 
-#: ../../pages/releasenotes.rst:176
+#: ../../pages/releasenotes.rst:178
 msgid "Released on Aug 14, 2011."
 msgstr "リリース日: 2011/8/14"
 
-#: ../../pages/releasenotes.rst:178
+#: ../../pages/releasenotes.rst:180
 msgid "The first release."
 msgstr "初版"
 
-#: ../../pages/releasenotes.rst:180
+#: ../../pages/releasenotes.rst:182
 msgid "On Aug 16, 2011, the default HUD arrangements for Th13 was fixed."
 msgstr "2011/8/16に、東方神霊廟のデフォルトレイアウトを修正しました。"
 

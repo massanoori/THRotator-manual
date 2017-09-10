@@ -10,7 +10,9 @@ Released on September 10, 2017.
 Bug fix
 -------
 
-* Fix rejected negative y-offset.
+* Fix unable to assign a negative value for y-offset.
+  This results in rendering misalignment on a game such as Touhou 12.5 after
+  beginning to edit y-offset.
 
 2.0.1
 =====
