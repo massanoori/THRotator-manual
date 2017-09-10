@@ -2,6 +2,16 @@
 Release notes
 ======================
 
+2.0.2
+=====
+
+Released on September 10, 2017.
+
+Bug fix
+-------
+
+* Fix rejected negative y-offset.
+
 2.0.1
 =====
 
