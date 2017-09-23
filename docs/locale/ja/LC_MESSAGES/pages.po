@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: THRotator 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-10 22:44+0900\n"
+"POT-Creation-Date: 2017-09-24 00:10+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,44 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
+
+#: ../../pages/credits.rst:3
+msgid "Credits"
+msgstr "クレジット"
+
+#: ../../pages/credits.rst:6
+msgid "JSON for Modern C++"
+msgstr "JSON for Modern C++"
+
+#: ../../pages/credits.rst:8
+msgid ""
+"`JSON for Modern C++ (GitHub) <https://github.com/nlohmann/json>`_ is "
+"used since THRotator 1.3.0."
+msgstr ""
+"`JSON for Modern C++ (GitHub) <https://github.com/nlohmann/json>`_ は"
+"THRotator 1.3.0から使われています。"
+
+#: ../../pages/credits.rst:36
+msgid "{fmt}"
+msgstr "{fmt}"
+
+#: ../../pages/credits.rst:38
+msgid ""
+"`fmt (GitHub) <https://github.com/fmtlib/fmt>`_ is used since THRotator "
+"1.3.1."
+msgstr ""
+"`fmt (GitHub) <https://github.com/fmtlib/fmt>`_ はTHRotator 1.3.1から使われています。"
+
+#: ../../pages/credits.rst:68
+msgid "Dear ImGui"
+msgstr "Dear ImGui"
+
+#: ../../pages/credits.rst:70
+msgid ""
+"`Dear ImGui (GitHub) <https://github.com/ocornut/imgui>`_ is used since "
+"THRotator 2.0.0."
+msgstr ""
+"`Dear ImGui (GitHub) <https://github.com/ocornut/imgui>`_ はTHRotator 2.0.0から使われています。"
 
 #: ../../pages/development.rst:3
 msgid "Development"
@@ -1064,9 +1102,7 @@ msgid ""
 "Fix unable to assign a negative value for y-offset. This results in "
 "rendering misalignment on a game such as Touhou 12.5 after beginning to "
 "edit y-offset."
-msgstr ""
-"Yオフセットにマイナスの値を入力できず、"
-"ダブルスポイラーなどの作品でYオフセットを編集しようとすると画面がずれる現象を修正しました。"
+msgstr "Yオフセットにマイナスの値を入力できず、ダブルスポイラーなどの作品でYオフセットを編集しようとすると画面がずれる現象を修正しました。"
 
 #: ../../pages/releasenotes.rst:18
 msgid "2.0.1"

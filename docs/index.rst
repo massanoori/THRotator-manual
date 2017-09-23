@@ -157,3 +157,4 @@ Table of contents
    pages/development
    pages/uninstall
    pages/releasenotes
+   pages/credits
