@@ -68,9 +68,12 @@ Notes
 
   - Before reporting an issue to the publisher, you must first verify that the issue is independent of THRotator.
 
-- THRotator forces a game to behave differently from the original design.
-  So your replay data and scores acquired with THRotator might be rejected as genuine ones.
-  It is highly recommended that you add a comment to let others know the replay or score is acquired with THRotator when you post them.
+- Because THRotator forces a game to behave in a way different from the original design,
+  you must pay attention to any possibilities of degrading fairness by using THRotator.
+
+  - For example, your replay assisted by THRotator might be rejected from leaderboards, which are usually stricly fair.
+  - When you share a replay or a video assisted by THRotator, it is a good choice to give credit to THRotator to let people know your gameplay is assisted by a tool.
+
 - Don't copy ``d3d8.dll`` and ``d3d9.dll`` to your system directory.
 - THRotator's behavior is undefined on games not listed in supported products.
 
