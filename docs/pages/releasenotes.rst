@@ -5,7 +5,7 @@ Release notes
 2.0.3
 =====
 
-Released on (TBA).
+Released on September 27, 2017.
 
 Bug fix
 -------

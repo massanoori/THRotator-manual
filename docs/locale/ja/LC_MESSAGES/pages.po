@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: THRotator 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-26 23:43+0900\n"
+"POT-Creation-Date: 2017-09-26 23:48+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1092,14 +1092,12 @@ msgid "Release notes"
 msgstr "リリースノート"
 
 #: ../../pages/releasenotes.rst:6
-#, fuzzy
 msgid "2.0.3"
-msgstr "2.0.2"
+msgstr "2.0.3"
 
 #: ../../pages/releasenotes.rst:8
-#, fuzzy
-msgid "Released on (TBA)."
-msgstr "リリース日: 2017/5/28"
+msgid "Released on September 27, 2017."
+msgstr "リリース日: 2017/9/27"
 
 #: ../../pages/releasenotes.rst:11 ../../pages/releasenotes.rst:33
 #: ../../pages/releasenotes.rst:45
@@ -1108,7 +1106,7 @@ msgstr "バグ修正"
 
 #: ../../pages/releasenotes.rst:13
 msgid "Fix invisible mouse cursor in fullscreen mode on Direct3D 8."
-msgstr ""
+msgstr "Direct3D 8上で、必要な時にフルスクリーンモードでマウスカーソルが表示されなくなる現象を修正しました。"
 
 #: ../../pages/releasenotes.rst:16 ../../pages/releasenotes.rst:73
 msgid "Improvement"
@@ -1116,7 +1114,7 @@ msgstr "改善"
 
 #: ../../pages/releasenotes.rst:18
 msgid "Batch file to open the directory of player's data."
-msgstr ""
+msgstr "セーブデータのディレクトリを開くためのバッチファイルを用意しました。"
 
 #: ../../pages/releasenotes.rst:21 ../../pages/releasenotes.rst:135
 #: ../../pages/releasenotes.rst:182
@@ -1125,11 +1123,11 @@ msgstr "その他"
 
 #: ../../pages/releasenotes.rst:23
 msgid "Discard using legacy D3DX."
-msgstr ""
+msgstr "古くなったD3DXの使用を廃止しました。"
 
 #: ../../pages/releasenotes.rst:24
 msgid "Unify ImGui bindings to D3D8 and D3D9."
-msgstr ""
+msgstr "ImGuiのD3D8とD3D9のバインディングを統一しました。"
 
 #: ../../pages/releasenotes.rst:28
 msgid "2.0.2"
