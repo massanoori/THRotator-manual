@@ -60,13 +60,14 @@ For Touhou 6, 7, 8, 9, 9.5, 10, 11, 12, and alcostg
   Where the game is installed.
 
 For Touhou 12.5, 12.8, 13, 14, 14.3, 15, and later
-  Where the save data (score, replay, screen capture, and others) is saved.
+  Where the player's data (score, replay, screen capture, and others) is saved.
 
-.. note:: Location of save data
+.. note:: Location of player's data
    
    - On Windows Vista, 7, 8, and 10
    
      - ``C:\Users\<user name>\AppData\Roaming\ShanghaiAlice\th<product number>\``
+     - ``open-player-data-directory.bat`` opens the parent of the directory above
 
    - Executing command ``set APPDATA=`` before launching
    
