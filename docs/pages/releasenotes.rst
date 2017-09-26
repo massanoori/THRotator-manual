@@ -2,6 +2,28 @@
 Release notes
 ======================
 
+2.0.3
+=====
+
+Released on (TBA).
+
+Bug fix
+-------
+
+* Fix invisible mouse cursor in fullscreen mode on Direct3D 8.
+
+Improvement
+-----------
+
+* Batch file to open the directory of player's data.
+
+Others
+------
+
+* Discard using legacy D3DX.
+* Unify ImGui bindings to D3D8 and D3D9.
+
+
 2.0.2
 =====
 
