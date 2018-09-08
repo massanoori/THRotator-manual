@@ -2,6 +2,15 @@
 Release notes
 ======================
 
+2.0.3 with Touhou 16.5 config
+=============================
+
+Released on September 9, 2018.
+
+Adding config file for Touhou 16.5.
+No change in the DLLs.
+
+
 2.0.3
 =====
 

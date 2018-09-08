@@ -36,6 +36,7 @@ If the game is one of the following or later, the game is Direct3D 9-based.
 - Impossible Spell Card (Touhou 14.3)
 - Legacy of Lunatic Kingdom (Touhou 15)
 - Hidden Star in Four Seasons (Touhou 16)
+- Violet Detector (Touhou 16.5)
 - Uwabami Breakers
 
 If the game is Direct3D 8-based and

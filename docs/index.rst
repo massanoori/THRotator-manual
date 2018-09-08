@@ -47,6 +47,7 @@ Supported products
   - Tested on demo version.
 
 - Hidden Star in Four Seasons (Touhou 16)
+- Violet Detector (Touhou 16.5)
 - Uwabami Breakers
 
 Main features
