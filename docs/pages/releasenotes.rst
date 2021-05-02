@@ -2,6 +2,16 @@
 Release notes
 ======================
 
+2.1.0
+=====
+
+Released on May 2, 2021.
+
+New feature
+-----------
+
+* Add support on borderless window.
+
 2.0.3 with Touhou 16.5 config
 =============================
 
