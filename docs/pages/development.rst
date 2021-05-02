@@ -192,16 +192,14 @@ Sphinx is used to build the manual of THRotator.
 
 The prerequisites are the following:
 
-* Python 2.7
-* pip
+* Python
 * Sphinx
 * Items below are required for internationalization.
 
   * Sphinx-intl
-  * GetText for Windows
 
-Install Python 2.7, pip, and Sphinx
------------------------------------
+Install Python and Sphinx
+--------------------------
 
 See `<http://www.sphinx-doc.org/en/stable/install.html>`_.
 
@@ -211,20 +209,6 @@ Install Sphinx-intl
 Sphinx-intl is a package for internationalization of sphinx.
 To install it, run ``python -m pip install sphinx-intl``.
 
-Install GetText for Windows
----------------------------
-
-Download binaries from `GetText for Windows <http://gnuwin32.sourceforge.net/packages/gettext.htm>`_.
-Then extract the downloaded zip file.
-
-If needed, add the directory of the executable files to ``PATH`` environment variable.
-
-
-Install a theme of Sphinx
-------------------------------
-
-THRotator adopts a theme `sphinx_rtd_theme <https://github.com/rtfd/sphinx_rtd_theme>`_.
-To install it, run ``python -m pip install sphinx_rtd_theme``.
 
 Build (English)
 ---------------
@@ -276,14 +260,8 @@ Multi line translation example: ::
     "特定の言語に対してマニュアルをビルドしたいときは、"
     "``docs-source/<言語>/make.bat html`` を実行してください。"
 
-	
-4 Compile .po file to .mo file
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Run ``msgfmt.exe <path to .po> -o locale\<language>\LC_MESSAGES\<filename of .po without extension>``.
-
-
-5 Build
+4 Build
 ^^^^^^^
 
 Before actual build, run ``set SPHINXOPTS=-D language=<language>``
